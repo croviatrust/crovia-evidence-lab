@@ -29,3 +29,16 @@ introducing pricing, contracts, or private calibration logic.
 
 This repository demonstrates **evidence**.
 The Crovia PRO Engine defines **settlement and governance**.
+
+## External Evidence Datasets
+
+Some datasets are included as **Git submodules** to preserve provenance
+and independent verification:
+
+- `dsse/datasets/hf_dsse_1m`
+- `dsse/datasets/laion_dsse`
+
+Clone with:
+
+git clone --recurse-submodules <repo-url>
+
