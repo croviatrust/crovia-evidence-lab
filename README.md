@@ -134,3 +134,90 @@ Fields of interest:
 
 This is evidence of process, not accusation.
 
+
+---
+
+## How to Reproduce Spider Evidence (Presence / Absence)
+
+Crovia Spider is an **observation-only tool**.
+
+It records whether **auditable AI training evidence artifacts**
+are publicly present at a given point in time.
+
+No inference. No attribution. No enforcement.
+
+---
+
+### What Spider observes
+
+Spider checks for the presence of **public evidence markers**, such as:
+
+- EVIDENCE.json
+- trust_bundle.v1.json
+- cep_capsule.v1.json
+- declared receipts or hashes
+
+The result is a **binary observable fact**:
+- present
+- absent
+
+---
+
+### 1. Inspect raw Spider observations
+
+Raw observations are preserved verbatim:
+
+cat spider/raw/presence/github_presence_raw.jsonl | head -n 5
+
+These files contain:
+- timestamp
+- repository URL
+- HTTP status
+- discovery result
+
+---
+
+### 2. Inspect normalized presence receipts
+
+Spider also produces normalized receipts:
+
+cat spider/data/presence/github_presence_v1.jsonl | jq .
+
+Each record includes:
+- schema
+- target
+- observed_at
+- presence: true | false
+- source
+
+---
+
+### 3. What makes this verifiable
+
+- Inputs are public URLs
+- Observations are timestamped
+- Raw data is preserved
+- Normalized output is schema-bound
+- Anyone can repeat the observation and compare results
+
+---
+
+## What This Does NOT Claim
+
+- No claim of AI training usage
+- No claim of wrongdoing
+- No policy violation
+- No legal judgment
+
+Spider records absence as a condition, not as guilt.
+
+---
+
+## Why Absence Matters
+
+If AI systems require transparency,
+absence of evidence is itself observable.
+
+Crovia records that absence
+without interpretation.
+
