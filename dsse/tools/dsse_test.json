@@ -1,0 +1,6 @@
+{
+  "semantic_coherence": 0.7948717949191322,
+  "semantic_drift": 0.20512820508086788,
+  "signal_strength": "low",
+  "notes": "DSSE Open: avg_len=4.33, coherence=0.795, drift=0.205"
+}
