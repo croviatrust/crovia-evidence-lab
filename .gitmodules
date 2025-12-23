@@ -1,0 +1,6 @@
+[submodule "dsse/datasets/hf_dsse_1m"]
+	path = dsse/datasets/hf_dsse_1m
+	url = https://github.com/croviatrust/hf-dsse-1m
+[submodule "dsse/datasets/laion_dsse"]
+	path = dsse/datasets/laion_dsse
+	url = https://github.com/croviatrust/laion-dsse
