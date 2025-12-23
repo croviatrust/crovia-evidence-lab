@@ -18,3 +18,12 @@ from public sources (e.g. GitHub).
 - No legal claims
 
 Spider only records **observable conditions**.
+
+## Implementation note
+
+Spider currently exposes **presence-based observers only**.
+
+The canonical GitHub observer is:
+- `bin/presence/presence_spider_github.py`
+
+No generic crawler is provided by design.
