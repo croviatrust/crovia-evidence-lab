@@ -1,273 +1,98 @@
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-
 # Crovia Evidence Lab
 
-Crovia Evidence Lab is the **public, reproducible evidence layer** of Crovia.
+This repository contains **public, offline-verifiable evidence artifacts**
+produced by the Crovia open-core engine.
 
-All artifacts in this repository are generated using the
-**Crovia Core Engine (Open Core)**, which defines the schemas,
-validation rules, and integrity primitives used here.
+It is designed for:
+- auditors
+- regulators
+- researchers
+- dataset providers
+- AI operators
 
-This repository exists to demonstrate — with verifiable artifacts —
-**what can be proven** about AI training transparency, without
-introducing pricing, contracts, or private calibration logic.
-
-## What lives here
-
-- **DSSE (Open Evidence)**  
-  Demonstrations of semantic drift measurement on public datasets
-  (LAION, C4, DSSE-1M), with reproducible snapshots and hash anchors.
-
-- **Spider (Presence / Absence Observation)**  
-  Public observation tools and receipts recording whether auditable
-  training evidence is present or absent in public repositories.
-
-- **Proof Artifacts**  
-  NDJSON snapshots, drift records, and hash-anchored files that can be
-  verified offline by third parties.
-
-## What does NOT live here
-
-- Pricing or settlement logic
-- Contract registries
-- Enterprise calibration engines
-- Proprietary attribution models
-
-This repository demonstrates **evidence**.
-The Crovia PRO Engine defines **settlement and governance**.
-
-## External Evidence Datasets
-
-Some datasets are included as **Git submodules** to preserve provenance
-and independent verification:
-
-- `dsse/datasets/hf_dsse_1m`
-- `dsse/datasets/laion_dsse`
-
-Clone with:
-
-git clone --recurse-submodules <repo-url>
-
+No trust required.  
+No execution required.  
+No attribution claims.
 
 ---
 
-## How to Reproduce DSSE Evidence (Open)
+## What this repository IS
 
-This repository contains **fully reproducible, open-grade evidence**
-generated with the Crovia DSSE open pipeline.
+Crovia Evidence Lab is a **forensic archive**.
 
-No credentials. No private engines. No hidden steps.
+It hosts:
+- immutable evidence artifacts
+- deterministic outputs
+- hash-verifiable bundles
+- documented absence/presence signals
 
----
-
-### Requirements
-
-- Python 3.10+
-- Linux / macOS (tested on Ubuntu)
-- ~1 GB free disk space (for DSSE-1M datasets)
-
-Optional:
-- jq for inspection
+Every artifact can be:
+- inspected locally
+- verified offline
+- reproduced from declared inputs
 
 ---
 
-### 1. Clone with submodules
+## What this repository is NOT
 
-git clone --recurse-submodules https://github.com/croviatrust/crovia-evidence-lab.git
-cd crovia-evidence-lab
+This repository does **not**:
+- accuse anyone
+- claim policy violations
+- infer intent
+- require Crovia services
+- phone home
+- depend on a running system
 
----
-
-### 2. Run DSSE Open snapshot (example)
-
-This produces a semantic snapshot over NDJSON input
-using the open DSSE counters (non-PRO).
-
-python dsse/tools/dsse_snapshot_builder.py \
-  --in dsse/datasets/laion_dsse/snapshot_A.json \
-  --out proofs/drift/dsse_snapshot_open.json
-
-Expected output:
-
-[DSSE-SNAPSHOT] wrote proofs/drift/dsse_snapshot_open.json
+All artifacts are **static**.
 
 ---
 
-### 3. Generate trust drift (open)
+## Repository structure
 
-python dsse/tools/trust_drift.py \
-  --before proofs/drift/dsse_snapshot_open.json \
-  --after proofs/drift/dsse_snapshot_open.json \
-  --out proofs/drift/trust_drift_open.ndjson
+crovia-evidence-lab/
+│
+├── CRC-1/      # Deterministic artifact contracts (offline verifiable)
+├── dsse/       # Semantic separation & drift evidence
+├── proofs/     # Hashes, lineage, temporal integrity
+├── spider/     # Presence / absence observation (non-attributive)
+└── README.md   # You are here
 
-This produces a neutral drift record:
-
-- no attribution
-- no legal inference
-- no policy mapping
-
----
-
-### 4. Inspect results
-
-cat proofs/drift/trust_drift_open.ndjson | jq .
-
-Fields of interest:
-
-- schema
-- inputs
-- delta
-- engine.method
+Each folder contains its own README explaining:
+- what the evidence means
+- how it was produced
+- how to verify it
 
 ---
 
-## What This Proves
+## Quick verification (60 seconds)
 
-- DSSE snapshots are bounded-memory
-- Drift can be computed offline
-- Outputs are hash-addressable
-- No PRO logic is required to verify integrity
+If you have Python installed, example:
 
----
+pip install crovia-core-engine-open
+crovia-verify CRC-1/demo-2025-11
 
-## What This Does NOT Prove
+Expected result:
 
-- No attribution to model vendors
-- No training confirmation
-- No legal compliance claims
+✔ All artifacts present  
+✔ trust_bundle JSON valid  
+✔ Hashchain verified  
+✔ CRC-1 VERIFIED  
 
-This is evidence of process, not accusation.
-
+No internet connection required.
 
 ---
 
-## How to Reproduce Spider Evidence (Presence / Absence)
+## Evidence philosophy
 
-Crovia Spider is an **observation-only tool**.
+Crovia evidence follows one principle:
 
-It records whether **auditable AI training evidence artifacts**
-are publicly present at a given point in time.
+Absence of proof is an observable condition — not an accusation.
 
-No inference. No attribution. No enforcement.
-
----
-
-### What Spider observes
-
-Spider checks for the presence of **public evidence markers**, such as:
-
-- EVIDENCE.json
-- trust_bundle.v1.json
-- cep_capsule.v1.json
-- declared receipts or hashes
-
-The result is a **binary observable fact**:
-- present
-- absent
+This repository records **facts**, not interpretations.
 
 ---
 
-### 1. Inspect raw Spider observations
+## License
 
-Raw observations are preserved verbatim:
-
-cat spider/raw/presence/github_presence_raw.jsonl | head -n 5
-
-These files contain:
-- timestamp
-- repository URL
-- HTTP status
-- discovery result
-
----
-
-### 2. Inspect normalized presence receipts
-
-Spider also produces normalized receipts:
-
-cat spider/data/presence/github_presence_v1.jsonl | jq .
-
-Each record includes:
-- schema
-- target
-- observed_at
-- presence: true | false
-- source
-
----
-
-### 3. What makes this verifiable
-
-- Inputs are public URLs
-- Observations are timestamped
-- Raw data is preserved
-- Normalized output is schema-bound
-- Anyone can repeat the observation and compare results
-
----
-
-## What This Does NOT Claim
-
-- No claim of AI training usage
-- No claim of wrongdoing
-- No policy violation
-- No legal judgment
-
-Spider records absence as a condition, not as guilt.
-
----
-
-## Why Absence Matters
-
-If AI systems require transparency,
-absence of evidence is itself observable.
-
-Crovia records that absence
-without interpretation.
-
-
----
-
-## Evidence Map (How to navigate this repository)
-
-This repository contains **public, reproducible evidence artifacts** generated
-using the **Crovia Core Engine (Open Core)**.
-
-It is designed to be:
-- auditable by third parties
-- verifiable offline
-- free of attribution or legal claims
-
-### 1) DSSE Evidence
-**Path:** `dsse/`
-
-Semantic drift measurement on public datasets.
-Includes reproducible snapshots, drift records, and human-readable proofs.
-
-Key files:
-- `dsse/evidence/DSSE_1M_PROOF.md` — explanation of the DSSE-1M proof
-- `proofs/drift/` — hash-addressable drift outputs
-
-### 2) Spider Evidence (Presence / Absence)
-**Path:** `spider/`
-
-Observation-only records of whether public AI training evidence
-is present or absent at a given point in time.
-
-Raw data is preserved; normalized receipts are schema-bound.
-
-### 3) CRC-1 Artifact Packs
-**Path:** `CRC-1/`
-
-Deterministic, offline-verifiable evidence bundles produced using
-Crovia Core Engine (Open Core).
-
-Each CRC-1 pack contains:
-- receipts snapshot
-- validation report
-- hash-chain
-- trust bundle
-- MANIFEST.json (artifact index)
-
-CRC-1 defines an **artifact contract**, not a workflow.
+All contents are released under Apache-2.0 unless stated otherwise.
 
