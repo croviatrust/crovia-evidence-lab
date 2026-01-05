@@ -1,98 +1,172 @@
 # Crovia Evidence Lab
 
-This repository contains **public, offline-verifiable evidence artifacts**
-produced by the Crovia open-core engine.
+This repository contains **public, reproducible evidence artifacts**
+produced using the Crovia Open Core.
 
-It is designed for:
+It does not accuse.
+It does not infer intent.
+It does not judge compliance.
+
+It records **what can be objectively observed and verified**.
+
+---
+
+## What this repository is
+
+Crovia Evidence Lab is a **read-only evidence space**.
+
+Everything here is:
+- generated from declared inputs
+- reproducible by anyone
+- verifiable offline
+
+No private logic.
+No calibration.
+No interpretation layer.
+
+---
+
+## How to read this repository
+
+Think of this repository as **layers of observation**.
+
+Each layer answers **one narrow technical question**.
+
+---
+
+## 1️⃣ Spider — Presence / Absence
+
+📁 `spider/`
+
+Spider records whether **declared public evidence markers**
+were observable at a given time.
+
+Spider answers:
+> Was marker X publicly present at time T?
+
+Spider does NOT answer:
+- why
+- how
+- whether something was used
+
+Spider is binary and factual.
+
+---
+
+## 2️⃣ Proofs — Integrity & Continuity
+
+📁 `proofs/`
+
+Proofs ensure that observations:
+- were not altered
+- remain consistent over time
+- can be verified offline
+
+This includes:
+- hashchains
+- drift timelines
+- continuity checks
+
+Proofs do not add meaning.
+They preserve integrity.
+
+---
+
+## 3️⃣ DSSE — Semantic Separation
+
+📁 `dsse/`
+
+DSSE measures **semantic separation** between declared groups.
+
+It answers:
+> Are two semantic groups measurably distinct?
+
+DSSE does NOT infer:
+- training
+- copying
+- infringement
+
+It records distance and divergence only.
+
+---
+
+## 4️⃣ CRC-1 — Deterministic Evidence Contract
+
+📁 `CRC-1/`
+
+CRC-1 defines a **minimal, deterministic artifact contract**.
+
+A CRC-1 capsule contains:
+- declared inputs
+- validation report
+- integrity proofs
+- manifest
+
+CRC-1 guarantees:
+- reproducibility
+- offline verification
+- immutability of evidence
+
+CRC-1 does not embed conclusions.
+
+---
+
+## How layers relate
+
+Each layer is independent.
+
+They can be combined, but never fused.
+
+Spider observes presence.
+DSSE observes structure.
+Proofs preserve integrity.
+CRC-1 seals the result.
+
+Interpretation is intentionally external.
+
+---
+
+## What is deliberately missing
+
+This repository does NOT include:
+- pricing
+- attribution rules
+- intent analysis
+- legal conclusions
+
+Those belong outside evidence.
+
+---
+
+## Who this is for
+
+This repository is designed for:
 - auditors
-- regulators
 - researchers
-- dataset providers
-- AI operators
+- legal technical teams
+- regulators
+- independent reviewers
 
-No trust required.  
-No execution required.  
-No attribution claims.
-
----
-
-## What this repository IS
-
-Crovia Evidence Lab is a **forensic archive**.
-
-It hosts:
-- immutable evidence artifacts
-- deterministic outputs
-- hash-verifiable bundles
-- documented absence/presence signals
-
-Every artifact can be:
-- inspected locally
-- verified offline
-- reproduced from declared inputs
+Anyone can reproduce the evidence locally.
 
 ---
 
-## What this repository is NOT
+## Reproducing evidence
 
-This repository does **not**:
-- accuse anyone
-- claim policy violations
-- infer intent
-- require Crovia services
-- phone home
-- depend on a running system
+All artifacts here can be verified using:
 
-All artifacts are **static**.
+- `crovia-run` (to generate CRC-1 artifacts)
+- `crovia-verify` (to verify them offline)
+
+No network access required.
 
 ---
 
-## Repository structure
+## Final note
 
-crovia-evidence-lab/
-│
-├── CRC-1/      # Deterministic artifact contracts (offline verifiable)
-├── dsse/       # Semantic separation & drift evidence
-├── proofs/     # Hashes, lineage, temporal integrity
-├── spider/     # Presence / absence observation (non-attributive)
-└── README.md   # You are here
+Evidence is not accusation.
+Observation is not judgment.
 
-Each folder contains its own README explaining:
-- what the evidence means
-- how it was produced
-- how to verify it
-
----
-
-## Quick verification (60 seconds)
-
-If you have Python installed, example:
-
-pip install crovia-core-engine-open
-crovia-verify CRC-1/demo-2025-11
-
-Expected result:
-
-✔ All artifacts present  
-✔ trust_bundle JSON valid  
-✔ Hashchain verified  
-✔ CRC-1 VERIFIED  
-
-No internet connection required.
-
----
-
-## Evidence philosophy
-
-Crovia evidence follows one principle:
-
-Absence of proof is an observable condition — not an accusation.
-
-This repository records **facts**, not interpretations.
-
----
-
-## License
-
-All contents are released under Apache-2.0 unless stated otherwise.
+Crovia Evidence Lab exists to **make facts inspectable**,
+not to tell anyone what they mean.
 
