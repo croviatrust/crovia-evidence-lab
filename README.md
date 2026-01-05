@@ -225,3 +225,49 @@ absence of evidence is itself observable.
 Crovia records that absence
 without interpretation.
 
+
+---
+
+## Evidence Map (How to navigate this repository)
+
+This repository contains **public, reproducible evidence artifacts** generated
+using the **Crovia Core Engine (Open Core)**.
+
+It is designed to be:
+- auditable by third parties
+- verifiable offline
+- free of attribution or legal claims
+
+### 1) DSSE Evidence
+**Path:** `dsse/`
+
+Semantic drift measurement on public datasets.
+Includes reproducible snapshots, drift records, and human-readable proofs.
+
+Key files:
+- `dsse/evidence/DSSE_1M_PROOF.md` — explanation of the DSSE-1M proof
+- `proofs/drift/` — hash-addressable drift outputs
+
+### 2) Spider Evidence (Presence / Absence)
+**Path:** `spider/`
+
+Observation-only records of whether public AI training evidence
+is present or absent at a given point in time.
+
+Raw data is preserved; normalized receipts are schema-bound.
+
+### 3) CRC-1 Artifact Packs
+**Path:** `CRC-1/`
+
+Deterministic, offline-verifiable evidence bundles produced using
+Crovia Core Engine (Open Core).
+
+Each CRC-1 pack contains:
+- receipts snapshot
+- validation report
+- hash-chain
+- trust bundle
+- MANIFEST.json (artifact index)
+
+CRC-1 defines an **artifact contract**, not a workflow.
+

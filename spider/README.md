@@ -1,29 +1,20 @@
-# Crovia Spider — Presence / Absence Evidence
+# Spider — Presence / Absence Evidence
 
-Spider is a public observation tool.
+Spider is an **observation-only evidence tool**.
 
-It records **presence or absence of auditable AI training evidence**
-from public sources (e.g. GitHub).
+It records whether **publicly auditable AI training evidence**
+is present or absent at a given point in time.
 
-## What it does
-- Observes public repositories
-- Records whether evidence artifacts are present
-- Produces normalized JSONL receipts
-- Preserves raw observations for auditability
+What Spider does:
+- observes public URLs
+- records timestamps
+- preserves raw observations
+- produces normalized receipts
 
-## What it does NOT do
-- No attribution
-- No intent inference
-- No policy judgment
-- No legal claims
+What Spider does NOT do:
+- no attribution
+- no inference
+- no enforcement
+- no legal interpretation
 
-Spider only records **observable conditions**.
-
-## Implementation note
-
-Spider currently exposes **presence-based observers only**.
-
-The canonical GitHub observer is:
-- `bin/presence/presence_spider_github.py`
-
-No generic crawler is provided by design.
+See repository root README for navigation.
