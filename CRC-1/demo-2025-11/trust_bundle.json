@@ -1,0 +1,9 @@
+{
+  "schema": "crovia.trust_bundle.v1",
+  "period": "2025-11",
+  "artifacts": {
+    "receipts": "receipts.ndjson",
+    "validate_report": "validate_report.md",
+    "hashchain": "hashchain.txt"
+  }
+}

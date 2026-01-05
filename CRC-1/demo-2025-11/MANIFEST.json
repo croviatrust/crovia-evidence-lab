@@ -1,0 +1,11 @@
+{
+  "schema": "crovia.manifest.v1",
+  "contract": "CRC-1",
+  "period": "2025-11",
+  "artifacts": {
+    "receipts": "receipts.ndjson",
+    "validate_report": "validate_report.md",
+    "hashchain": "hashchain.txt",
+    "trust_bundle": "trust_bundle.json"
+  }
+}
