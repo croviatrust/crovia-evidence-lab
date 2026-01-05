@@ -4,6 +4,10 @@
 
 Crovia Evidence Lab is the **public, reproducible evidence layer** of Crovia.
 
+All artifacts in this repository are generated using the
+**Crovia Core Engine (Open Core)**, which defines the schemas,
+validation rules, and integrity primitives used here.
+
 This repository exists to demonstrate — with verifiable artifacts —
 **what can be proven** about AI training transparency, without
 introducing pricing, contracts, or private calibration logic.
