@@ -1,110 +1,124 @@
-# Spider — Evidence Presence / Absence Observation
+# Spider — Presence / Absence Observation Layer
 
-Spider records whether **publicly declared evidence artifacts**
-are present or absent at a given point in time.
+Spider records **observable public presence or absence**
+of declared evidence markers at a given point in time.
 
-Spider does not interpret.
+Spider does not interpret meaning.
+Spider does not infer usage.
 Spider does not infer intent.
-Spider does not enforce rules.
 
-It only observes.
+Spider only observes **whether something is publicly discoverable**.
 
 ---
 
 ## What Spider observes
 
-Spider checks for the **existence** of declared public artifacts, such as:
+Spider answers a single binary question:
 
-- EVIDENCE.json
-- trust_bundle.v1.json
-- cep_capsule.v1.json
-- declared hashes or receipts
+> Is a declared evidence artifact publicly present at time T?
 
-The output is strictly binary:
-
+The result is:
 - PRESENT
 - ABSENT
+
+Nothing else.
 
 ---
 
 ## What Spider does NOT do
 
 Spider does NOT:
-- scrape private systems
-- inspect model weights
-- infer training behavior
-- assign responsibility
-- imply wrongdoing
+- claim that data was used
+- claim that data was copied
+- claim that data was trained on
+- claim non-compliance
 
-Absence is **not** a violation.
-Presence is **not** compliance.
+Absence is **not an accusation**.
+Presence is **not a validation**.
 
-They are facts, not judgments.
+They are observable states.
 
 ---
 
-## Observation model
+## Evidence markers
 
-Each Spider observation records:
+Spider looks for **declared public markers**, such as:
 
-- target identifier (URL, dataset, reference)
+- `EVIDENCE.json`
+- `trust_bundle.v1.json`
+- `cep_capsule.v1.json`
+- declared hashes or receipts
+
+Spider does not guess.
+Spider does not scrape hidden data.
+Spider does not bypass protections.
+
+---
+
+## Binary observation model
+
+Spider outputs are intentionally minimal:
+
 - timestamp
-- artifact type checked
-- presence / absence result
+- target identifier
+- marker type
+- presence status
 
-No raw content is stored.
-No attribution is performed.
+This minimalism is deliberate.
 
----
-
-## Time matters
-
-Spider supports **temporal observation**.
-
-This allows recording:
-- when an artifact appeared
-- when it disappeared
-- how long absence persisted
-
-Time does not imply cause.
+More information would introduce interpretation.
 
 ---
 
-## Why absence matters
+## Temporal observations
 
-Absence is an **observable condition**.
+Spider observations are **time-indexed**.
 
-Spider does not say *why* something is missing.
-It only records *that* it was missing at observation time.
+This enables:
+- historical presence timelines
+- gap detection
+- longitudinal analysis
 
-Interpretation belongs elsewhere.
+Time records *when* something was observable,
+not *why* it was or was not.
+
+---
+
+## Relationship to Proofs
+
+Spider provides **snapshots**.
+
+Proofs provide:
+- integrity over snapshots
+- drift and continuity analysis
+
+Spider answers *what was visible*.
+Proofs answer *what changed*.
 
 ---
 
 ## Relationship to CRC-1
 
-Spider outputs can be sealed into CRC-1 capsules.
+Spider outputs can be sealed into CRC-1 artifacts.
 
 CRC-1 guarantees:
-- integrity
-- reproducibility
+- integrity of Spider observations
+- offline verifiability
 
-Spider contributes:
-- presence / absence facts
-
-Together they form **verifiable observation**, not accusation.
+Spider itself remains a **pure observer**.
 
 ---
 
 ## Legal posture
 
-Spider is designed to be:
+Spider statements are factual:
 
-- non-invasive
-- non-interpretative
-- non-accusatory
+- "marker X was not publicly present at time T"
+- "marker Y was publicly present at time T"
 
-It records publicly observable states only.
+They are **testable and repeatable**.
+
+No legal conclusion is embedded.
 
 ---
 
