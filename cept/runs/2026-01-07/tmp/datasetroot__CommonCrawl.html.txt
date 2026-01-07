@@ -1,0 +1,176 @@
+Common Crawl Logo
+
+  • 
+    The Data
+    OverviewWeb GraphsLatest CrawlCrawl StatsGraph StatsErrata
+  • 
+    Resources
+    Get StartedAI AgentBlogExamplesUse CasesCCBotInfra StatusOpt-Out Registry
+    FAQ
+  • 
+    Community
+    Research PapersMailing List ArchiveHugging FaceDiscordCollaborators
+  • 
+    About
+    TeamJobsMissionImpactPrivacy PolicyTerms of Use
+  • 
+    Search
+    [                    ][]AI Agent
+  • Contact Us
+  • 
+
+Common Crawl maintains a free, open repository of web crawl data that can be
+used by anyone.
+
+Common Crawl is a 501(c)(3) non–profit founded in 2007.
+‍
+We make wholesale extraction, transformation and analysis of open web data
+accessible to researchers.
+
+Overview
+
+Over 300 billion pages spanning 15 years.
+
+Free and open corpus since 2007.
+
+Cited in over 10,000 research papers.
+
+3–5 billion new pages added each month.
+
+Featured Papers:
+
+Geolocating and embedding 50M German news articles for semantic analysis
+
+Lukas Kriesch, Sebastian Losacker
+
+A geolocated dataset of German news articles
+
+A study on web crawlers facing inconsistent and poorly-signalled blocking
+
+Mostafa Ansar, Anna Sperotto, Ralph Holz
+
+Web Crawl Refusals: Insights From Common Crawl
+
+Research on Free Expression Online
+
+Jeffrey Knockel, Jakub Dalek, Noura Aljizawi, Mohamed Ahmed, Levi Meletti, and
+Justin Lau
+
+Banned Books: Analysis of Censorship on Amazon.com
+
+Analyzing the Australian Web with Web Graphs: Harmonic Centrality at the Domain
+Level
+
+Xian Gong, Paul X. McCarthy, Marian-Andrei Rizoiu, Paolo Boldi
+
+Harmony in the Australian Domain Space
+
+The Dangers of Hijacked Hyperlinks
+
+Kevin Saric, Felix Savins, Gowri Sankar Ramachandran, Raja Jurdak, Surya Nepal
+
+Hyperlink Hijacking: Exploiting Erroneous URL Links to Phantom Domains
+
+Enhancing Computational Analysis
+
+Zhihong Shao, Peiyi Wang, Qihao Zhu, Runxin Xu, Junxiao Song, Mingchuan Zhang,
+Y.K. Li, Y. Wu, Daya Guo
+
+DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language
+Models
+
+Computation and Language
+
+Asier Gutiérrez-Fandiño, David Pérez-Fernández, Jordi Armengol-Estapé, David
+Griol, Zoraida Callejas
+
+esCorpius: A Massive Spanish Crawling Corpus
+
+The Web as a Graph (Master's Thesis)
+
+Marius Løvold Jørgensen, UiT Norges Arktiske Universitet
+
+BacklinkDB: A Purpose-Built Backlink Database Management System
+
+More on Google ScholarCurated BibTeX Dataset
+
+Latest Blog Post:
+
+Common Crawl at the Mozilla Festival 2025
+News
+
+Common Crawl at the Mozilla Festival 2025
+
+From the 6th to the 10th of November 2025, Pedro Ortiz Suarez attended Mozfest
+in Barcelona, as well as some satellite events.
+Pedro is a French-Colombian mathematician, computer scientist, and researcher.
+He holds a PhD in computer science and Natural Language Processing from
+Sorbonne Université.
+Pedro Ortiz Suarez
+Pedro is a French-Colombian mathematician, computer scientist, and researcher.
+He holds a PhD in computer science and Natural Language Processing from
+Sorbonne Université.
+Common Crawl Logo
+
+The Data
+
+Overview
+
+Web Graphs
+
+Latest Crawl
+
+Crawl Stats
+
+Graph Stats
+
+Errata
+
+Resources
+
+Get Started
+
+AI Agent
+
+Blog
+
+Examples
+
+Use Cases
+
+CCBot
+
+Infra Status
+
+Opt-Out Registry
+
+FAQ
+
+Community
+
+Research Papers
+
+Mailing List Archive
+
+Hugging Face
+
+Discord
+
+Collaborators
+
+About
+
+Team
+
+Jobs
+
+Mission
+
+Impact
+
+Privacy Policy
+
+Terms of Use
+
+Twitter LogoLinkedIn LogoLinkedIn Logo
+© 2026 Common Crawl

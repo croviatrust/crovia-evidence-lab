@@ -1,0 +1,93 @@
+Directory list of /opt/crovia/evidence_tests/CEPT_20260107T165756Z/
+
+                    Type       Format     Sort
+                   [Tree    ] [Standard] [By Name] [Update]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+/                                 │
++-bin                             │
++-bin.usr-is-merged               │
++-boot                            │
++-cdrom                           │
++-dev                             │
++-etc                             │
++-home                            │
++-lib                             │
++-lib.usr-is-merged               │
++-lib64                           │
++-lost+found                      │
++-media                           │
++-mnt                             │
+o-opt                             │
+| +-cep                           │
+| +-cep-capsules                  │
+| +-cep-capsules-tarike           │
+| +-cep-terminal                  │
+| +-cline                         │
+| o-crovia                        │
+| | +-.git                        │
+| | +-.pytest_cache               │
+| | +-.venv                       │
+| | +-_QUARANTINE                 │
+| | +-__LOCAL_TRASH__             │
+| | +-__QUARANTINE__              │
+| | +-__pycache__                 │
+| | +-_workspace                  │
+| | +-bindings                    │
+| | +-charts                      │
+| | +-cli                         │
+| | +-core                        │
+| | +-crovia                      │
+| | +-crovia-core-engine-open     │
+| | +-crovia-evidence-lab         │
+| | +-crovia-pro-engine           │
+| | +-crovia-spider               │
+| | +-crovia.egg-info             │
+| | +-data                        │
+| | +-demo_dpi_2025-11            │
+| | +-docs                        │
+| | o-evidence_tests              │
+| | | o-CEPT_20260107T165756Z     │/opt/crovia/evidence_tests/CEPT_20260107T165756Z/
+| | |   +-logs                    │[DIR]      4096 Jan  7 16:57 ../
+| | |   +-meta                    │[DIR]      4096 Jan  7 16:57 logs/
+| | |   +-proofs                  │[DIR]      4096 Jan  7 16:57 meta/
+| | |   +-records                 │[DIR]      4096 Jan  7 16:57 proofs/
+| | |   +-sources                 │[DIR]      4096 Jan  7 16:57 records/
+| | |   +-tmp                     │[DIR]      4096 Jan  7 16:58 sources/
+| | +-examples                    │[DIR]      4096 Jan  7 16:58 tmp/
+| | +-global-ai-training-omissions│
+| | +-hf_datasets                 │
+| | +-hf_dsse_1m                  │
+| | +-hf_org                      │
+| | +-identity                    │
+| | +-laion_dsse                  │
+| | +-logs                        │
+| | +-model_side                  │
+| | +-pack                        │
+| | +-payouts                     │
+| | +-proofs                      │
+| | +-result                      │
+| | +-sandbox_runs                │
+| | +-schemas                     │
+| | +-scripts                     │
+| | +-validate                    │
+| +-crovia-cep                    │
+| +-crovia-core                   │
+| +-crovia-core-test              │
+| +-crovia-pro-engine             │
+| +-crovia-wedge                  │
+| +-crovia_pro                    │
+| +-crovia_site                   │
+| +-crovia_staging                │
+| +-dpi_collection                │
+| +-identity                      │
++-proc                            │
++-root                            │
++-run                             │
++-sbin                            │
++-sbin.usr-is-merged              │
++-snap                            │
++-srv                             │
++-sys                             │
++-tmp                             │
++-usr                             │
++-var                             │

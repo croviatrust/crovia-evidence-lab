@@ -1,0 +1,12 @@
+#kind	id	url
+dataset	LAION-5B	https://laion.ai/blog/laion-5b/
+datasetrepo	LAION-5B	https://github.com/LAION-AI/laion5b
+dataset	CommonCrawl	https://commoncrawl.org/the-data/
+datasetroot	CommonCrawl	https://commoncrawl.org
+
+modelcard	LLaMA-2	https://ai.meta.com/llama/
+paper	LLaMA-2	https://arxiv.org/abs/2307.09288
+
+modelpage	GPT-4	https://openai.com/research/gpt-4
+systemcard	GPT-4	https://cdn.openai.com/papers/gpt-4-system-card.pdf
+policy	OpenAI	https://openai.com/transparency

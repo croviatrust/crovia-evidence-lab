@@ -1,0 +1,228 @@
+Skip to content
+
+Navigation Menu
+
+Toggle navigation
+ 
+Sign in
+Appearance settings
+
+  • Platform
+      □ AI CODE CREATION
+          ☆ GitHub CopilotWrite better code with AI
+          ☆ GitHub SparkBuild and deploy intelligent apps
+          ☆ GitHub ModelsManage and compare prompts
+          ☆ MCP Registry^NewIntegrate external tools
+      □ DEVELOPER WORKFLOWS
+          ☆ ActionsAutomate any workflow
+          ☆ CodespacesInstant dev environments
+          ☆ IssuesPlan and track work
+          ☆ Code ReviewManage code changes
+      □ APPLICATION SECURITY
+          ☆ GitHub Advanced SecurityFind and fix vulnerabilities
+          ☆ Code securitySecure your code as you build
+          ☆ Secret protectionStop leaks before they start
+      □ EXPLORE
+          ☆ Why GitHub
+          ☆ Documentation
+          ☆ Blog
+          ☆ Changelog
+          ☆ Marketplace
+    View all features
+  • Solutions
+      □ BY COMPANY SIZE
+          ☆ Enterprises
+          ☆ Small and medium teams
+          ☆ Startups
+          ☆ Nonprofits
+      □ BY USE CASE
+          ☆ App Modernization
+          ☆ DevSecOps
+          ☆ DevOps
+          ☆ CI/CD
+          ☆ View all use cases
+      □ BY INDUSTRY
+          ☆ Healthcare
+          ☆ Financial services
+          ☆ Manufacturing
+          ☆ Government
+          ☆ View all industries
+    View all solutions
+  • Resources
+      □ EXPLORE BY TOPIC
+          ☆ AI
+          ☆ Software Development
+          ☆ DevOps
+          ☆ Security
+          ☆ View all topics
+      □ EXPLORE BY TYPE
+          ☆ Customer stories
+          ☆ Events & webinars
+          ☆ Ebooks & reports
+          ☆ Business insights
+          ☆ GitHub Skills
+      □ SUPPORT & SERVICES
+          ☆ Documentation
+          ☆ Customer support
+          ☆ Community forum
+          ☆ Trust center
+          ☆ Partners
+  • Open Source
+      □ COMMUNITY
+          ☆ GitHub SponsorsFund open source developers
+      □ PROGRAMS
+          ☆ Security Lab
+          ☆ Maintainer Community
+          ☆ Accelerator
+          ☆ Archive Program
+      □ REPOSITORIES
+          ☆ Topics
+          ☆ Trending
+          ☆ Collections
+  • Enterprise
+      □ ENTERPRISE SOLUTIONS
+          ☆ Enterprise platformAI-powered developer platform
+      □ AVAILABLE ADD-ONS
+          ☆ GitHub Advanced SecurityEnterprise-grade security features
+          ☆ Copilot for BusinessEnterprise-grade AI features
+          ☆ Premium SupportEnterprise-grade 24/7 support
+  • Pricing
+
+Search or jump to...
+
+Search code, repositories, users, issues, pull requests...
+
+Search
+[                    ]
+Clear
+
+Search syntax tips
+
+Provide feedback
+
+We read every piece of feedback, and take your input very seriously.
+
+[                    ] [ ] Include my email address so I can be contacted
+Cancel Submit feedback
+
+Saved searches
+
+Use saved searches to filter your results more quickly
+
+Name [                    ] 
+Query [                    ]
+
+To see all available qualifiers, see our documentation.
+
+Cancel Create saved search
+Sign in
+
+Sign in to GitHub
+
+Username or email address [                    ]
+Password [                    ] Forgot password? [                    ] 
+[Sign in]
+or continue with other methods
+Sign up
+Appearance settings
+Resetting focus
+You signed in with another tab or window. Reload to refresh your session. You
+signed out in another tab or window. Reload to refresh your session. You
+switched accounts on another tab or window. Reload to refresh your session. 
+Dismiss alert
+{{ message }}
+[2Q]
+404 “This is not the web page you are looking for” [1da2rsE9um1T]
+[7WNEdHtj2wTwm8v8Pkm] [kGB8WMAAAAASUVORK5CYII] [ofeFiF96pE5uQAAAAASUVORK5CYII]
+[KOr0h4pdAAAAABJRU5ErkJggg] [AGShj5noGrZMAAA]
+Find code, projects, and people on GitHub:
+[                    ] Search
+Contact Support — GitHub Status — @githubstatus
+
+Site-wide Links
+
+ 
+
+Subscribe to our developer newsletter
+
+Get tips, technical guides, and best practices. Twice a month.
+
+Subscribe
+
+Platform
+
+  • Features
+  • Enterprise
+  • Copilot
+  • AI
+  • Security
+  • Pricing
+  • Team
+  • Resources
+  • Roadmap
+  • Compare GitHub
+
+Ecosystem
+
+  • Developer API
+  • Partners
+  • Education
+  • GitHub CLI
+  • GitHub Desktop
+  • GitHub Mobile
+  • GitHub Marketplace
+  • MCP Registry
+
+Support
+
+  • Docs
+  • Community Forum
+  • Professional Services
+  • Premium Support
+  • Skills
+  • Status
+  • Contact GitHub
+
+Company
+
+  • About
+  • Why GitHub
+  • Customer stories
+  • Blog
+  • The ReadME Project
+  • Careers
+  • Newsroom
+  • Inclusion
+  • Social Impact
+  • Shop
+
+  • © 2026 GitHub, Inc.
+  • Terms
+  • Privacy (Updated 02/2024)02/2024
+  • Sitemap
+  • What is Git?
+  • Manage cookies
+  • Do not share my personal information
+
+  • GitHub on LinkedIn
+  •  GitHub on Instagram
+  • GitHub on YouTube
+  • GitHub on X
+  •  GitHub on TikTok
+  •  GitHub on Twitch
+  • GitHub’s organization on GitHub
+
+English
+
+  • 
+    English
+  • 
+    Português (Brasil)
+  • 
+    Español (América Latina)
+  • 
+    日本語
+  • 
+    한국어
+
+You can’t perform that action at this time.

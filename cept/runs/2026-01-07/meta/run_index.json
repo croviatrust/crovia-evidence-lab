@@ -1,0 +1,20 @@
+{
+  "schema": "crovia.cept_run_index.v1",
+  "run_id": "CEPT_20260107T165756Z",
+  "created_at_utc": "2026-01-07T16:57:56Z",
+  "results": {
+    "pairs_total": 4,
+    "evidence_present_true": 0,
+    "evidence_present_false": 4
+  },
+  "artifacts": {
+    "observation_log": "logs/observation_log.ndjson",
+    "records_canon": "records/evidence_records.ndjson",
+    "records_signed": "records/evidence_records.signed.ndjson",
+    "hashchain_log": "proofs/hashchain_observation_log.txt",
+    "hashchain_records": "proofs/hashchain_evidence_records.txt",
+    "manifest_sha256": "proofs/MANIFEST.sha256",
+    "sources_dir": "sources/",
+    "extracted_text_dir": "tmp/"
+  }
+}

@@ -1,0 +1,310 @@
+Common Crawl Logo
+
+  • 
+    The Data
+    OverviewWeb GraphsLatest CrawlCrawl StatsGraph StatsErrata
+  • 
+    Resources
+    Get StartedAI AgentBlogExamplesUse CasesCCBotInfra StatusOpt-Out Registry
+    FAQ
+  • 
+    Community
+    Research PapersMailing List ArchiveHugging FaceDiscordCollaborators
+  • 
+    About
+    TeamJobsMissionImpactPrivacy PolicyTerms of Use
+  • 
+    Search
+    [                    ][]AI Agent
+  • Contact Us
+  • 
+
+Overview
+
+The Common Crawl corpus contains petabytes of data, regularly collected since
+2008.
+
+Choose a crawl...
+
+CC-MAIN-2025-51
+
+CC-MAIN-2025-47
+
+CC-MAIN-2025-43
+
+CC-MAIN-2025-38
+
+CC-MAIN-2025-33
+
+CC-MAIN-2025-30
+
+CC-MAIN-2025-26
+
+CC-MAIN-2025-21
+
+CC-MAIN-2025-18
+
+CC-MAIN-2025-13
+
+CC-MAIN-2025-08
+
+CC-MAIN-2025-05
+
+CC-MAIN-2024-51
+
+CC-MAIN-2024-46
+
+CC-MAIN-2024-42
+
+CC-MAIN-2024-38
+
+CC-MAIN-2024-33
+
+CC-MAIN-2024-30
+
+CC-MAIN-2024-26
+
+CC-MAIN-2024-22
+
+CC-MAIN-2024-18
+
+CC-MAIN-2024-10
+
+CC-MAIN-2023-50
+
+CC-MAIN-2023-40
+
+CC-MAIN-2023-23
+
+CC-MAIN-2023-14
+
+CC-MAIN-2023-06
+
+CC-MAIN-2022-49
+
+CC-MAIN-2022-40
+
+CC-MAIN-2022-33
+
+CC-MAIN-2022-27
+
+CC-MAIN-2022-21
+
+CC-MAIN-2022-05
+
+CC-MAIN-2021-49
+
+CC-MAIN-2021-43
+
+CC-MAIN-2021-39
+
+CC-MAIN-2021-31
+
+CC-MAIN-2021-25
+
+CC-MAIN-2021-21
+
+CC-MAIN-2021-17
+
+CC-MAIN-2021-10
+
+CC-MAIN-2021-04
+
+CC-MAIN-2020-50
+
+CC-MAIN-2020-45
+
+CC-MAIN-2020-40
+
+CC-MAIN-2020-34
+
+CC-MAIN-2020-29
+
+CC-MAIN-2020-24
+
+CC-MAIN-2020-16
+
+CC-MAIN-2020-10
+
+CC-MAIN-2020-05
+
+CC-MAIN-2019-51
+
+CC-MAIN-2019-47
+
+CC-MAIN-2019-43
+
+CC-MAIN-2019-39
+
+CC-MAIN-2019-35
+
+CC-MAIN-2019-30
+
+CC-MAIN-2019-26
+
+CC-MAIN-2019-22
+
+CC-MAIN-2019-18
+
+CC-MAIN-2019-13
+
+CC-MAIN-2019-09
+
+CC-MAIN-2019-04
+
+CC-MAIN-2018-51
+
+CC-MAIN-2018-47
+
+CC-MAIN-2018-43
+
+CC-MAIN-2018-39
+
+CC-MAIN-2018-34
+
+CC-MAIN-2018-30
+
+CC-MAIN-2018-26
+
+CC-MAIN-2018-22
+
+CC-MAIN-2018-17
+
+CC-MAIN-2018-13
+
+CC-MAIN-2018-09
+
+CC-MAIN-2018-05
+
+CC-MAIN-2017-51
+
+CC-MAIN-2017-47
+
+CC-MAIN-2017-43
+
+CC-MAIN-2017-39
+
+CC-MAIN-2017-34
+
+CC-MAIN-2017-30
+
+CC-MAIN-2017-26
+
+CC-MAIN-2017-22
+
+CC-MAIN-2017-17
+
+CC-MAIN-2017-13
+
+CC-MAIN-2017-09
+
+CC-MAIN-2017-04
+
+CC-MAIN-2016-50
+
+CC-MAIN-2016-44
+
+CC-MAIN-2016-40
+
+CC-MAIN-2016-36
+
+CC-MAIN-2016-30
+
+CC-MAIN-2016-26
+
+CC-MAIN-2016-22
+
+CC-MAIN-2016-18
+
+CC-MAIN-2016-07
+
+CC-MAIN-2015-48
+
+CC-MAIN-2015-40
+
+CC-MAIN-2015-35
+
+CC-MAIN-2015-32
+
+More
+
+The corpus contains raw web page data, metadata extracts, and text extracts.
+
+Common Crawl data is stored on Amazon Web Services’ Public Data Sets and on
+multiple academic cloud platforms across the world.
+
+Learn how to Get Started.
+
+Access to the corpus hosted by Amazon is free.
+
+You may use Amazon’s cloud platform to run analysis jobs directly against it or
+you can download it, whole or in part.
+
+You can search for pages in our corpus using the Common Crawl URL Index.
+‍
+Check out the Example Projects, view Use Cases, or Statistics for our crawls.
+
+Common Crawl Logo
+
+The Data
+
+Overview
+
+Web Graphs
+
+Latest Crawl
+
+Crawl Stats
+
+Graph Stats
+
+Errata
+
+Resources
+
+Get Started
+
+AI Agent
+
+Blog
+
+Examples
+
+Use Cases
+
+CCBot
+
+Infra Status
+
+Opt-Out Registry
+
+FAQ
+
+Community
+
+Research Papers
+
+Mailing List Archive
+
+Hugging Face
+
+Discord
+
+Collaborators
+
+About
+
+Team
+
+Jobs
+
+Mission
+
+Impact
+
+Privacy Policy
+
+Terms of Use
+
+Twitter LogoLinkedIn LogoLinkedIn Logo
+© 2026 Common Crawl
