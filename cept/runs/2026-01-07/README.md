@@ -1,68 +1,34 @@
 # CEPT Run — 2026-01-07
 
-This run freezes official public sources and records whether **explicit, dataset-specific training evidence**
-is publicly present at the time of observation.
+This directory contains a **frozen, hash-verified public evidence presence test**
+executed on 2026-01-07.
 
-The run is **immutable** once written.
-
-No interpretation.  
-No inference.  
-Only frozen, observable facts.
+All artifacts are reproducible, auditable offline, and covered by a SHA256
+manifest and hash-chains.
 
 ---
 
-## What this run contains
+## Note on Dynamic (JavaScript-Gated) Sources
 
-This directory captures a **complete snapshot** of the observation process.
+Some official sources included in this run (notably certain OpenAI pages)
+return a JavaScript / cookie–gated placeholder when retrieved as static documents.
 
-Key files:
+Example observed content:
+> “Enable JavaScript and cookies to continue”
 
-- `meta/run_index.json`  
-  → Run metadata (date, scope, sources)
+This run intentionally records **only the statically retrievable content**
+accessible via non-interactive HTTP retrieval.
 
-- `logs/observation_log.ndjson`  
-  → Raw observation events (terms, snippets, timestamps)
+No browser automation, authenticated sessions, or dynamic rendering
+were used, in order to preserve:
 
-- `records/evidence_records.ndjson`  
-  → Normalized CEPT evidence records
+- reproducibility
+- auditability
+- byte-level verifiability
 
-- `records/evidence_records.signed.ndjson`  
-  → Cryptographically signed evidence records
+As a result, the absence of semantic content in such files is itself
+an **observable property of the disclosure channel**, not an inference
+about the underlying system.
 
-- `proofs/MANIFEST.sha256`  
-  → Canonical file list with SHA-256 hashes
-
-- `proofs/hashchain_*`  
-  → Rolling hash-chains anchoring record order and integrity
-
----
-
-## How to verify integrity (offline)
-
-Run:
-
-sha256sum -c proofs/MANIFEST.sha256
-
-If verification passes:
-
-- the run is complete
-- the artifacts are untampered
-- the observation is reproducible
-
-If verification fails:
-
-- at least one artifact was altered
-- the run must be considered invalid
-
----
-
-## What this run asserts
-
-This run asserts **one thing only**:
-
-> At this point in time, under sustained observation,  
-> explicit dataset-specific training evidence was either  
-> **publicly present** or **publicly absent**.
-
-Nothing more.
-
+Dynamic or context-dependent disclosures are **out of scope** for this run
+and may be addressed in future, explicitly labeled auxiliary analyses.
