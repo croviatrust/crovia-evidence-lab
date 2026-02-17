@@ -1,172 +1,165 @@
 # Crovia Evidence Lab
 
-This repository contains **public, reproducible evidence artifacts**
-produced using the Crovia Open Core.
+**Public, reproducible evidence artifacts for AI training provenance.**
 
-It does not accuse.
-It does not infer intent.
-It does not judge compliance.
+Auto-synced hourly from the [Crovia Temporal Proof Registry](https://croviatrust.com).
 
-It records **what can be objectively observed and verified**.
+[![Sync Status](https://img.shields.io/badge/sync-hourly-blue)]()
+[![License](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE)
 
 ---
 
-## What this repository is
-
-Crovia Evidence Lab is a **read-only evidence space**.
-
-Everything here is:
-- generated from declared inputs
-- reproducible by anyone
-- verifiable offline
-
-No private logic.
-No calibration.
-No interpretation layer.
+> It does not accuse. It does not infer intent. It does not judge compliance.
+> It records **what can be objectively observed and verified**.
 
 ---
 
-## How to read this repository
+## Live Numbers
 
-Think of this repository as **layers of observation**.
-
-Each layer answers **one narrow technical question**.
+Check [`SYNC_STATUS.json`](SYNC_STATUS.json) for the latest counts, or visit the [live registry](https://registry.croviatrust.com/registry/).
 
 ---
 
-## 1️⃣ Spider — Presence / Absence
+## Repository Structure
 
-📁 `spider/`
-
-Spider records whether **declared public evidence markers**
-were observable at a given time.
-
-Spider answers:
-> Was marker X publicly present at time T?
-
-Spider does NOT answer:
-- why
-- how
-- whether something was used
-
-Spider is binary and factual.
-
----
-
-## 2️⃣ Proofs — Integrity & Continuity
-
-📁 `proofs/`
-
-Proofs ensure that observations:
-- were not altered
-- remain consistent over time
-- can be verified offline
-
-This includes:
-- hashchains
-- drift timelines
-- continuity checks
-
-Proofs do not add meaning.
-They preserve integrity.
+```
+crovia-evidence-lab/
+├── open/                    # Live observation data (auto-synced hourly)
+│   ├── drift/               # DDF drift detection snapshots
+│   ├── forensic/            # Absence receipts and forensic analysis
+│   ├── reports/             # Disclosure reports and weekly indexes
+│   ├── canon/               # Target watchlist
+│   ├── signal/              # Signal detection artifacts
+│   └── temporal/            # Temporal proof chains
+├── snapshots/               # Latest registry state (auto-synced hourly)
+│   ├── registry_stats.json  # Current observation counts
+│   ├── merkle_proof.json    # Merkle root for integrity verification
+│   └── recent_observations.json
+├── badges/                  # SVG trust badges per model
+├── cep-capsules/            # Cryptographic Evidence Protocol packages
+├── spider/                  # Presence/absence binary observations
+├── proofs/                  # Hashchains, drift timelines, continuity
+├── dsse/                    # Semantic separation evidence
+├── cept/                    # CEP reproducible test runs
+└── CRC-1/                   # Deterministic evidence contracts
+```
 
 ---
 
-## 3️⃣ DSSE — Semantic Separation
+## Evidence Layers
 
-📁 `dsse/`
+### 1. `open/` — Live Observations (auto-updated)
 
-DSSE measures **semantic separation** between declared groups.
+The `open/` directory contains the latest data from the Crovia autonomous observer. It is updated every hour from the Hetzner production server.
 
-It answers:
-> Are two semantic groups measurably distinct?
+- **`drift/`** — Drift Detection Framework snapshots. Tracks changes in model documentation over time.
+- **`forensic/`** — Absence receipts. Cryptographically timestamped records of missing training evidence.
+- **`reports/`** — Weekly disclosure reports and indexes.
+- **`signal/`** — Signal detection artifacts from multi-source analysis.
+- **`temporal/`** — Temporal proof chains (append-only, immutable).
 
-DSSE does NOT infer:
-- training
-- copying
-- infringement
+### 2. `snapshots/` — Registry State (auto-updated)
 
-It records distance and divergence only.
+Real-time snapshots of the registry's state, pulled directly from the API:
+
+```bash
+# Verify locally
+curl https://registry.croviatrust.com/api/registry/stats
+curl https://registry.croviatrust.com/api/registry/merkle
+```
+
+### 3. `badges/` — Trust Badges
+
+SVG badges showing the observation status of individual AI models. Generated from the NEC# (Necessary Evidence Criteria) framework.
+
+### 4. `cep-capsules/` — Cryptographic Evidence Packages
+
+Self-contained, verifiable evidence capsules. Each CEP contains:
+- Observation data
+- Merkle proof
+- Timestamp chain
+- Reproducibility manifest
+
+### 5. `spider/` — Binary Presence/Absence
+
+Records whether declared public evidence markers were observable at a given time.
+
+### 6. `proofs/` — Integrity & Continuity
+
+Hashchains, drift timelines, and continuity checks. Ensures observations were not altered and remain consistent over time.
+
+### 7. `dsse/` — Semantic Separation
+
+Measures semantic separation between declared groups. Records distance and divergence only — no inference.
+
+### 8. `CRC-1` — Deterministic Evidence Contract
+
+Minimal, deterministic artifact contract. Contains declared inputs, validation report, integrity proofs, and manifest.
 
 ---
 
-## 4️⃣ CRC-1 — Deterministic Evidence Contract
+## How to use this data
 
-📁 `CRC-1/`
+### For researchers
+```bash
+git clone https://github.com/croviatrust/crovia-evidence-lab.git
+# Browse open/forensic/ for absence receipts
+# Browse snapshots/ for current registry state
+```
 
-CRC-1 defines a **minimal, deterministic artifact contract**.
+### For auditors
+```bash
+# Verify merkle integrity
+python3 -c "
+import json
+m = json.load(open('snapshots/merkle_proof.json'))
+print(f'Root: {m[\"merkle_root\"]}')
+print(f'Observations: {m[\"total_observations\"]}')
+"
+```
 
-A CRC-1 capsule contains:
-- declared inputs
-- validation report
-- integrity proofs
-- manifest
-
-CRC-1 guarantees:
-- reproducibility
-- offline verification
-- immutability of evidence
-
-CRC-1 does not embed conclusions.
+### For regulators
+The `open/reports/` directory contains structured disclosure reports aligned with the EU AI Act transparency requirements. Each report references the NEC# framework — 10 standardized documentation criteria.
 
 ---
 
-## How layers relate
+## Sync mechanism
 
-Each layer is independent.
+This repository is automatically updated every hour by the Crovia production server:
 
-They can be combined, but never fused.
+1. Autonomous observer records observations (presence/absence of training evidence)
+2. Data is exported to structured JSONL/JSON
+3. `sync_from_server.sh` pushes changes to this repository
+4. Each commit is tagged with observation count and timestamp
 
-Spider observes presence.
-DSSE observes structure.
-Proofs preserve integrity.
-CRC-1 seals the result.
-
-Interpretation is intentionally external.
+The server-side observer runs independently, 24/7, without human intervention.
 
 ---
 
 ## What is deliberately missing
 
-This repository does NOT include:
-- pricing
-- attribution rules
-- intent analysis
-- legal conclusions
+- Pricing or commercial features
+- Attribution rules or legal conclusions
+- Intent analysis or compliance judgments
+- Private or gated data
 
-Those belong outside evidence.
-
----
-
-## Who this is for
-
-This repository is designed for:
-- auditors
-- researchers
-- legal technical teams
-- regulators
-- independent reviewers
-
-Anyone can reproduce the evidence locally.
+Everything here is public, verifiable, and reproducible.
 
 ---
 
-## Reproducing evidence
+## Related
 
-All artifacts here can be verified using:
-
-- `crovia-run` (to generate CRC-1 artifacts)
-- `crovia-verify` (to verify them offline)
-
-No network access required.
+- [Live Registry](https://registry.croviatrust.com/registry/) — real-time observation stream
+- [CEP Terminal](https://registry.croviatrust.com/registry/cep/) — generate evidence capsules
+- [Crovia Home](https://croviatrust.com) — project overview
+- [Omission Ledger](https://registry.croviatrust.com/registry/omissions) — targets without evidence
+- [NEC# Framework](https://registry.croviatrust.com/registry/compliance/) — documentation criteria
 
 ---
 
-## Final note
+## License
 
-Evidence is not accusation.
-Observation is not judgment.
+Apache 2.0 — see [LICENSE](LICENSE).
 
-Crovia Evidence Lab exists to **make facts inspectable**,
-not to tell anyone what they mean.
-
+Evidence is not accusation. Observation is not judgment.
+Crovia Evidence Lab exists to **make facts inspectable**, not to tell anyone what they mean.

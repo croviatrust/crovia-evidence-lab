@@ -1,0 +1,21 @@
+{
+  "schema": "crovia.open.pro_shadow_pressure.v1",
+  "observed_at": "2026-01-06T17:38:42Z",
+  "generated_by": "Crovia PRO Engine",
+  "guarantees": {
+    "no_inference": true,
+    "no_prediction": true,
+    "shadow_only": true,
+    "hash_linked": true
+  },
+  "pressure_snapshot": {
+    "snapshot_ts": "2026-01-06T17:38:42Z",
+    "pressure_index": 88.0,
+    "pressure_trend_24h": 600.0,
+    "events_observed": 296,
+    "severity_avg": 0.8,
+    "coverage": "HIGH"
+  },
+  "pressure_delta_sha256": "6767a7bde88031c2f6bc23356d88cc96329e14d9e04eb7395f424eaf49dd6440",
+  "pressure_delta_path_hint": "crovia_pro/semantic/deltas/pressure_delta_latest.json"
+}

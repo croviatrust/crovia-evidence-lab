@@ -1,0 +1,38 @@
+{
+  "crovia_evidence": {
+    "protocol": "CEP.v1",
+    "trust_bundle": {
+      "schema": "trust_bundle.v1",
+      "sha256": "a16178358eaabbb693c7925c38c97b6aa2e321e3ff5a6b0e18631f9c9353c68b",
+      "period": "2025-12"
+    },
+    "receipts": {
+      "count": 0,
+      "sha256": "9e9eb635cbac4ba844adf82d2fde3ad8f884e7ae4cf352591b0c7853b4c49071",
+      "schema": "royalty_receipt.v1"
+    },
+    "payouts": {
+      "sha256": "c28fc1f4618dc925c833afe4adcddf61804165568e12e60dfc132a9e174b73c3",
+      "schema": "payouts.v1",
+      "period": "2025-12"
+    },
+    "hash_chain": {
+      "root": "24c849fa3cb1b3a66f512db22ffeee184e03fe536681b3260e6f3e33820f0023",
+      "verified": true,
+      "source": "payouts_2025-11.hashchain.ndjson"
+    },
+    "trust_metrics": {
+      "avg_top1_share": 0.0,
+      "dp_epsilon": {
+        "min": null,
+        "max": null
+      },
+      "ci_present": false
+    },
+    "generated_by": {
+      "engine": "Crovia Core Engine",
+      "version": "unknown",
+      "timestamp": "2025-12-08T17:58:07Z"
+    }
+  }
+}

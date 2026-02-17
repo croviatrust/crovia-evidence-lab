@@ -1,0 +1,8 @@
+{
+  "schema": "crovia.open.ledger_status.v1",
+  "ts": "2026-01-10T03:30:02.606011+00:00",
+  "targets_observed": 302,
+  "events_24h": 0,
+  "coverage_level": "HIGH",
+  "note": "Silence is now observed under high coverage conditions."
+}
