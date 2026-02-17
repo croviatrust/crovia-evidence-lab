@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="205" height="28" viewBox="0 0 205 28">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16161a"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="205" height="28" rx="6" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="1" y="1" width="203" height="26" rx="5" fill="none" stroke="#333" stroke-width="1"/>
+  
+  <!-- Crovia Logo Section -->
+  <rect x="0" y="0" width="70" height="28" rx="6" fill="#8B5CF6"/>
+  <text x="35" y="18" font-family="system-ui,-apple-system,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">CROVIA</text>
+  
+  <!-- Score Section -->
+  <rect x="70" y="0" width="50" height="28" fill="#F59E0B"/>
+  <text x="95" y="18" font-family="system-ui,-apple-system,sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">100</text>
+  
+  <!-- Badge Section -->
+  <text x="135" y="18" font-family="system-ui,-apple-system,sans-serif" font-size="10" font-weight="600" fill="#F59E0B" text-anchor="start">GOLD</text>
+  
+  <!-- Violations (if any) -->
+  <text x="175" y="18" font-family="monospace" font-size="9" fill="#9CA3AF" text-anchor="start">CLEAN</text>
+</svg>

@@ -1,0 +1,58 @@
+{
+  "schema": "crovia_cep_capsule.v1",
+  "fingerprint": "CEP-2511-K4I7X2",
+  "period": "2025-11",
+
+  "model": {
+    "model_id": "crovia-llm-demo",
+    "hf_repo_id": "",
+    "hash_model": ""
+  },
+
+  "evidence": {
+    "receipts": {
+      "schema": "royalty_receipt.v1",
+      "path": "data/royalty_from_faiss.ndjson",
+      "sha256": "f7108871de448e1b1c700b7b1285af1a577e79c23abedeb91f6407e48487049a"
+    },
+    "payouts": {
+      "schema": "payouts.v1",
+      "path": "data/payouts_2025-11.ndjson",
+      "sha256": "c28fc1f4618dc925c833afe4adcddf61804165568e12e60dfc132a9e174b73c3",
+      "budget_total": 1000000.0,
+      "currency": "EUR"
+    },
+    "hashchain": {
+      "path": "proofs/hashchain_royalty_from_faiss.ndjson__202511_chunk1000.txt",
+      "sha256": "bd6bb7c125d8355139d3c9b163407e6509145726bdd85a11dba156fd05343052",
+      "chunk_size": 10000
+    }
+  },
+
+  "c_line": {
+    "engine": "crovia-core",
+    "version": "0.1.0",
+    "method_id": "CIM:FAISS-SHAP2-2025-11",
+    "faiss_k_candidates": 32,
+    "top_k": 3,
+    "alpha": 10.0,
+    "synergy_frac": 0.12,
+    "epsilon_dp": 0.0
+  },
+
+  "metrics": {
+    "providers_total": 4,
+    "receipts_valid": 200,
+    "top1_share_avg": 0.55,
+    "gini_payouts": 0.16,
+    "data_health": "A"
+  },
+
+  "generated_at": "2025-12-06T00:00:00Z",
+
+  "signature": {
+    "scheme": "HMAC-SHA256",
+    "signer_id": "crovia-demo-hmac",
+    "value": ""
+  }
+}

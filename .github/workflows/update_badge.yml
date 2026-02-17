@@ -1,0 +1,82 @@
+name: Update Evidence Badge
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'SYNC_STATUS.json'
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read sync status
+        id: status
+        run: |
+          OBS=$(python3 -c "import json; d=json.load(open('SYNC_STATUS.json')); print(d.get('total_observations','?'))")
+          TARGETS=$(python3 -c "import json; d=json.load(open('SYNC_STATUS.json')); print(d.get('unique_targets','?'))")
+          SYNC=$(python3 -c "import json; d=json.load(open('SYNC_STATUS.json')); print(d.get('last_sync','?')[:10])")
+          echo "obs=$OBS" >> $GITHUB_OUTPUT
+          echo "targets=$TARGETS" >> $GITHUB_OUTPUT
+          echo "sync=$SYNC" >> $GITHUB_OUTPUT
+
+      - name: Generate badges
+        run: |
+          mkdir -p .badges
+          # Observations badge
+          cat > .badges/observations.svg << 'BADGE_EOF'
+          <svg xmlns="http://www.w3.org/2000/svg" width="200" height="20">
+            <linearGradient id="b" x2="0" y2="100%">
+              <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+              <stop offset="1" stop-opacity=".1"/>
+            </linearGradient>
+            <clipPath id="a"><rect width="200" height="20" rx="3" fill="#fff"/></clipPath>
+            <g clip-path="url(#a)">
+              <path fill="#555" d="M0 0h110v20H0z"/>
+              <path fill="#007ec6" d="M110 0h90v20H110z"/>
+              <path fill="url(#b)" d="M0 0h200v20H0z"/>
+            </g>
+            <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+              <text x="55" y="15" fill="#010101" fill-opacity=".3">observations</text>
+              <text x="55" y="14">observations</text>
+              <text x="155" y="15" fill="#010101" fill-opacity=".3">OBS_COUNT</text>
+              <text x="155" y="14">OBS_COUNT</text>
+            </g>
+          </svg>
+          BADGE_EOF
+          sed -i "s/OBS_COUNT/${{ steps.status.outputs.obs }}/g" .badges/observations.svg
+
+          # Targets badge
+          cat > .badges/targets.svg << 'BADGE_EOF'
+          <svg xmlns="http://www.w3.org/2000/svg" width="180" height="20">
+            <linearGradient id="b" x2="0" y2="100%">
+              <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+              <stop offset="1" stop-opacity=".1"/>
+            </linearGradient>
+            <clipPath id="a"><rect width="180" height="20" rx="3" fill="#fff"/></clipPath>
+            <g clip-path="url(#a)">
+              <path fill="#555" d="M0 0h90v20H0z"/>
+              <path fill="#97ca00" d="M90 0h90v20H90z"/>
+              <path fill="url(#b)" d="M0 0h180v20H0z"/>
+            </g>
+            <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+              <text x="45" y="15" fill="#010101" fill-opacity=".3">targets</text>
+              <text x="45" y="14">targets</text>
+              <text x="135" y="15" fill="#010101" fill-opacity=".3">TGT_COUNT</text>
+              <text x="135" y="14">TGT_COUNT</text>
+            </g>
+          </svg>
+          BADGE_EOF
+          sed -i "s/TGT_COUNT/${{ steps.status.outputs.targets }}/g" .badges/targets.svg
+
+      - name: Commit badges
+        run: |
+          git config user.name "Crovia Bot"
+          git config user.email "bot@croviatrust.com"
+          git add .badges/
+          git diff --cached --quiet || git commit -m "badge: ${{ steps.status.outputs.obs }} obs, ${{ steps.status.outputs.targets }} targets"
+          git push
