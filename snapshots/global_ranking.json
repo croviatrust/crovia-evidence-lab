@@ -1,0 +1,250 @@
+{
+  "generated": "2026-01-21T18:42:25.465649+00:00",
+  "total_models": 19,
+  "ranking": [
+    {
+      "model_id": "tiiuae/falcon-7b",
+      "score": 94,
+      "badge": "GOLD",
+      "violations": [
+        "NEC#7"
+      ],
+      "author": "tiiuae",
+      "downloads": 110092,
+      "timestamp": "2026-01-21T18:42:25.294425+00:00",
+      "evidence_hash": "b9c3a58182ec7035"
+    },
+    {
+      "model_id": "tiiuae/falcon-40b",
+      "score": 94,
+      "badge": "GOLD",
+      "violations": [
+        "NEC#7"
+      ],
+      "author": "tiiuae",
+      "downloads": 12085,
+      "timestamp": "2026-01-21T18:42:25.320947+00:00",
+      "evidence_hash": "58005c59ebaebc93"
+    },
+    {
+      "model_id": "EleutherAI/gpt-neox-20b",
+      "score": 94,
+      "badge": "GOLD",
+      "violations": [
+        "NEC#7"
+      ],
+      "author": "EleutherAI",
+      "downloads": 14299,
+      "timestamp": "2026-01-21T18:42:25.351268+00:00",
+      "evidence_hash": "ab742b500394d85d"
+    },
+    {
+      "model_id": "HuggingFaceH4/zephyr-7b-beta",
+      "score": 94,
+      "badge": "GOLD",
+      "violations": [
+        "NEC#7"
+      ],
+      "author": "HuggingFaceH4",
+      "downloads": 57226,
+      "timestamp": "2026-01-21T18:42:25.436965+00:00",
+      "evidence_hash": "c48515cdace70b93"
+    },
+    {
+      "model_id": "meta-llama/Llama-3.1-8B",
+      "score": 82,
+      "badge": "SILVER",
+      "violations": [
+        "NEC#1",
+        "NEC#7"
+      ],
+      "author": "meta-llama",
+      "downloads": 2438674,
+      "timestamp": "2026-01-21T18:42:24.907847+00:00",
+      "evidence_hash": "55f2d99f016914c5"
+    },
+    {
+      "model_id": "meta-llama/Llama-3.1-70B",
+      "score": 82,
+      "badge": "SILVER",
+      "violations": [
+        "NEC#1",
+        "NEC#7"
+      ],
+      "author": "meta-llama",
+      "downloads": 47694,
+      "timestamp": "2026-01-21T18:42:24.939367+00:00",
+      "evidence_hash": "a1c7edfb048dafbe"
+    },
+    {
+      "model_id": "mistralai/Mistral-7B-v0.3",
+      "score": 82,
+      "badge": "SILVER",
+      "violations": [
+        "NEC#1",
+        "NEC#7"
+      ],
+      "author": "mistralai",
+      "downloads": 109552,
+      "timestamp": "2026-01-21T18:42:24.967896+00:00",
+      "evidence_hash": "5e3210db98908cfc"
+    },
+    {
+      "model_id": "mistralai/Mixtral-8x7B-v0.1",
+      "score": 82,
+      "badge": "SILVER",
+      "violations": [
+        "NEC#1",
+        "NEC#7"
+      ],
+      "author": "mistralai",
+      "downloads": 49634,
+      "timestamp": "2026-01-21T18:42:24.995514+00:00",
+      "evidence_hash": "7702f6e62aeb9ab2"
+    },
+    {
+      "model_id": "google/gemma-2-9b",
+      "score": 82,
+      "badge": "SILVER",
+      "violations": [
+        "NEC#1",
+        "NEC#7"
+      ],
+      "author": "google",
+      "downloads": 53838,
+      "timestamp": "2026-01-21T18:42:25.020942+00:00",
+      "evidence_hash": "4c0979463c373a47"
+    },
+    {
+      "model_id": "google/gemma-2-27b",
+      "score": 82,
+      "badge": "SILVER",
+      "violations": [
+        "NEC#1",
+        "NEC#7"
+      ],
+      "author": "google",
+      "downloads": 5716,
+      "timestamp": "2026-01-21T18:42:25.048180+00:00",
+      "evidence_hash": "a6007045623d3947"
+    },
+    {
+      "model_id": "microsoft/Phi-3-mini-4k-instruct",
+      "score": 82,
+      "badge": "SILVER",
+      "violations": [
+        "NEC#1",
+        "NEC#7"
+      ],
+      "author": "microsoft",
+      "downloads": 1326520,
+      "timestamp": "2026-01-21T18:42:25.074795+00:00",
+      "evidence_hash": "27d58ea994743369"
+    },
+    {
+      "model_id": "microsoft/Phi-3-medium-4k-instruct",
+      "score": 82,
+      "badge": "SILVER",
+      "violations": [
+        "NEC#1",
+        "NEC#7"
+      ],
+      "author": "microsoft",
+      "downloads": 9094,
+      "timestamp": "2026-01-21T18:42:25.104824+00:00",
+      "evidence_hash": "c411dc0eb1663a5b"
+    },
+    {
+      "model_id": "Qwen/Qwen2-7B",
+      "score": 82,
+      "badge": "SILVER",
+      "violations": [
+        "NEC#1",
+        "NEC#7"
+      ],
+      "author": "Qwen",
+      "downloads": 72273,
+      "timestamp": "2026-01-21T18:42:25.153299+00:00",
+      "evidence_hash": "076056dd13d09f0a"
+    },
+    {
+      "model_id": "Qwen/Qwen2-72B",
+      "score": 82,
+      "badge": "SILVER",
+      "violations": [
+        "NEC#1",
+        "NEC#7"
+      ],
+      "author": "Qwen",
+      "downloads": 18510,
+      "timestamp": "2026-01-21T18:42:25.176608+00:00",
+      "evidence_hash": "f2299d760e7fc83b"
+    },
+    {
+      "model_id": "01-ai/Yi-1.5-9B",
+      "score": 82,
+      "badge": "SILVER",
+      "violations": [
+        "NEC#1",
+        "NEC#7"
+      ],
+      "author": "01-ai",
+      "downloads": 10617,
+      "timestamp": "2026-01-21T18:42:25.203791+00:00",
+      "evidence_hash": "5f4aeb32fb4377cf"
+    },
+    {
+      "model_id": "01-ai/Yi-1.5-34B",
+      "score": 82,
+      "badge": "SILVER",
+      "violations": [
+        "NEC#1",
+        "NEC#7"
+      ],
+      "author": "01-ai",
+      "downloads": 7140,
+      "timestamp": "2026-01-21T18:42:25.229870+00:00",
+      "evidence_hash": "6fe6ec7d215f50ae"
+    },
+    {
+      "model_id": "bigscience/bloom",
+      "score": 82,
+      "badge": "SILVER",
+      "violations": [
+        "NEC#1",
+        "NEC#7"
+      ],
+      "author": "bigscience",
+      "downloads": 3420,
+      "timestamp": "2026-01-21T18:42:25.263768+00:00",
+      "evidence_hash": "fe0658f3eb67bfd4"
+    },
+    {
+      "model_id": "stabilityai/stablelm-base-alpha-7b",
+      "score": 82,
+      "badge": "SILVER",
+      "violations": [
+        "NEC#1",
+        "NEC#7"
+      ],
+      "author": "stabilityai",
+      "downloads": 1510,
+      "timestamp": "2026-01-21T18:42:25.410925+00:00",
+      "evidence_hash": "88bbb09460134b7f"
+    },
+    {
+      "model_id": "NousResearch/Llama-2-7b-hf",
+      "score": 70,
+      "badge": "BRONZE",
+      "violations": [
+        "NEC#1",
+        "NEC#2",
+        "NEC#7"
+      ],
+      "author": "NousResearch",
+      "downloads": 58265,
+      "timestamp": "2026-01-21T18:42:25.463084+00:00",
+      "evidence_hash": "ec5bafcd9d97e71a"
+    }
+  ]
+}

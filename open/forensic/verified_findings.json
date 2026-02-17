@@ -1,20 +1,20 @@
 {
   "schema": "crovia.pro.verified_findings.v1",
-  "generated_at": "2026-02-14T13:43:25.034610Z",
+  "generated_at": "2026-02-17T08:51:23.892322Z",
   "engine_version": "v3_observatory",
-  "total_events_analyzed": 662,
-  "clean_events": 1,
+  "total_events_analyzed": 1331,
+  "clean_events": 11,
   "verified_findings_count": 1,
   "verified_findings": [
     {
-      "date": "2026-02-09",
-      "confidence": "VERIFIED",
-      "confidence_score": 95,
-      "orgs_count": 1,
-      "event_count": 1,
+      "date": "2026-02-16",
+      "confidence": "HIGH",
+      "confidence_score": 80,
+      "orgs_count": 9,
+      "event_count": 11,
       "details": {
-        "license_removals": 1,
-        "dataset_removals": 0
+        "license_removals": 0,
+        "dataset_removals": 11
       }
     }
   ]
