@@ -63,11 +63,11 @@ cp -f "${HF_DATASET}/open/temporal/"*.jsonl open/temporal/ 2>/dev/null || true
 # ---- Sync snapshots ----
 mkdir -p snapshots
 # Export latest stats from registry API (try local nginx first, then direct backend)
-curl -sf http://127.0.0.1/api/registry/stats > snapshots/registry_stats.json 2>/dev/null \
+curl -sf http://127.0.0.1:8080/api/registry/stats > snapshots/registry_stats.json 2>/dev/null \
     || curl -sf http://localhost:8000/api/registry/stats > snapshots/registry_stats.json 2>/dev/null || true
-curl -sf http://127.0.0.1/api/registry/merkle > snapshots/merkle_proof.json 2>/dev/null \
+curl -sf http://127.0.0.1:8080/api/registry/merkle > snapshots/merkle_proof.json 2>/dev/null \
     || curl -sf http://localhost:8000/api/registry/merkle > snapshots/merkle_proof.json 2>/dev/null || true
-curl -sf http://127.0.0.1/api/registry/recent > snapshots/recent_observations.json 2>/dev/null \
+curl -sf http://127.0.0.1:8080/api/registry/recent > snapshots/recent_observations.json 2>/dev/null \
     || curl -sf http://localhost:8000/api/registry/recent > snapshots/recent_observations.json 2>/dev/null || true
 
 # Global ranking
