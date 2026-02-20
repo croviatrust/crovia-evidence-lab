@@ -11,7 +11,7 @@
 #
 # Requires: GITHUB_TOKEN in /etc/crovia/tpr.env
 # ============================================================================
-set -euo pipefail
+set -eu
 
 EVIDENCE_LAB="/opt/crovia/repos/crovia-evidence-lab"
 HF_DATASET="/opt/crovia/hf_datasets/global-ai-training-omissions"
