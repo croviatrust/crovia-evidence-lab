@@ -6,8 +6,8 @@ from pathlib import Path
 # -------------------------
 # DSSE-lite snapshot builder
 # -------------------------
-# Nota: DSSE completo potrà sostituire questi contatori
-# Qui facciamo: streaming, compressione, segnali auditabili
+# Note: full DSSE engine may replace these counters in future
+# This module handles: streaming, compression, auditable signals
 
 def iter_records(path):
     with open(path, "r", encoding="utf-8") as f:
@@ -31,15 +31,15 @@ def main():
     card_lengths = []
 
     for rec in iter_records(args.inp):
-        total += 1
-        if args.max and total > args.max:
+        if args.max and total >= args.max:
             break
+        total += 1
 
         # 1) missing fields (governance)
         if not rec or not isinstance(rec, dict):
             missing_fields += 1
         else:
-            # esempio: campi minimi attesi
+            # minimum expected fields
             required = ["schema"]
             if any(k not in rec or rec.get(k) in (None, "") for k in required):
                 missing_fields += 1
@@ -48,12 +48,12 @@ def main():
         if rec.get("schema") == "royalty_receipt.v1":
             has_receipt += 1
 
-        # 3) legal ambiguity (licenza mancante / non chiara)
+        # 3) legal ambiguity (missing or unclear license)
         lic = rec.get("license") or rec.get("license_id")
         if not lic or lic in ("unknown", "unverified"):
             legal_ambiguous += 1
 
-        # 4) card length proxy (dimensione informativa)
+        # 4) card length proxy (informational size)
         card_lengths.append(len(json.dumps(rec, ensure_ascii=False)))
 
     if total == 0:
