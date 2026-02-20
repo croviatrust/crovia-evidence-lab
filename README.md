@@ -37,11 +37,8 @@ crovia-evidence-lab/
 │   └── recent_observations.json
 ├── badges/                  # SVG trust badges per model
 ├── cep-capsules/            # Cryptographic Evidence Protocol packages
-├── spider/                  # Presence/absence binary observations
-├── proofs/                  # Hashchains, drift timelines, continuity
-├── dsse/                    # Semantic separation evidence
-├── cept/                    # CEP reproducible test runs
-└── CRC-1/                   # Deterministic evidence contracts
+├── SYNC_STATUS.json         # Last sync timestamp and observation counts
+└── sync_from_server.sh      # Sync script (runs hourly on production server)
 ```
 
 ---
@@ -80,21 +77,9 @@ Self-contained, verifiable evidence capsules. Each CEP contains:
 - Timestamp chain
 - Reproducibility manifest
 
-### 5. `spider/` — Binary Presence/Absence
+### 5. `SYNC_STATUS.json` — Live Counts
 
-Records whether declared public evidence markers were observable at a given time.
-
-### 6. `proofs/` — Integrity & Continuity
-
-Hashchains, drift timelines, and continuity checks. Ensures observations were not altered and remain consistent over time.
-
-### 7. `dsse/` — Semantic Separation
-
-Measures semantic separation between declared groups. Records distance and divergence only — no inference.
-
-### 8. `CRC-1` — Deterministic Evidence Contract
-
-Minimal, deterministic artifact contract. Contains declared inputs, validation report, integrity proofs, and manifest.
+Updated every hour with the current observation count and unique targets. Machine-readable.
 
 ---
 
