@@ -1,41 +1,41 @@
 {
   "schema": "crovia.open.disclosure_index.v1",
-  "generated_at": "2026-03-09T06:00:01.508239Z",
+  "generated_at": "2026-03-09T08:05:46.831925Z",
   "week_id": "2026-W11",
   "note": "This is observational data only. No inference, judgment, or accusation.",
   "coverage": {
-    "targets_monitored": 2068,
-    "models": 1563,
-    "datasets": 505,
+    "targets_monitored": 4035,
+    "models": 3272,
+    "datasets": 763,
     "period_days": 30
   },
   "disclosure_observations": {
     "training_section": {
-      "present": 292,
-      "absent": 1776,
-      "present_pct": 14.1
+      "present": 650,
+      "absent": 3385,
+      "present_pct": 16.1
     },
     "declared_datasets": {
-      "with_declaration": 377,
-      "without_declaration": 1691,
-      "with_declaration_pct": 18.2
+      "with_declaration": 842,
+      "without_declaration": 3193,
+      "with_declaration_pct": 20.9
     },
     "license": {
-      "declared": 1613,
-      "not_declared": 455,
-      "declared_pct": 78.0
+      "declared": 3064,
+      "not_declared": 971,
+      "declared_pct": 75.9
     },
     "readme_access": {
-      "ok": 1828,
-      "not_found": 131,
-      "forbidden": 109,
-      "ok_pct": 88.4
+      "ok": 3483,
+      "not_found": 365,
+      "forbidden": 184,
+      "ok_pct": 86.3
     }
   },
   "drift_observations": {
-    "events_30d": 987,
-    "events_7d": 83,
-    "targets_with_change_30d": 838,
+    "events_30d": 993,
+    "events_7d": 38,
+    "targets_with_change_30d": 840,
     "avg_changes_per_changed_target": 1.18
   },
   "top_movers_30d": [
@@ -53,6 +53,10 @@
     },
     {
       "target_id": "google/gemma-3-27b-it",
+      "change_count": 3
+    },
+    {
+      "target_id": "ibm-granite/granite-timeseries-tspulse-r1",
       "change_count": 3
     },
     {
@@ -74,13 +78,51 @@
     {
       "target_id": "haesungoh/MVAdapt-Dataset-Mini",
       "change_count": 2
-    },
-    {
-      "target_id": "yuhuo03/Chair",
-      "change_count": 2
     }
   ],
   "recent_changes_7d": [
+    {
+      "target_id": "thuml/sundial-base-128m",
+      "tipo_target": "model",
+      "observed_at": "2026-03-09T07:55:03.189815Z",
+      "prev_ddf_hash": "80b0c4876fbb50907a1157857c4773ee5c860f869e2c8532144a840ee2940714",
+      "new_ddf_hash": "5c3c6389ab36754aee6de4295f2903b5f7732a17c388bd636cb5cbddfd30162e"
+    },
+    {
+      "target_id": "nvidia/NVIDIA-Nemotron-Parse-v1.1",
+      "tipo_target": "model",
+      "observed_at": "2026-03-09T07:41:19.838353Z",
+      "prev_ddf_hash": "291de72b32df904e1ecd373dd81298a39ad5b276fffe415432b00046d58ff31b",
+      "new_ddf_hash": "6c3ea728fdfa695472cf10e38fd912ca06ea52495d3b55d2040c2a1055b0d5f0"
+    },
+    {
+      "target_id": "ibm-granite/granite-timeseries-tspulse-r1",
+      "tipo_target": "model",
+      "observed_at": "2026-03-09T07:20:48.143995Z",
+      "prev_ddf_hash": "c38b431ad45e8695c447f1461373a97daf94cca60fc655930ba4b5b41f610480",
+      "new_ddf_hash": "03e4fc8db1cc5aba6bdc537b01db701b92a9e3643f075871d219eca96f023b5c"
+    },
+    {
+      "target_id": "baidu/ERNIE-4.5-VL-28B-A3B-PT",
+      "tipo_target": "model",
+      "observed_at": "2026-03-09T07:00:46.587205Z",
+      "prev_ddf_hash": "06f5c723aa20a16db4a501a76d31d9e6b4f6ed1ca76635c3607cb7de917cb3fe",
+      "new_ddf_hash": "967bd15561ce01abca26c2d30ff7ef61c68195ec8fcb645cdd038938cb58c4b1"
+    },
+    {
+      "target_id": "Lightricks/LTX-2",
+      "tipo_target": "model",
+      "observed_at": "2026-03-09T06:35:00.726354Z",
+      "prev_ddf_hash": "b153c2230848dfc5ddec14c5b8fff6e668a10bd49b508e424325aecd28af0e22",
+      "new_ddf_hash": "fda953d447cb2a58b9c3ae7a6cbb93b93e40e0c8dbac0c997a732d350f660b05"
+    },
+    {
+      "target_id": "orionweller/old-data-store-real",
+      "tipo_target": "dataset",
+      "observed_at": "2026-03-09T06:19:50.526779Z",
+      "prev_ddf_hash": "9f25b22e1db09522d0047aadfc4bf13beecb101ebd4bc01965293a42a49b107c",
+      "new_ddf_hash": "bf5667193c75a5f01ba4fb5166e7b9340dc9320ff0d097633d15fd7a59237603"
+    },
     {
       "target_id": "LLM360/TxT360",
       "tipo_target": "dataset",
@@ -178,73 +220,31 @@
       "observed_at": "2026-03-06T07:32:21.142737Z",
       "prev_ddf_hash": "b218dcfdd9bf7c517e5eb79fcfb7c123826882b81338c2a9808b6814c154aaf6",
       "new_ddf_hash": "dd4134971d76fbf5e816c860d7dc54c1f07120670bb7a76cac6674cf2a67a3ae"
-    },
-    {
-      "target_id": "hyf015/mast",
-      "tipo_target": "dataset",
-      "observed_at": "2026-03-06T07:20:09.098091Z",
-      "prev_ddf_hash": "c46ee66253cd1f75073a82f2d7a5449ffa9da80681cd9b9570f7e23b7f9567db",
-      "new_ddf_hash": "90bd87014fcaa3ec2e2c4335a038be74e8bbfac621514dbe62f18ef878881d07"
-    },
-    {
-      "target_id": "Idavidrein/gpqa",
-      "tipo_target": "dataset",
-      "observed_at": "2026-03-06T07:08:59.691526Z",
-      "prev_ddf_hash": "5581446b92e554a41619d8908ad258c3a8bf3a9951c3461779a59889435fcc96",
-      "new_ddf_hash": "efafd5d551dae847502af553187a318e4ff26113b996905f07d771964a30d739"
-    },
-    {
-      "target_id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
-      "tipo_target": "model",
-      "observed_at": "2026-03-04T10:25:59.811177Z",
-      "prev_ddf_hash": "0ebcf984426df12d473a65b095ef5622bbcd581c542b32bf173c3d993e2c9589",
-      "new_ddf_hash": "ea5864e187b48b1144b850800b8e49a83dd9720a055f03d8ce3d70c5006f7cdd"
-    },
-    {
-      "target_id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8",
-      "tipo_target": "model",
-      "observed_at": "2026-03-04T10:25:53.817021Z",
-      "prev_ddf_hash": "e666faa35d7bf4ab63e69aceeecc8d4282bcbd588a74eb2d4015a9ecc29fa004",
-      "new_ddf_hash": "049d88c27f15aea0452b7f72d52688c645c2cbe0b2b16d71388a63f595ae70b6"
-    },
-    {
-      "target_id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
-      "tipo_target": "model",
-      "observed_at": "2026-03-04T10:25:50.811105Z",
-      "prev_ddf_hash": "bab4a827da6ac0ab44bcfb1d83e51e0472f5a0c387d7405ce7bd9c41ec334536",
-      "new_ddf_hash": "3562b52df9cecb3231b1b289353eba1bd88ebc13f12d6f3f98436945728b906d"
-    },
-    {
-      "target_id": "ibrahimhamamci/CT-RATE",
-      "tipo_target": "dataset",
-      "observed_at": "2026-03-04T09:15:07.296686Z",
-      "prev_ddf_hash": "892819c9e511f0e0fe94643e0531fa5313919f5f54268b77e6f280b07787008a",
-      "new_ddf_hash": "deee58445e67f9be78de3cb6171b5f375db093c7f1f8ffc235efa45ce2b188b4"
     }
   ],
   "popularity_observations": {
-    "targets_with_download_data": 2048,
-    "gated_targets": 91,
-    "gated_pct": 4.4,
+    "targets_with_download_data": 3862,
+    "gated_targets": 155,
+    "gated_pct": 3.8,
     "top_by_downloads": [
       {
         "target_id": "sentence-transformers/all-MiniLM-L6-v2",
         "tipo_target": "model",
-        "downloads": 199494680,
+        "downloads": 200187461,
         "training_section_presence": "PRESENT",
         "declared_datasets_count": 21
       },
       {
         "target_id": "google-bert/bert-base-uncased",
         "tipo_target": "model",
-        "downloads": 66868510,
+        "downloads": 67112469,
         "training_section_presence": "PRESENT",
         "declared_datasets_count": 2
       },
       {
         "target_id": "google/electra-base-discriminator",
         "tipo_target": "model",
-        "downloads": 48263513,
+        "downloads": 48435237,
         "training_section_presence": "ABSENT",
         "declared_datasets_count": 0
       },
@@ -258,14 +258,14 @@
       {
         "target_id": "sentence-transformers/all-mpnet-base-v2",
         "tipo_target": "model",
-        "downloads": 27635362,
+        "downloads": 27494556,
         "training_section_presence": "PRESENT",
         "declared_datasets_count": 21
       },
       {
         "target_id": "timm/mobilenetv3_small_100.lamb_in1k",
         "tipo_target": "model",
-        "downloads": 24745777,
+        "downloads": 24767019,
         "training_section_presence": "ABSENT",
         "declared_datasets_count": 1
       },
@@ -279,7 +279,7 @@
       {
         "target_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         "tipo_target": "model",
-        "downloads": 22697939,
+        "downloads": 22836947,
         "training_section_presence": "ABSENT",
         "declared_datasets_count": 0
       },
@@ -293,7 +293,7 @@
       {
         "target_id": "laion/clap-htsat-fused",
         "tipo_target": "model",
-        "downloads": 21284170,
+        "downloads": 21703332,
         "training_section_presence": "ABSENT",
         "declared_datasets_count": 0
       },
@@ -307,7 +307,7 @@
       {
         "target_id": "openai/clip-vit-base-patch32",
         "tipo_target": "model",
-        "downloads": 19256919,
+        "downloads": 19132489,
         "training_section_presence": "ABSENT",
         "declared_datasets_count": 0
       },
@@ -337,19 +337,19 @@
       {
         "target_id": "google/electra-base-discriminator",
         "tipo_target": "model",
-        "downloads": 48263513,
+        "downloads": 48435237,
         "readme_access": "OK"
       },
       {
         "target_id": "timm/mobilenetv3_small_100.lamb_in1k",
         "tipo_target": "model",
-        "downloads": 24745777,
+        "downloads": 24767019,
         "readme_access": "OK"
       },
       {
         "target_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         "tipo_target": "model",
-        "downloads": 22697939,
+        "downloads": 22836947,
         "readme_access": "OK"
       },
       {
@@ -361,7 +361,7 @@
       {
         "target_id": "laion/clap-htsat-fused",
         "tipo_target": "model",
-        "downloads": 21284170,
+        "downloads": 21703332,
         "readme_access": "OK"
       },
       {
@@ -373,7 +373,7 @@
       {
         "target_id": "openai/clip-vit-base-patch32",
         "tipo_target": "model",
-        "downloads": 19256919,
+        "downloads": 19132489,
         "readme_access": "OK"
       },
       {
@@ -385,32 +385,32 @@
       {
         "target_id": "pyannote/wespeaker-voxceleb-resnet34-LM",
         "tipo_target": "model",
-        "downloads": 15221209,
+        "downloads": 15009131,
         "readme_access": "OK"
       },
       {
         "target_id": "pyannote/segmentation-3.0",
         "tipo_target": "model",
-        "downloads": 14952772,
+        "downloads": 14762579,
         "readme_access": "FORBIDDEN"
       },
       {
         "target_id": "cross-encoder/ms-marco-MiniLM-L6-v2",
         "tipo_target": "model",
-        "downloads": 14082818,
+        "downloads": 14195084,
         "readme_access": "OK"
-      },
-      {
-        "target_id": "pyannote/speaker-diarization-3.1",
-        "tipo_target": "model",
-        "downloads": 13235366,
-        "readme_access": "FORBIDDEN"
       },
       {
         "target_id": "Qwen/Qwen3-VL-2B-Instruct",
         "tipo_target": "model",
         "downloads": 13203702,
         "readme_access": "OK"
+      },
+      {
+        "target_id": "pyannote/speaker-diarization-3.1",
+        "tipo_target": "model",
+        "downloads": 13067631,
+        "readme_access": "FORBIDDEN"
       },
       {
         "target_id": "Xenova/paraphrase-multilingual-MiniLM-L12-v2",
@@ -430,38 +430,73 @@
   "by_organization": [
     {
       "organization": "Qwen",
-      "targets_monitored": 125,
-      "training_section_present": 3,
+      "targets_monitored": 155,
+      "training_section_present": 4,
       "declared_datasets_present": 0,
-      "license_present": 123
-    },
-    {
-      "organization": "timm",
-      "targets_monitored": 74,
-      "training_section_present": 0,
-      "declared_datasets_present": 58,
-      "license_present": 74
+      "license_present": 151
     },
     {
       "organization": "facebook",
-      "targets_monitored": 65,
-      "training_section_present": 13,
-      "declared_datasets_present": 26,
-      "license_present": 61
-    },
-    {
-      "organization": "google",
-      "targets_monitored": 57,
-      "training_section_present": 22,
-      "declared_datasets_present": 16,
-      "license_present": 56
+      "targets_monitored": 106,
+      "training_section_present": 16,
+      "declared_datasets_present": 43,
+      "license_present": 100
     },
     {
       "organization": "microsoft",
-      "targets_monitored": 56,
-      "training_section_present": 14,
-      "declared_datasets_present": 8,
-      "license_present": 46
+      "targets_monitored": 88,
+      "training_section_present": 24,
+      "declared_datasets_present": 12,
+      "license_present": 71
+    },
+    {
+      "organization": "timm",
+      "targets_monitored": 86,
+      "training_section_present": 0,
+      "declared_datasets_present": 66,
+      "license_present": 86
+    },
+    {
+      "organization": "google",
+      "targets_monitored": 85,
+      "training_section_present": 33,
+      "declared_datasets_present": 23,
+      "license_present": 82
+    },
+    {
+      "organization": "allenai",
+      "targets_monitored": 71,
+      "training_section_present": 3,
+      "declared_datasets_present": 31,
+      "license_present": 61
+    },
+    {
+      "organization": "nvidia",
+      "targets_monitored": 67,
+      "training_section_present": 32,
+      "declared_datasets_present": 29,
+      "license_present": 63
+    },
+    {
+      "organization": "OpenMed",
+      "targets_monitored": 53,
+      "training_section_present": 0,
+      "declared_datasets_present": 0,
+      "license_present": 53
+    },
+    {
+      "organization": "unsloth",
+      "targets_monitored": 52,
+      "training_section_present": 4,
+      "declared_datasets_present": 1,
+      "license_present": 49
+    },
+    {
+      "organization": "Salesforce",
+      "targets_monitored": 51,
+      "training_section_present": 11,
+      "declared_datasets_present": 6,
+      "license_present": 50
     },
     {
       "organization": "MaziyarPanahi",
@@ -471,138 +506,103 @@
       "license_present": 6
     },
     {
-      "organization": "OpenMed",
-      "targets_monitored": 47,
-      "training_section_present": 0,
-      "declared_datasets_present": 0,
-      "license_present": 47
-    },
-    {
-      "organization": "nvidia",
-      "targets_monitored": 34,
-      "training_section_present": 14,
-      "declared_datasets_present": 17,
-      "license_present": 33
-    },
-    {
-      "organization": "unsloth",
-      "targets_monitored": 33,
-      "training_section_present": 3,
-      "declared_datasets_present": 1,
-      "license_present": 31
-    },
-    {
-      "organization": "sentence-transformers",
-      "targets_monitored": 31,
-      "training_section_present": 10,
-      "declared_datasets_present": 9,
-      "license_present": 26
-    },
-    {
-      "organization": "lmstudio-community",
-      "targets_monitored": 28,
-      "training_section_present": 0,
-      "declared_datasets_present": 4,
-      "license_present": 28
-    },
-    {
-      "organization": "Helsinki-NLP",
-      "targets_monitored": 22,
-      "training_section_present": 2,
-      "declared_datasets_present": 0,
-      "license_present": 22
-    },
-    {
-      "organization": "allenai",
-      "targets_monitored": 21,
-      "training_section_present": 0,
-      "declared_datasets_present": 1,
-      "license_present": 18
-    },
-    {
-      "organization": "deepseek-ai",
-      "targets_monitored": 21,
-      "training_section_present": 0,
-      "declared_datasets_present": 0,
-      "license_present": 20
-    },
-    {
-      "organization": "meta-llama",
-      "targets_monitored": 19,
-      "training_section_present": 0,
-      "declared_datasets_present": 0,
+      "organization": "bigscience",
+      "targets_monitored": 46,
+      "training_section_present": 7,
+      "declared_datasets_present": 8,
       "license_present": 19
     },
     {
-      "organization": "Comfy-Org",
-      "targets_monitored": 18,
-      "training_section_present": 0,
-      "declared_datasets_present": 0,
-      "license_present": 9
+      "organization": "BAAI",
+      "targets_monitored": 45,
+      "training_section_present": 7,
+      "declared_datasets_present": 9,
+      "license_present": 41
     },
     {
-      "organization": "openai",
-      "targets_monitored": 16,
-      "training_section_present": 7,
+      "organization": "deepseek-ai",
+      "targets_monitored": 44,
+      "training_section_present": 0,
       "declared_datasets_present": 0,
-      "license_present": 10
+      "license_present": 36
+    },
+    {
+      "organization": "mradermacher",
+      "targets_monitored": 44,
+      "training_section_present": 0,
+      "declared_datasets_present": 8,
+      "license_present": 35
+    },
+    {
+      "organization": "EleutherAI",
+      "targets_monitored": 43,
+      "training_section_present": 31,
+      "declared_datasets_present": 38,
+      "license_present": 43
+    },
+    {
+      "organization": "NousResearch",
+      "targets_monitored": 43,
+      "training_section_present": 8,
+      "declared_datasets_present": 15,
+      "license_present": 35
+    },
+    {
+      "organization": "apple",
+      "targets_monitored": 43,
+      "training_section_present": 8,
+      "declared_datasets_present": 6,
+      "license_present": 43
+    },
+    {
+      "organization": "stabilityai",
+      "targets_monitored": 43,
+      "training_section_present": 8,
+      "declared_datasets_present": 12,
+      "license_present": 38
+    },
+    {
+      "organization": "openbmb",
+      "targets_monitored": 41,
+      "training_section_present": 0,
+      "declared_datasets_present": 13,
+      "license_present": 27
+    },
+    {
+      "organization": "lmstudio-community",
+      "targets_monitored": 41,
+      "training_section_present": 0,
+      "declared_datasets_present": 4,
+      "license_present": 41
+    },
+    {
+      "organization": "Helsinki-NLP",
+      "targets_monitored": 40,
+      "training_section_present": 2,
+      "declared_datasets_present": 0,
+      "license_present": 40
     },
     {
       "organization": "mistralai",
-      "targets_monitored": 16,
+      "targets_monitored": 37,
       "training_section_present": 0,
       "declared_datasets_present": 0,
-      "license_present": 16
+      "license_present": 37
     },
     {
-      "organization": "optimum-intel-internal-testing",
-      "targets_monitored": 14,
+      "organization": "meta-llama",
+      "targets_monitored": 36,
+      "training_section_present": 0,
+      "declared_datasets_present": 0,
+      "license_present": 36
+    },
+    {
+      "organization": "internlm",
+      "targets_monitored": 35,
       "training_section_present": 1,
-      "declared_datasets_present": 0,
-      "license_present": 3
-    },
-    {
-      "organization": "brightonzen17",
-      "targets_monitored": 13,
-      "training_section_present": 0,
-      "declared_datasets_present": 0,
-      "license_present": 0
-    },
-    {
-      "organization": "laion",
-      "targets_monitored": 13,
-      "training_section_present": 7,
-      "declared_datasets_present": 1,
-      "license_present": 12
-    },
-    {
-      "organization": "BAAI",
-      "targets_monitored": 13,
-      "training_section_present": 1,
-      "declared_datasets_present": 0,
-      "license_present": 13
-    },
-    {
-      "organization": "Salesforce",
-      "targets_monitored": 12,
-      "training_section_present": 1,
-      "declared_datasets_present": 0,
-      "license_present": 12
-    },
-    {
-      "organization": "jonatasgrosman",
-      "targets_monitored": 12,
-      "training_section_present": 0,
-      "declared_datasets_present": 12,
-      "license_present": 12
-    },
-    {
-      "organization": "pyannote",
-      "targets_monitored": 10,
-      "training_section_present": 0,
-      "declared_datasets_present": 5,
-      "license_present": 10
+      "declared_datasets_present": 8,
+      "license_present": 33
     }
   ],
-  "index_fingerprint": "459c0a6943f1876c1e6834549ba8826588d4065810f58605902130a4495087bf"
+  "index_fingerprint": "0d953031c13887179da6ddb831a58a29957be34499e6d9aed7dac939dc3ce4bf"
 }
