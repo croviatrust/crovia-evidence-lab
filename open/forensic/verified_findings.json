@@ -1,8 +1,8 @@
 {
   "schema": "crovia.pro.verified_findings.v1",
-  "generated_at": "2026-03-09T09:00:02.383155Z",
+  "generated_at": "2026-03-10T09:00:02.137028Z",
   "engine_version": "v3_observatory",
-  "total_events_analyzed": 988,
+  "total_events_analyzed": 991,
   "clean_events": 0,
   "verified_findings_count": 0,
   "verified_findings": []
