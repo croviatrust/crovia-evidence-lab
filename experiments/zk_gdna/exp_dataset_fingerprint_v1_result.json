@@ -1,0 +1,47 @@
+{
+  "schema": "zk_gdna_dataset_fingerprint_v1",
+  "n_samples": 199,
+  "models": {
+    "pythia": "EleutherAI/pythia-160m",
+    "qwen": "Qwen/Qwen2.5-0.5B",
+    "gpt2": "openai-community/gpt2"
+  },
+  "mean_perplexity": {
+    "pythia_on_pile": 34.72713373877431,
+    "qwen_on_pile": 26.43923431027324,
+    "gpt2_on_pile": 70.140871548588
+  },
+  "perplexity_ratio_qwen_pythia": 0.7613422549973572,
+  "correlations": {
+    "pythia_qwen": 0.8274817545213572,
+    "pythia_gpt2": 0.16120084811477198,
+    "qwen_gpt2": 0.07843178897177071
+  },
+  "detection_results": [
+    {
+      "test": "Pythia-Pile vs Pythia-Pile (self)",
+      "detected": true,
+      "score": 1.0,
+      "p": 0.0
+    },
+    {
+      "test": "Qwen-Pile vs Qwen-Pile (self)",
+      "detected": true,
+      "score": 1.0,
+      "p": 0.0
+    },
+    {
+      "test": "Pythia-Pile vs Qwen-Pile (cross-training)",
+      "detected": true,
+      "score": 0.9073,
+      "p": 0.0
+    },
+    {
+      "test": "Pythia-Pile vs GPT2-Pile (cross-training)",
+      "detected": false,
+      "score": 0.4676,
+      "p": 0.14
+    }
+  ],
+  "null_p99": 0.6598647222934382
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "zk_gdna_memorization_v1",
+  "n_samples": 96,
+  "models": {
+    "pythia": "EleutherAI/pythia-160m",
+    "qwen": "Qwen/Qwen2.5-0.5B",
+    "gpt2": "openai-community/gpt2"
+  },
+  "mean_scores": {
+    "pythia": 0.10534927329542076,
+    "qwen": 0.1050213398178537,
+    "gpt2": 0.09549935977721428
+  },
+  "memorization_ratio_pythia_qwen": 1.003122541362887,
+  "high_match_counts": {
+    "pythia": 0,
+    "qwen": 0,
+    "gpt2": 0
+  },
+  "statistical_test": {
+    "t_statistic": 0.04455583806960968,
+    "p_value": 0.9645081359672871
+  }
+}

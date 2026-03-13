@@ -1,0 +1,78 @@
+{
+  "schema": "zk_gdna_domain_fingerprint_v1",
+  "models": {
+    "pythia": "EleutherAI/pythia-160m",
+    "qwen": "Qwen/Qwen2.5-0.5B"
+  },
+  "results": {
+    "pythia": {
+      "code": {
+        "mean_loss": 3.08626208192881,
+        "loss_variance": 8.459711547058351,
+        "loss_std": 2.9085583279450233,
+        "min_loss": 0.00015245705435518175,
+        "max_loss": 11.49247932434082,
+        "n_tokens": 121
+      },
+      "arxiv": {
+        "mean_loss": 3.5239827594062425,
+        "loss_variance": 10.646493610657712,
+        "loss_std": 3.262896506274404,
+        "min_loss": 0.00304057402536273,
+        "max_loss": 11.706339836120605,
+        "n_tokens": 85
+      },
+      "pubmed": {
+        "mean_loss": 3.654770190712441,
+        "loss_variance": 6.079620861286198,
+        "loss_std": 2.465688719462819,
+        "min_loss": 0.038116808980703354,
+        "max_loss": 10.88397216796875,
+        "n_tokens": 89
+      },
+      "generic": {
+        "mean_loss": 3.855928221890362,
+        "loss_variance": 5.360174019133372,
+        "loss_std": 2.315204962661702,
+        "min_loss": 0.0007975496700964868,
+        "max_loss": 9.788981437683105,
+        "n_tokens": 67
+      }
+    },
+    "qwen": {
+      "code": {
+        "mean_loss": 1.8685037088062928,
+        "loss_variance": 6.3920048163533885,
+        "loss_std": 2.5282414474004233,
+        "min_loss": 2.539125671319198e-05,
+        "max_loss": 11.760425567626953,
+        "n_tokens": 100
+      },
+      "arxiv": {
+        "mean_loss": 3.5112293543506783,
+        "loss_variance": 11.275416725510429,
+        "loss_std": 3.3578887303647256,
+        "min_loss": 0.0020695950370281935,
+        "max_loss": 13.344130516052246,
+        "n_tokens": 81
+      },
+      "pubmed": {
+        "mean_loss": 2.5700288672388223,
+        "loss_variance": 4.9898125393300585,
+        "loss_std": 2.2337888305142135,
+        "min_loss": 0.002091603120788932,
+        "max_loss": 13.112598419189453,
+        "n_tokens": 90
+      },
+      "generic": {
+        "mean_loss": 3.60778377318021,
+        "loss_variance": 6.940688444578697,
+        "loss_std": 2.634518636217762,
+        "min_loss": 0.12373118102550507,
+        "max_loss": 10.840670585632324,
+        "n_tokens": 66
+      }
+    }
+  },
+  "relative_code_advantage": -0.9696139244123652
+}

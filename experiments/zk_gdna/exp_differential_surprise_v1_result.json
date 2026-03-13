@@ -1,0 +1,61 @@
+{
+  "schema": "zk_gdna_cds_v1",
+  "method": "Calibrated Differential Surprise",
+  "reference": "openai-community/gpt2",
+  "n_samples": 60,
+  "results": {
+    "Pythia-160m": {
+      "model": "EleutherAI/pythia-160m",
+      "training_data": "The Pile",
+      "expect_signal": true,
+      "cds_hard": 2.351674904585994,
+      "cds_easy": -1.1803917695466626,
+      "cds_all": 0.576833421200133,
+      "cds_hard_std": 4.010424132745179,
+      "n_hard_tokens": 2793,
+      "n_easy_tokens": 2821,
+      "sample_cds_mean": 2.2367239528646072,
+      "sample_cds_std": 1.3522137586191505
+    },
+    "GPT-Neo-125M": {
+      "model": "EleutherAI/gpt-neo-125M",
+      "training_data": "The Pile",
+      "expect_signal": true,
+      "cds_hard": 1.3642639864511923,
+      "cds_easy": 0.09715764577696158,
+      "cds_all": 0.7272710975102785,
+      "cds_hard_std": 3.127626981634461,
+      "n_hard_tokens": 2931,
+      "n_easy_tokens": 2963,
+      "sample_cds_mean": 1.1978485239980121,
+      "sample_cds_std": 1.2520285996595037
+    },
+    "DistilGPT2": {
+      "model": "distilgpt2",
+      "training_data": "WebText",
+      "expect_signal": false,
+      "cds_hard": -0.12157334985687479,
+      "cds_easy": -0.4275787676031767,
+      "cds_all": -0.27540674870015486,
+      "cds_hard_std": 2.21010633288863,
+      "n_hard_tokens": 2931,
+      "n_easy_tokens": 2963,
+      "sample_cds_mean": -0.15617320127785206,
+      "sample_cds_std": 0.4273462121045524
+    },
+    "GPT2-control": {
+      "model": "openai-community/gpt2",
+      "training_data": "WebText (same as ref)",
+      "expect_signal": false,
+      "cds_hard": 0.0,
+      "cds_easy": 0.0,
+      "cds_all": 0.0,
+      "cds_hard_std": 0.0,
+      "n_hard_tokens": 2931,
+      "n_easy_tokens": 2963,
+      "sample_cds_mean": 0.0,
+      "sample_cds_std": 0.0
+    }
+  },
+  "gap_pile_vs_nonpile": 1.9187561204470307
+}

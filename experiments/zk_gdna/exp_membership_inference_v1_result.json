@@ -1,0 +1,20 @@
+{
+  "schema": "zk_gdna_membership_inference_v1",
+  "n_samples": 50,
+  "models": {
+    "pythia": "EleutherAI/pythia-160m",
+    "qwen": "Qwen/Qwen2.5-0.5B"
+  },
+  "mean_ratios": {
+    "pythia": 0.9452769746712257,
+    "qwen": 0.9294343471012998
+  },
+  "membership_counts": {
+    "pythia": 20,
+    "qwen": 24
+  },
+  "statistical_test": {
+    "t_statistic": 0.889583067835628,
+    "p_value": 0.3758683235203538
+  }
+}

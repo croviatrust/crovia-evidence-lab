@@ -1,0 +1,49 @@
+{
+  "schema": "zk_gdna_cds_nodo1_nodo2",
+  "reference": "GPT-2",
+  "n_pile": 60,
+  "n_code": 15,
+  "results": {
+    "Pile prose|Pythia-160m": {
+      "cds_hard": 0.41792972283288404,
+      "cds_all": 0.24453795842497061,
+      "n_hard": 30
+    },
+    "Pile prose|GPT-Neo-125M": {
+      "cds_hard": 0.44514309460018364,
+      "cds_all": 0.26901034661880696,
+      "n_hard": 30
+    },
+    "Pile prose|DistilGPT2": {
+      "cds_hard": -0.10034466239615251,
+      "cds_all": -0.10048036478225754,
+      "n_hard": 30
+    },
+    "Pile prose|CodeGen-350M": {
+      "cds_hard": -0.06731637623805069,
+      "cds_all": -0.17678057984527104,
+      "n_hard": 30
+    },
+    "Code|Pythia-160m": {
+      "cds_hard": 1.1427781163872062,
+      "cds_all": 0.9219570992569466,
+      "n_hard": 7
+    },
+    "Code|GPT-Neo-125M": {
+      "cds_hard": 1.241982511047161,
+      "cds_all": 0.973609231454928,
+      "n_hard": 7
+    },
+    "Code|DistilGPT2": {
+      "cds_hard": -0.262246991132761,
+      "cds_all": -0.22677746145933272,
+      "n_hard": 7
+    },
+    "Code|CodeGen-350M": {
+      "cds_hard": 1.2606962324478925,
+      "cds_all": 1.0328941520555284,
+      "n_hard": 7
+    }
+  },
+  "score": "7/7"
+}

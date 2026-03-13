@@ -1,0 +1,15 @@
+{
+  "schema": "zk_gdna_cds_nodo3_reference",
+  "n_samples": 60,
+  "pool_results": {
+    "Pythia-160m": 0.34277731864683086,
+    "GPT-Neo-125M": 0.37019558420488907,
+    "GPT-2": -0.08163230387369792,
+    "DistilGPT2": -0.22582542337397093,
+    "CodeGen-350M": -0.28781648385652925
+  },
+  "pile_mean": 0.35648645142586,
+  "nonpile_mean": -0.1984247370347327,
+  "gap": 0.5549111884605927,
+  "rankings_match": false
+}
