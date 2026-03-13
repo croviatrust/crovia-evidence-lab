@@ -1,0 +1,176 @@
+{
+  "schema": "zk_gdna_registry_scan.v1",
+  "timestamp": "2026-03-11",
+  "total_models": 21,
+  "self_entanglement": {
+    "bigscience/bloom": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "37113c9db80f80bdc9813e797562f82b2bd566d926a4a45b694be35cd0384313"
+    },
+    "EleutherAI/gpt-neox-20b": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "314b3fa4cf521f0cac92f8f0d54e81d6f9cace09b001b14a88e5680db7cef913"
+    },
+    "tiiuae/falcon-40b": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "887bd1374402d07eeb7a8fb65ea0781fb8b7d8de61e082b017b598c0ea888154"
+    },
+    "tiiuae/falcon-7b": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "8b243de189c06c763b80f7043823cc81d6e7cb7fb996c9ce765f4476e933ee3a"
+    },
+    "google/gemma-2-27b": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "a591dbcf470e3f4fc66c530cd34025ff4d627bfa7abff87a3f0de31d61470544"
+    },
+    "google/gemma-2-9b": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "dcd69e1861ad4471512b906dcbac0396d836e47daa00973070798de2f6fecb7f"
+    },
+    "NousResearch/Llama-2-7b-hf": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "5f1f6dd6d97022ba2cf783326c7648e71e0595444ed79f21a2953837e7a88df4"
+    },
+    "meta-llama/Llama-3-8B": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "bdee1acd10b328f4347638dedcc147ca567eadbc7e3aef79e6c52751ccfa8b21"
+    },
+    "meta-llama/Llama-3.1-70B": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "ba75b7b771cd5a2bb93984c038481d63f256d14f89ff40c2c542fa80d0f5963b"
+    },
+    "meta-llama/Llama-3.1-8B": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "e58d73cd71adecde1085c0218a55b51503ff7b4b0de26df01cf32a659046b93c"
+    },
+    "microsoft/Phi-3-medium-4k-instruct": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "98b55d841a0cddc2ed37992d96cdfd710c9ad4f7e0b17c2a52f331d2358206d6"
+    },
+    "microsoft/Phi-3-mini-4k": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "745f2aa8cc769ffaed1c08434a656fd54a466e7afd6d627125a088c3de31bc4d"
+    },
+    "microsoft/Phi-3-mini-4k-instruct": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "3f95b35c750ef953c1e3f66ee90e84f8bee41f3d9a463adec1b53614b37fe9d0"
+    },
+    "HuggingFaceH4/zephyr-7b-beta": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "cd8c8a44ff51504cca7c6cdc0a7430ba2721cc9b3623c303f0f32eee919a3bad"
+    },
+    "mistralai/Mistral-7B-v0.3": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "7d3d7aa22fa5f3e6c14af2b21e1ed145dfc301215b5241705cdb4e7520b1fc89"
+    },
+    "mistralai/Mixtral-8x7B-v0.1": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "58e98826eb28d426d3378ae6a97b0beab5ef5655bbcb77d65cb20c7b93ef1d1f"
+    },
+    "Qwen/Qwen2-72B": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "f781f1a6dd3215b64b08c22edbb22a665997baf6e225f6221f6cb5c28dad24a1"
+    },
+    "Qwen/Qwen2-7B": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "6c1a13a0f7affb05080582f7ef6fdb653f782ff33b570f77da96b8697aab6018"
+    },
+    "stabilityai/stablelm-base-alpha-7b": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "f81c2cd8596233f0e1940353a652baff6092a5171ab3e72251f42eadc0946c02"
+    },
+    "01-ai/Yi-1.5-34B": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "82760b82f63a00678018593262a5152c3a75e9dcd5906c8b9b0f47e8be6e91ed"
+    },
+    "01-ai/Yi-1.5-9B": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0,
+      "zk_commitment": "71673a08d35448edc0da2976ebb69f8b505b2b98c00e896d03ec9ea21d0002e1"
+    }
+  },
+  "cross_family_anomalies": [
+    {
+      "model_a": "bigscience/bloom",
+      "family_a": "BloomFamily",
+      "model_b": "HuggingFaceH4/zephyr-7b-beta",
+      "family_b": "MistralFamily",
+      "score": 0.8738,
+      "p_value": 0.0
+    },
+    {
+      "model_a": "bigscience/bloom",
+      "family_a": "BloomFamily",
+      "model_b": "stabilityai/stablelm-base-alpha-7b",
+      "family_b": "StabilityFamily",
+      "score": 0.8121,
+      "p_value": 0.0
+    },
+    {
+      "model_a": "bigscience/bloom",
+      "family_a": "BloomFamily",
+      "model_b": "tiiuae/falcon-40b",
+      "family_b": "FalconFamily",
+      "score": 0.7929,
+      "p_value": 0.0
+    },
+    {
+      "model_a": "EleutherAI/gpt-neox-20b",
+      "family_a": "EleutherFamily",
+      "model_b": "google/gemma-2-27b",
+      "family_b": "GoogleFamily",
+      "score": 0.7078,
+      "p_value": 0.0067
+    },
+    {
+      "model_a": "microsoft/Phi-3-medium-4k-instruct",
+      "family_a": "MicrosoftFamily",
+      "model_b": "HuggingFaceH4/zephyr-7b-beta",
+      "family_b": "MistralFamily",
+      "score": 0.8788,
+      "p_value": 0.0
+    }
+  ],
+  "null_p99": 0.6578043797353809
+}

@@ -1,0 +1,113 @@
+{
+  "schema": "zk_gdna_true_real_v1",
+  "data_source": "real_forward_pass",
+  "n_anchors": 32,
+  "models": {
+    "background": "openai-community/gpt2",
+    "model_a": "Qwen/Qwen2.5-0.5B",
+    "model_b": "distilgpt2"
+  },
+  "background_basis": [
+    "openai-community/gpt2"
+  ],
+  "null_p99": 0.667726294565051,
+  "tests_pass": "8/8",
+  "results": [
+    {
+      "test_id": "A",
+      "model": "Qwen2.5-0.5B",
+      "corpus": "Qwen corpus",
+      "expected": true,
+      "detected": true,
+      "score": 1.0,
+      "p_value": "< 0.0033",
+      "test_name": "Self-entanglement",
+      "pass": true,
+      "zk_commitment": "c2debdcb7b6c05255815aa159c86207152e85a58886340a5feeceb6f3bc4b5c0"
+    },
+    {
+      "test_id": "B",
+      "model": "distilgpt2",
+      "corpus": "distilgpt2",
+      "expected": true,
+      "detected": true,
+      "score": 1.0,
+      "p_value": "< 0.0033",
+      "test_name": "Self-entanglement",
+      "pass": true,
+      "zk_commitment": "faa512474d8f3c202972ea553941a0e1d656bd0be3cd6f37edb575d50654f7c9"
+    },
+    {
+      "test_id": "C",
+      "model": "Qwen2.5-0.5B",
+      "corpus": "distilgpt2",
+      "expected": false,
+      "detected": false,
+      "score": 0.5818,
+      "p_value": 0.0433,
+      "test_name": "Cross-family isolation",
+      "pass": true,
+      "zk_commitment": null
+    },
+    {
+      "test_id": "D",
+      "model": "distilgpt2",
+      "corpus": "Qwen corpus",
+      "expected": false,
+      "detected": false,
+      "score": 0.5818,
+      "p_value": 0.0433,
+      "test_name": "Cross-family isolation",
+      "pass": true,
+      "zk_commitment": null
+    },
+    {
+      "test_id": "E",
+      "model": "gpt2-bg",
+      "corpus": "distilgpt2",
+      "expected": true,
+      "detected": true,
+      "score": 0.9374,
+      "p_value": "< 0.0033",
+      "test_name": "Related-model (GPT-2 fam)",
+      "pass": true,
+      "zk_commitment": "2f385a57be247e322979f3d4f8cd428dc0e4a66a0c6fd39561318c2ef8466fcf"
+    },
+    {
+      "test_id": "F",
+      "model": "distilgpt2",
+      "corpus": "gpt2-bg corpus",
+      "expected": true,
+      "detected": true,
+      "score": 0.9374,
+      "p_value": "< 0.0033",
+      "test_name": "Symmetric related-model",
+      "pass": true,
+      "zk_commitment": "2094c5a42171bd8cfce5c88d46bfd00098ec98b527b68ef2ade4c5d56059b39c"
+    },
+    {
+      "test_id": "G",
+      "model": "Qwen-Instruct",
+      "corpus": "Qwen-base corpus",
+      "expected": true,
+      "detected": true,
+      "score": 0.9538,
+      "p_value": "< 0.0033",
+      "test_name": "Finetuning resistance (REAL)",
+      "pass": true,
+      "zk_commitment": "458c75552bd3491cbaf9f7449bdc574c984996d457fbdfaba1536cbf6ac9a34f"
+    },
+    {
+      "test_id": "H",
+      "model": "Qwen-base",
+      "corpus": "Qwen-Instruct corpus",
+      "expected": true,
+      "detected": true,
+      "score": 0.9538,
+      "p_value": "< 0.0033",
+      "test_name": "Symmetric finetuning",
+      "pass": true,
+      "zk_commitment": "2440dc83a7a7dce532ff75f9eb2769c6aea3275e4a29aa23a1804b8a75124ad2"
+    }
+  ]
+}

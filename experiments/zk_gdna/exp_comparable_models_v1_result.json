@@ -1,0 +1,73 @@
+{
+  "schema": "zk_gdna_comparable_models_v1",
+  "models": {
+    "pile": [
+      "gpt-neo-125M",
+      "pythia-160m"
+    ],
+    "webtext": [
+      "distilgpt2",
+      "gpt2"
+    ]
+  },
+  "null_p99": 0.655724290206744,
+  "same_data_mean_score": 0.9029,
+  "diff_data_mean_score": 0.8450249999999999,
+  "tests_pass": "2/6",
+  "results": [
+    {
+      "test": "gpt-neo-125M vs pythia-160m (both Pile)",
+      "model_a": "gpt-neo-125M",
+      "model_b": "pythia-160m",
+      "expected": true,
+      "detected": true,
+      "score": 0.9145,
+      "pass": true
+    },
+    {
+      "test": "distilgpt2 vs gpt2 (both WebText)",
+      "model_a": "distilgpt2",
+      "model_b": "gpt2",
+      "expected": true,
+      "detected": true,
+      "score": 0.8913,
+      "pass": true
+    },
+    {
+      "test": "gpt-neo-125M vs distilgpt2 (Pile vs WebText)",
+      "model_a": "gpt-neo-125M",
+      "model_b": "distilgpt2",
+      "expected": false,
+      "detected": true,
+      "score": 0.7887,
+      "pass": false
+    },
+    {
+      "test": "gpt-neo-125M vs gpt2 (Pile vs WebText)",
+      "model_a": "gpt-neo-125M",
+      "model_b": "gpt2",
+      "expected": false,
+      "detected": true,
+      "score": 0.8466,
+      "pass": false
+    },
+    {
+      "test": "pythia-160m vs distilgpt2 (Pile vs WebText)",
+      "model_a": "pythia-160m",
+      "model_b": "distilgpt2",
+      "expected": false,
+      "detected": true,
+      "score": 0.8575,
+      "pass": false
+    },
+    {
+      "test": "pythia-160m vs gpt2 (Pile vs WebText)",
+      "model_a": "pythia-160m",
+      "model_b": "gpt2",
+      "expected": false,
+      "detected": true,
+      "score": 0.8873,
+      "pass": false
+    }
+  ]
+}

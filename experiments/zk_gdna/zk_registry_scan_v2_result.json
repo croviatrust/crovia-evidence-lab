@@ -1,0 +1,140 @@
+{
+  "schema": "zk_gdna_registry_scan_v2",
+  "background_basis": [
+    "null_profile",
+    "genre",
+    "the_pile",
+    "c4",
+    "roots",
+    "commoncrawl"
+  ],
+  "total_models": 21,
+  "self_entanglement_pass": 21,
+  "remaining_anomalies": 2,
+  "null_p99": 0.657811416709276,
+  "self_entanglement": {
+    "bigscience/bloom": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "EleutherAI/gpt-neox-20b": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "tiiuae/falcon-40b": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "tiiuae/falcon-7b": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "google/gemma-2-27b": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "google/gemma-2-9b": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "NousResearch/Llama-2-7b-hf": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "meta-llama/Llama-3-8B": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "meta-llama/Llama-3.1-70B": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "meta-llama/Llama-3.1-8B": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "microsoft/Phi-3-medium-4k-instruct": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "microsoft/Phi-3-mini-4k": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "microsoft/Phi-3-mini-4k-instruct": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "HuggingFaceH4/zephyr-7b-beta": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "mistralai/Mistral-7B-v0.3": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "mistralai/Mixtral-8x7B-v0.1": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "Qwen/Qwen2-72B": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "Qwen/Qwen2-7B": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "stabilityai/stablelm-base-alpha-7b": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "01-ai/Yi-1.5-34B": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    },
+    "01-ai/Yi-1.5-9B": {
+      "detected": true,
+      "score": 1.0,
+      "p_value": 0.0
+    }
+  },
+  "new_anomalies": [
+    {
+      "model_a": "bigscience/bloom",
+      "family_a": "BloomFamily",
+      "model_b": "HuggingFaceH4/zephyr-7b-beta",
+      "family_b": "MistralFamily",
+      "score": 0.8585,
+      "p_value": 0.0
+    },
+    {
+      "model_a": "meta-llama/Llama-3.1-70B",
+      "family_a": "LlamaFamily",
+      "model_b": "01-ai/Yi-1.5-34B",
+      "family_b": "YiFamily",
+      "score": 0.9184,
+      "p_value": 0.0
+    }
+  ]
+}

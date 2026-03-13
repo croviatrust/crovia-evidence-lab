@@ -1,0 +1,88 @@
+{
+  "schema": "zk_gdna_cds_hardening_v1",
+  "n_samples": 100,
+  "matrix": {
+    "Pythia-160m->GPT-Neo-125M": {
+      "cds_hard": 1.5448358069206107,
+      "same_data": true,
+      "same_tokenizer": false
+    },
+    "Pythia-160m->GPT-2": {
+      "cds_hard": 0.8813066114470304,
+      "same_data": false,
+      "same_tokenizer": false
+    },
+    "Pythia-160m->DistilGPT2": {
+      "cds_hard": 0.5639077054132597,
+      "same_data": false,
+      "same_tokenizer": false
+    },
+    "GPT-Neo-125M->Pythia-160m": {
+      "cds_hard": 1.1420935126649974,
+      "same_data": true,
+      "same_tokenizer": false
+    },
+    "GPT-Neo-125M->GPT-2": {
+      "cds_hard": -0.6180422873975615,
+      "same_data": false,
+      "same_tokenizer": true
+    },
+    "GPT-Neo-125M->DistilGPT2": {
+      "cds_hard": -0.8768060346120955,
+      "same_data": false,
+      "same_tokenizer": true
+    },
+    "GPT-2->Pythia-160m": {
+      "cds_hard": 2.324809327780134,
+      "same_data": false,
+      "same_tokenizer": false
+    },
+    "GPT-2->GPT-Neo-125M": {
+      "cds_hard": 1.3307943459590996,
+      "same_data": false,
+      "same_tokenizer": true
+    },
+    "GPT-2->DistilGPT2": {
+      "cds_hard": -0.13311548755862745,
+      "same_data": true,
+      "same_tokenizer": true
+    },
+    "DistilGPT2->Pythia-160m": {
+      "cds_hard": 2.6437997687648656,
+      "same_data": false,
+      "same_tokenizer": false
+    },
+    "DistilGPT2->GPT-Neo-125M": {
+      "cds_hard": 1.7522833908724569,
+      "same_data": false,
+      "same_tokenizer": true
+    },
+    "DistilGPT2->GPT-2": {
+      "cds_hard": 0.5690249865790192,
+      "same_data": true,
+      "same_tokenizer": true
+    }
+  },
+  "groups": {
+    "(True, False)": {
+      "mean": 1.343464659792804,
+      "std": 0.20137114712780668,
+      "n": 2
+    },
+    "(False, False)": {
+      "mean": 1.6034558533513223,
+      "std": 0.8951014156050837,
+      "n": 4
+    },
+    "(False, True)": {
+      "mean": 0.3970573537054749,
+      "std": 1.1577626695464838,
+      "n": 4
+    },
+    "(True, True)": {
+      "mean": 0.2179547495101959,
+      "std": 0.35107023706882334,
+      "n": 2
+    }
+  }
+}

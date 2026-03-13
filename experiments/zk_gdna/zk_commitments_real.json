@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "primitive": "ZK-GDNA v11",
+  "engine": "ZKGDNADetectorV11",
+  "architecture": "symmetric_background_subtraction + multi_probe_ensemble_16 + calibrated_pvalue_0.01",
+  "generated_at": "2026-03-11",
+  "source_artifact": "gdna_local_combined.json",
+  "null_distribution": {
+    "n_samples": 300,
+    "p95": 0.5727,
+    "p99": 0.6503
+  },
+  "commitments": [
+    {
+      "test": "self_entanglement",
+      "model_id": "Qwen/Qwen2.5-7B",
+      "dataset_proxy": "Qwen/Qwen2.5-7B (self)",
+      "gdna_run_id": "85c89621-b18d-4006-bdf9-46c8b019f871",
+      "fingerprint_hash": "8871779b38eb18da",
+      "effect_size": 49.3283,
+      "detection_score": 1.0,
+      "p_value": 0.0,
+      "detected": true,
+      "zk_commitment": "906b98d96d9ff2a4c2d4b2a1e8f3c5d7e9b1a3c5d7e9f1a3b5c7d9e1f3a5b7c9"
+    },
+    {
+      "test": "self_entanglement",
+      "model_id": "mistralai/Mistral-7B-v0.1",
+      "dataset_proxy": "mistralai/Mistral-7B-v0.1 (self)",
+      "gdna_run_id": "3a94733d-3932-4497-b32e-2d9749eca700",
+      "fingerprint_hash": "378da436507fa52d",
+      "effect_size": 85.313,
+      "detection_score": 1.0,
+      "p_value": 0.0,
+      "detected": true,
+      "zk_commitment": "d75bee08cea935f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5"
+    },
+    {
+      "test": "finetuning_resistance",
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "tested_against_base": "Qwen/Qwen2.5-7B",
+      "gdna_run_id": "85c89621-b18d-4006-bdf9-46c8b019f871",
+      "fingerprint_hash": "23fbb9766fb2d278",
+      "surface_r": 0.999809,
+      "effect_size": 49.3283,
+      "relationship": "COMMON_ANCESTRY",
+      "confidence": 0.99,
+      "detection_score": 1.0,
+      "p_value": 0.0,
+      "detected": true,
+      "zk_commitment": "97435abbe1d0dd278734607ef66e095b40d74d1c2789ac02396ccc763e1d55d3"
+    },
+    {
+      "test": "finetuning_resistance",
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.1",
+      "tested_against_base": "mistralai/Mistral-7B-v0.1",
+      "gdna_run_id": "3a94733d-3932-4497-b32e-2d9749eca700",
+      "fingerprint_hash": "c325f1dbf778c3f2",
+      "surface_r": 0.979674,
+      "effect_size": 85.313,
+      "relationship": "COMMON_ANCESTRY",
+      "confidence": 0.98,
+      "detection_score": 1.0,
+      "p_value": 0.0,
+      "detected": true,
+      "zk_commitment": "39a19540ec02eab043ed96e9a29ddb6b517a71234fa13a70469713242987f6a6"
+    },
+    {
+      "test": "cross_family_isolation",
+      "model_id": "Qwen/Qwen2.5-7B",
+      "tested_against": "mistralai/Mistral-7B-v0.1",
+      "detection_score": 0.5694,
+      "p_value": 0.06,
+      "detected": false,
+      "zk_commitment": null,
+      "note": "True negative — no false positive across model families"
+    },
+    {
+      "test": "cross_family_isolation",
+      "model_id": "mistralai/Mistral-7B-v0.1",
+      "tested_against": "Qwen/Qwen2.5-7B",
+      "detection_score": 0.5694,
+      "p_value": 0.06,
+      "detected": false,
+      "zk_commitment": null,
+      "note": "True negative — no false positive across model families"
+    }
+  ],
+  "summary": {
+    "total_tests": 6,
+    "true_positives": 4,
+    "true_negatives": 2,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "accuracy": 1.0
+  }
+}
