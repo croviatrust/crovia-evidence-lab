@@ -1,6 +1,6 @@
 {
-  "last_sync": "2026-03-13T21:15:01Z",
-  "total_observations": "42380",
+  "last_sync": "2026-03-13T22:15:01Z",
+  "total_observations": "42430",
   "unique_targets": "3500",
   "source": "hetzner_observer",
   "sync_method": "auto_hourly"
