@@ -153,3 +153,17 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ropedia-ai/xperience-10m-sample", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ethz/food101", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ibrahimhamamci/CT-RATE", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:GaryYang123/zh-meme-sft-8k", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:sangyon/BenchPreS", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/SPEED-Bench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:TeichAI/Claude-Opus-4.6-Reasoning-927x", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ajibawa-2023/C-Code-Large", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:PleIAs/French-Science-Commons", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:davisrbr/openconjecture", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ManiTwin/ManiTwin-100K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ianncity/Hunter-Alpha-Programming-160000x", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:th1nhng0/vietnamese-legal-documents", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:X-Humanoid/ArtVIP", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-CC-Math-v1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ma-xu/fine-t2i", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:allenai/MolmoPoint-GUISyn", "note": "public dataset"}
