@@ -197,3 +197,10 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ManipArena/maniparena-dataset", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:eriktks/conll2003", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Salesforce/wikitext", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ytu-ce-cosmos/tubitak-science-olympiad-tr", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:zai-org/terminal-bench-2-verified", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Torch-Trade/btc-reasoning-traces-gpt5.2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tencent/Penguin-Recap-I", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:databricks/databricks-dolly-15k", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:EleutherAI/proof-pile-2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:wdndev/webnovel-chinese", "note": "public dataset"}
