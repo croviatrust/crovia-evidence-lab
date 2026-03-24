@@ -204,3 +204,15 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:databricks/databricks-dolly-15k", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:EleutherAI/proof-pile-2", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:wdndev/webnovel-chinese", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:OpenSpeechHub/Genshin-Voice-Ja", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:OpenSQZ/AutoMathText-V2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:GAIR/Darwin-CC", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:open-index/draft", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:alibabagroup/CMGUI", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:cais/mmlu", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:roneneldan/TinyStories", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:m-a-p/CodeFeedback-Filtered-Instruction", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:princeton-nlp/SWE-bench_Verified", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:m-a-p/FineFineWeb", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tahoebio/Tahoe-100M", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-Math-Proofs-v1", "note": "public dataset"}
