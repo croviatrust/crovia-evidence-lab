@@ -286,3 +286,7 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:OpenGVLab/InternVid", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:jxu124/OpenX-Embodiment", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ember-lab-berkeley/AMASS_Retargeted_for_G1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ianncity/KIMI-K2.5-450000x", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:opendatalab/Sci-Base", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:uv-scripts/transcription", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:bigcode/the-stack-v2", "note": "public dataset"}
