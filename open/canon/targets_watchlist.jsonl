@@ -346,3 +346,16 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:cybersectony/PhishingEmailDetectionv2.0", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Salesforce/GiftEvalPretrain", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:FreedomIntelligence/medical-o1-reasoning-SFT", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ianncity/KIMI-K2.5-550000x", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:segyulee/UniSAFE", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:lambda/hermes-agent-reasoning-traces", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:KRAFTON/Raon-OpenTTS-Pool", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:evaleval/EEE_datastore", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/PhysicalAI-Autonomous-Vehicles-NCore", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Azily/Macro-Dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:lmarena-ai/leaderboard-dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:McAuley-Lab/Amazon-Reviews-2023", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:open-thoughts/OpenThoughts-114k", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SWE-bench/SWE-bench_Verified", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:histai/HISTAI-metadata", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:google/svq", "note": "public dataset"}
