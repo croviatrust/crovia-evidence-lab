@@ -374,3 +374,11 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HuggingFaceTB/cosmopedia", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:open-r1/OpenR1-Math-220k", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Congliu/Chinese-DeepSeek-R1-Distill-data-110k", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Yogesh-DevHub/Flux", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:KakologArchives/KakologArchives", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Oliver-Ma/Real-3DQA", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:allenai/ai2_arc", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:liwu/MNBVC", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nguha/legalbench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tiiuae/falcon-refinedweb", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:bigcode/commitpackft", "note": "public dataset"}
