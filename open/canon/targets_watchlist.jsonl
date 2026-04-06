@@ -382,3 +382,9 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nguha/legalbench", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tiiuae/falcon-refinedweb", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:bigcode/commitpackft", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tinixai/vietnam-real-estates", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:DJLougen/hermes-agent-traces-filtered", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tencent/Penguin-Recap-V", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:KRAFTON/Raon-OpenTTS-Eval", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:khazarai/qwen3.6-plus-high-reasoning-400x", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:AI4Math/MathVista", "note": "public dataset"}
