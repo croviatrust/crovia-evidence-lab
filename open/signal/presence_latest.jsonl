@@ -680,3 +680,9 @@
 {"schema": "crovia.open.presence.v1", "ts": "2026-04-08T03:30:02.198896+00:00", "project_key": "b8a23a1461c3fb97", "verdict": "RED", "artefacts": []}
 {"schema": "crovia.open.presence.v1", "ts": "2026-04-08T03:30:02.198896+00:00", "project_key": "77b974dea96580de", "verdict": "RED", "artefacts": []}
 {"schema": "crovia.open.presence.v1", "ts": "2026-04-08T03:30:02.198896+00:00", "project_key": "ef6f8befbe00c18b", "verdict": "RED", "artefacts": []}
+{"schema": "crovia.open.presence.v1", "ts": "2026-04-09T03:30:02.618626+00:00", "project_key": "8416dcd81da952f6", "verdict": "RED", "artefacts": []}
+{"schema": "crovia.open.presence.v1", "ts": "2026-04-09T03:30:02.618626+00:00", "project_key": "3d62f19f33ffe482", "verdict": "RED", "artefacts": []}
+{"schema": "crovia.open.presence.v1", "ts": "2026-04-09T03:30:02.618626+00:00", "project_key": "b2ac844c8e6da193", "verdict": "RED", "artefacts": []}
+{"schema": "crovia.open.presence.v1", "ts": "2026-04-09T03:30:02.618626+00:00", "project_key": "0ad9317a26804da2", "verdict": "RED", "artefacts": []}
+{"schema": "crovia.open.presence.v1", "ts": "2026-04-09T03:30:02.618626+00:00", "project_key": "31641484f83346bd", "verdict": "RED", "artefacts": []}
+{"schema": "crovia.open.presence.v1", "ts": "2026-04-09T03:30:02.618626+00:00", "project_key": "06fa5ded99224fc7", "verdict": "RED", "artefacts": []}

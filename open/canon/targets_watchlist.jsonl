@@ -422,3 +422,12 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:allenai/WildDet3D-Stereo4D-Bench", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:allenai/WildDet3D-Bench", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:allenai/WildDet3D-visualization-source", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:builddotai/Egocentric-10K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:OpenMed/pgc-schizophrenia", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:OpenMed/pgc-ptsd", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:NousResearch/hermes-function-calling-v1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:allenai/dolma3_mix-6T-1025-7B", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:permutans/arxiv-papers-by-subject", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:microsoft/OpenMementos", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:m-a-p/COIG-CQIA", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:mlfoundations/MINT-1T-PDF-CC-2023-06", "note": "public dataset"}
