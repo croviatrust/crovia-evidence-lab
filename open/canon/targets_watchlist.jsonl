@@ -431,3 +431,13 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:microsoft/OpenMementos", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:m-a-p/COIG-CQIA", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:mlfoundations/MINT-1T-PDF-CC-2023-06", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:TAAC2025/TencentGR-1M", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:TAAC2025/TencentGR-10M", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:google/fleurs", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HuggingFaceFW/finetranslations", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:badlogicgames/pi-diff-review", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:galsenai/WaxalNLP", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:thomasmustier/pi-for-excel-sessions", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:legacy-datasets/wikipedia", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:CohereLabs/Global-MMLU-Lite", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MiniMaxAI/TTS-Multilingual-Test-Set", "note": "public dataset"}
