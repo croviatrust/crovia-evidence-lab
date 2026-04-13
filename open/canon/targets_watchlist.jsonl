@@ -463,3 +463,10 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:liboaccn/nmt-parallel-corpus", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-Post-Training-Dataset-v2", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-CC-v2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:EasonXiao-888/SpatialEdit-500K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:gsdf/EasyNegative", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:QingyiSi/Alpaca-CoT", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:zake7749/Qwen-3.6-plus-agent-tool-calling-trajectory", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:llamaindex/ParseBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:BAAI/Infinity-Instruct", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Minoday/Robo4D-200k", "note": "public dataset"}
