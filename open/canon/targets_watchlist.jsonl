@@ -470,3 +470,9 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:llamaindex/ParseBench", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:BAAI/Infinity-Instruct", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Minoday/Robo4D-200k", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:llm-jp/jawildtext", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:meituan-longcat/LARYBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:sarulab-speech/commonvoice22_sidon", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:NandemoGHS/Japanese-Eroge-Voice-V2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Ali-Yaser/KIMI-K2.5-450000x-ShareGPT", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:InternRobotics/Sim1_Dataset", "note": "public dataset"}
