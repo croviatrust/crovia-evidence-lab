@@ -476,3 +476,12 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:NandemoGHS/Japanese-Eroge-Voice-V2", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Ali-Yaser/KIMI-K2.5-450000x-ShareGPT", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:InternRobotics/Sim1_Dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:anon8231489123/ShareGPT_Vicuna_unfiltered", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:cadene/droid_1.0.1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:allenai/WildChat-4.8M", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Modotte/CodeX-7M-Non-Thinking", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SII-WANGZJ/Polymarket_data", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ykarout/Opus-4.6-reasoning-sft-12k", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:OpenDriveLab/WorldEngine", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Chuhaojin/SuSuInterActs", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:LiAutoAISiliconLab/Mind-Paraworld-Bench", "note": "public dataset"}
