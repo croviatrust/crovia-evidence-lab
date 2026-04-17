@@ -501,3 +501,14 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:openai/graphwalks", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Helsinki-NLP/fineweb-edu-translated", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:uv-scripts/ocr", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:OusiaResearch/Aureth-Corpus-Hermes4.3-Generated", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:TeraflopAI/SEC-EDGAR", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/AudioSkills", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:mercor/apex-agents", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:bethgelab/PAMELA", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Kassadin88/GLM-5.1-1000000x", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:chrishayuk/gemma-3-4b-it-vindex", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:hsiung/MagicBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:jtatman/stable-diffusion-prompts-stats-full-uncensored", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Llama-Nemotron-Post-Training-Dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:open-thoughts/OpenThoughts3-1.2M", "note": "public dataset"}
