@@ -531,3 +531,8 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:EverMind-AI/EvoAgentBench", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Reubencf/fma-labeled", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:abisee/cnn_dailymail", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:google/RSRCC", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:vpakarinen/alpaca-uncensored-tiny", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:BoKelvin/SLAKE", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-PII", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:perplexity-ai/draco", "note": "public dataset"}
