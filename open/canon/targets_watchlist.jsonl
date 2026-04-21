@@ -554,3 +554,13 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:lidingm/SpatialEvo-160K", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:CoopReason/TESSY-SuperGPQA-3K", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:CoopReason/TESSY-Math-12K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-Personas-Korea", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Jackrong/Kimi-K2.5-Reasoning-1M-Cleaned", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:openlifescienceai/medmcqa", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:howard-hou/OCR-VQA", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Qwen/DeepPlanning", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Jackrong/glm-4.7-multiturn-CoT", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:noxwano/ASMR-Archive-Processed-SFW", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HeshamHaroon/arabic-msa-25k-saudi-male-tashkeel", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tencent/MegaStyle-1.4M", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:DJLougen/ornstein-curated-100k", "note": "public dataset"}
