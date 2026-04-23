@@ -589,3 +589,17 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:skylenage-ai/QwenClawBench", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Tamazight-NLP/TAWNZA_TIFINAGH_ARABIC_DATASET", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:jdopensource/JoyAI-Image-OpenSpatial", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ZhihaoNan/AtomBlock-WebUI", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:AlicanKiraz0/Cybersecurity-Dataset-Fenrir-v2.1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Kassadin88/Claude-Distills", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:lightonai/embeddings-pre-training-curated", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:eddieran/opus-4.7-reasoning-cot", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:hf-audio/open-asr-leaderboard", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MathArena/aime_2026", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:TaobaoTmall-AlgorithmProducts/Tstars-VTON", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:teknium/OpenHermes-2.5", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Gourieff/ReActor", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:OOPPEENN/56697375616C4E6F76656C5F44617461736574", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:QingyanBai/Ditto-1M", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Jackrong/LogicMind-Chat-Reasoning-SFT-300K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:paperbd/paper_instructions_300K-v1", "note": "public dataset"}
