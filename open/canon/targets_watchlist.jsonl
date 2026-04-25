@@ -615,3 +615,11 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:google/smol", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:eve-bio/drug-target-activity", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Lewandofski/OpenVE-3M", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MathLLMs/MathVision", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Jackrong/DeepSeek-V4-Distill-8000x", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:NuTonic/sat-image-boundingbox-sft-full", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:lmms-lab/LLaVA-Video-178K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:apple/DFNDR-12M", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:redmadrobot-rnd/nsfw_benchmark", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:zhang-ziao/SkillFlow-Task", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:cckevinn/OpenMobile-Data", "note": "public dataset"}
