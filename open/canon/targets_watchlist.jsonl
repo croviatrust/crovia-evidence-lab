@@ -638,3 +638,11 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:histai/HISTAI-gastrointestinal", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:genrobot2025/10Kh-RealOmin-OpenData", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:TaipingQu/CMR-MULTI", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:WithinUsAI/Opus4.7_thinking_max_distill_god_seed_25k", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HeshamHaroon/asfar", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/HelpSteer2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:zhang0jhon/Aesthetic-4K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:openai/mrcr", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:lerobot/svla_so101_pickplace", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:AlicanKiraz0/All-CVE-Records-Training-Dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-SFT-Agentic-v2", "note": "public dataset"}
