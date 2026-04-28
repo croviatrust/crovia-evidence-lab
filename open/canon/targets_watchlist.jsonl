@@ -646,3 +646,10 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:lerobot/svla_so101_pickplace", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:AlicanKiraz0/All-CVE-Records-Training-Dataset", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-SFT-Agentic-v2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SALT-NLP/SWE-chat", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:beyoru/Deepseek-v4-pro-max-distill-1000x", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:TeichAI/lordx64-claude-opus-4.7-max-cleaned", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:laion/relaion-coco", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HumanLLMs/Human-Like-DPO-Dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:UII-AI/MedVidBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ClareNie/PersonaVLM-Dataset", "note": "public dataset"}
