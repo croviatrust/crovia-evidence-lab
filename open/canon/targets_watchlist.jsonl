@@ -653,3 +653,13 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HumanLLMs/Human-Like-DPO-Dataset", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:UII-AI/MedVidBench", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ClareNie/PersonaVLM-Dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-Image-Training-v3", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:WithinUsAI/GPT5.5_thinking_max_distill_god_seed_25K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:3dlg-hcvc/ReVSI", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:junaid008/pashto-largest-corpus", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:hzxie/DOM", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:PleIAs/CommonLingua-Train", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:LequeuISIR/GDN-CC", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:llm-jp/llm-jp-4-thinking-sft-data", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ADSKAILab/Zero-To-CAD-1m", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:microsoft/CUAVerifierBench", "note": "public dataset"}
