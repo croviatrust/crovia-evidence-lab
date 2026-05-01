@@ -677,3 +677,14 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:8Fai/Healthybench-German", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:microsoft/World-R1", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:allenai/objaverse", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/PhysicalAI-SmartSpaces", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Anthropic/BioMysteryBench-preview", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Anthropic/BioMysteryBench-full", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ning423/nemotron-nano-hermes-traces", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:shaurya03/tech-news-daily", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:julien-c/pi-sessions", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:lingbow/tiktok-video-engagement-200k", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:google-research-datasets/mbpp", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:rajpurkar/squad_v2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:FronkonGames/steam-games-dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:open-web-math/open-web-math", "note": "public dataset"}
