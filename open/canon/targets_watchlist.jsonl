@@ -722,3 +722,11 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:lgrzybowski/seraphim-drone-detection-dataset", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Crownelius/Opus-4.5-Writing-Style", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:yuandaxia/WebForge", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:OwnedByDanes/Usenet-Corpus-1980-2013", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:NeuroMM/NeuroMM-2026", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ning423/deepseek-hermes-reasoning-traces", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:trojblue/danbooru2025-metadata", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:zirak-ai/pold", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ASLP-lab/WSC-Train", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:sensenova/SenseNova-SI-800K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tomvaillant/osint-tool-database", "note": "public dataset"}
