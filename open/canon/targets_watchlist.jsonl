@@ -730,3 +730,14 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ASLP-lab/WSC-Train", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:sensenova/SenseNova-SI-800K", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tomvaillant/osint-tool-database", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:beyoru/Deepseek-v4-pro-max-distill-1500x", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:jamiequint/sf_criminal_court", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:beyoru/Aesir-Character-CoT-roleplay", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/PhysicalAI-Traffic-Anomaly-Reasoning", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:RyokoAI/ShareGPT52K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nampdn-ai/tiny-textbooks", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:i-am-mushfiq/FirstAidQA", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:recursionpharma/rxrx3", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:arcada-labs/appointment-bench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:BlueIsGreen/Edge-Agent-Reasoning-WebSearch-260K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ADSKAILab/Zero-To-CAD-100k", "note": "public dataset"}
