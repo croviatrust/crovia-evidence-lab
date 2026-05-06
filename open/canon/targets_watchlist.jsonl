@@ -741,3 +741,12 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:arcada-labs/appointment-bench", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:BlueIsGreen/Edge-Agent-Reasoning-WebSearch-260K", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ADSKAILab/Zero-To-CAD-100k", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:unh1nge/comfyui-character-composer", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:iletisim/dezenformasyon-bultenleri", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:y-u-a-n-l-i/MegaDepth-X", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ChrisHayduk/nanofold-public", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ibm-research/WikiVQABench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:PatronusAI/financebench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Aegis-AI-Content-Safety-Dataset-2.0", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:arcinstitute/Stack-CellxGene45M", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:dqmis/NQ320K-NCI", "note": "public dataset"}
