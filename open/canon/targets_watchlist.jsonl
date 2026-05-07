@@ -750,3 +750,14 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Aegis-AI-Content-Safety-Dataset-2.0", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:arcinstitute/Stack-CellxGene45M", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:dqmis/NQ320K-NCI", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:riotu-lab/Synthetic-UAV-Flight-Trajectories", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:PleIAs/common_corpus", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HuggingFaceFW/finewiki", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tencent/CL-bench-Life", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:blythet/deepseek-v4-pro-math-cot-1k", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:DefendIntelligence/vessel-detection-labeled-patches", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:neurlang/ipa-lexicon-4v0-7M", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:wmt/wmt14", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:hoskinson-center/proof-pile", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:openbmb/UltraChat", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:mrtoy/mobile-ui-design", "note": "public dataset"}
