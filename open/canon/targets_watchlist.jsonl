@@ -800,3 +800,12 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:BTF-2/BTF-2", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:OusiaResearch/mimo-v25-agentic-reasoning-traces", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tau/commonsense_qa", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:junwatu/indonesian-recipes", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Zyphra/Zyda-2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:jackluoluo/ArchCAD", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:XRXRX/X-Voice-Dataset-Train", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:anon-cmevs-2026/cmevs-erp-eval", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:hoskinson-center/proofnet", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:sedthh/gutenberg_english", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:vicgalle/alpaca-gpt4", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:cansa/Describable-Textures-Dataset-DTD", "note": "public dataset"}
