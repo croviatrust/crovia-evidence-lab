@@ -809,3 +809,7 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:sedthh/gutenberg_english", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:vicgalle/alpaca-gpt4", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:cansa/Describable-Textures-Dataset-DTD", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:armand0e/DeepSeek-v4-Pro-Agent", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:TempoFunk/webvid-10M", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HiDream-ai/ReCo-Bench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:OpenSearch-VL/Search-VL-RL-8K", "note": "public dataset"}
