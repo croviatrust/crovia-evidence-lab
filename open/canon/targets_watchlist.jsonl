@@ -813,3 +813,14 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:TempoFunk/webvid-10M", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HiDream-ai/ReCo-Bench", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:OpenSearch-VL/Search-VL-RL-8K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:TuringEnterprises/Open-MM-RL", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:5551z/VisCoR-55K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:5551z/VisCoR_Contrast", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tmquan/sapnhap-bando-vn", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/OpenMathReasoning", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HuggingFaceTB/smol-smoltalk", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:clem/100_most_popular_hardware_setups_on_HF", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:DAGroup-PKU/HumanNet", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:bingbangboom/war-gov-ufo-release-01-images", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MTSlive/war-gov-uap-release-1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Rowan/hellaswag", "note": "public dataset"}
