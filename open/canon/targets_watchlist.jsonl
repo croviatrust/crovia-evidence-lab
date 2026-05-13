@@ -824,3 +824,9 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:bingbangboom/war-gov-ufo-release-01-images", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MTSlive/war-gov-uap-release-1", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Rowan/hellaswag", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:TeichAI/DeepSeek-v4-Pro-Agent", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:llm-jp/Jagle", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SurgSigma/SurgSigma-DB", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Exgentic/agent-llm-traces", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:reducto/ufocr", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:mandarjoshi/trivia_qa", "note": "public dataset"}
