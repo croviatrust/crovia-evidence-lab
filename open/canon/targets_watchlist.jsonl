@@ -847,3 +847,17 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:LMUK-RADONC-PHYS-RES/DoseRAD2026", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:khoj-ai/ResearchQA", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:McAuley-Lab/Reddit2Deezer", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:alibaba-multimodal-industrial-ai/IndustryBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:alibabagroup/OmniDoc-TokenBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Yesianrohn/OCR-Data", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Abtinz/Obstacle-Detection-Dataset-YOLO", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:utter-project/LongBlocks", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:TuringEnterprises/Multimodal-STEM-HLE-plus-plus", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:princeton-nlp/SWE-bench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HuggingFaceM4/the_cauldron", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HiDream-ai/ReCo-Data", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:UBC-NLP/alexandria", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:unmodeled-tyler/DoW-UFO-UAP-1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ScienceOne-AI/PhysLogic", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:uv-scripts/vlm-object-detection", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:lsy641/PsyQA", "note": "public dataset"}
