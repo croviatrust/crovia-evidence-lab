@@ -861,3 +861,7 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ScienceOne-AI/PhysLogic", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:uv-scripts/vlm-object-detection", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:lsy641/PsyQA", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/PhysicalAI-VANTAGE-Bench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:xiyuRenBill/MEMLENS", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HuggingFaceH4/no_robots", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Alignment-Lab-AI/Open-Web-Math", "note": "public dataset"}

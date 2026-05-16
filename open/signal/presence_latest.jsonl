@@ -1082,3 +1082,6 @@
 {"schema": "crovia.open.presence.v1", "ts": "2026-05-15T03:30:02.124549+00:00", "project_key": "c621a689604886dc", "verdict": "RED", "artefacts": []}
 {"schema": "crovia.open.presence.v1", "ts": "2026-05-15T03:30:02.124549+00:00", "project_key": "c1537221b3fa2d88", "verdict": "RED", "artefacts": []}
 {"schema": "crovia.open.presence.v1", "ts": "2026-05-15T03:30:02.124549+00:00", "project_key": "a25dea0596309b81", "verdict": "RED", "artefacts": []}
+{"schema": "crovia.open.presence.v1", "ts": "2026-05-16T03:30:02.111957+00:00", "project_key": "d7385c111565178f", "verdict": "RED", "artefacts": []}
+{"schema": "crovia.open.presence.v1", "ts": "2026-05-16T03:30:02.111957+00:00", "project_key": "763cf801da5b12a4", "verdict": "RED", "artefacts": []}
+{"schema": "crovia.open.presence.v1", "ts": "2026-05-16T03:30:02.111957+00:00", "project_key": "5f1a0417f4c2665a", "verdict": "RED", "artefacts": []}
