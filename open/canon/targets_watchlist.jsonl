@@ -865,3 +865,17 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:xiyuRenBill/MEMLENS", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HuggingFaceH4/no_robots", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Alignment-Lab-AI/Open-Web-Math", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:5CD-AI/Viet-Handwriting-OCR-v2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:sensenova/SenseNova-SI-8M", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:camvsl/Articraft-10K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:microsoft/Orchard", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:xiao-fei/PPI2Text-Dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:cardiffnlp/tweet_eval", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Artificio/WikiArt", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:NousResearch/CharacterCodex", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Team-ACE/ToolACE", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ryanmarten/OpenThoughts-1k-sample", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ScaleAI/audiomc", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MemEyeBench/MemEye", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:NHSEDataScience/synthetic_clinical_notes", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:WCL-Robotics/TaskGrasp-Pro", "note": "public dataset"}
