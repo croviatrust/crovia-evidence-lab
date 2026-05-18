@@ -1,0 +1,32 @@
+{
+  "schema": "crovia.leaderboard.v1",
+  "label": "2026-W21",
+  "generated_at": "2026-05-18T02:13:01.392816+00:00",
+  "iso_year": 2026,
+  "iso_week": 21,
+  "n_real_targets": 2934,
+  "total_silence_days": 273496,
+  "median_silence_days": 89,
+  "mean_silence_days": 92,
+  "top_silent": {
+    "target_id": "meta-llama/Llama-3.1-8B",
+    "first_seen": "2026-01-17T18:20:23Z",
+    "last_seen": "2026-04-17T00:01:11Z",
+    "silence_days": 120
+  },
+  "envelope_total": null,
+  "ledger_lines_at_snapshot": 140351,
+  "files": [
+    "top_silent.csv",
+    "vendors.csv",
+    "snapshot.json",
+    "README.md"
+  ],
+  "archive_url": "https://croviatrust.com/registry/data/leaderboard/2026-W21/",
+  "live_registry": "https://croviatrust.com/registry/",
+  "license": "CC-BY-4.0",
+  "sha256": {
+    "top_silent.csv": "1a02a9295c879d14193b57717e432dac348b37ee843f08b8d6427b4a897e33e0",
+    "vendors.csv": "6bac56dd5ba3ecb9b92e72c23eeddbbcf6e8f98adf3adc67ab1317359a08233f"
+  }
+}
