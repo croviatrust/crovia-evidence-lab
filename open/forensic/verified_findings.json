@@ -1,9 +1,21 @@
 {
   "schema": "crovia.pro.verified_findings.v1",
-  "generated_at": "2026-05-17T09:00:01.985572Z",
+  "generated_at": "2026-09-19T13:30:01.857229Z",
   "engine_version": "v3_observatory",
-  "total_events_analyzed": 579,
-  "clean_events": 0,
-  "verified_findings_count": 0,
-  "verified_findings": []
+  "total_events_analyzed": 1163,
+  "clean_events": 1,
+  "verified_findings_count": 1,
+  "verified_findings": [
+    {
+      "date": "2026-08-31",
+      "confidence": "MODERATE",
+      "confidence_score": 60,
+      "orgs_count": 1,
+      "event_count": 1,
+      "details": {
+        "license_removals": 0,
+        "dataset_removals": 0
+      }
+    }
+  ]
 }

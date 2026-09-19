@@ -1,0 +1,467 @@
+{
+  "schema": "crovia.open.disclosure_index.v1",
+  "generated_at": "2026-06-15T06:00:00.439554Z",
+  "week_id": "2026-W25",
+  "note": "This is observational data only. No inference, judgment, or accusation.",
+  "coverage": {
+    "targets_monitored": 7807,
+    "models": 7303,
+    "datasets": 504,
+    "period_days": 30
+  },
+  "disclosure_observations": {
+    "training_section": {
+      "present": 1543,
+      "absent": 6264,
+      "present_pct": 19.8
+    },
+    "declared_datasets": {
+      "with_declaration": 1889,
+      "without_declaration": 5918,
+      "with_declaration_pct": 24.2
+    },
+    "license": {
+      "declared": 5523,
+      "not_declared": 2284,
+      "declared_pct": 70.7
+    },
+    "readme_access": {
+      "ok": 6435,
+      "not_found": 867,
+      "forbidden": 505,
+      "ok_pct": 82.4
+    }
+  },
+  "drift_observations": {
+    "events_30d": 653,
+    "events_7d": 0,
+    "targets_with_change_30d": 362,
+    "avg_changes_per_changed_target": 1.8
+  },
+  "top_movers_30d": [
+    {
+      "target_id": "McGill-NLP/weblinx-browsergym",
+      "change_count": 4
+    },
+    {
+      "target_id": "NMontanaBrown/saramis_abdomen",
+      "change_count": 4
+    },
+    {
+      "target_id": "numind/NuMarkdown-8B-Thinking",
+      "change_count": 4
+    },
+    {
+      "target_id": "Genesis-Intelligence/snapshots",
+      "change_count": 3
+    },
+    {
+      "target_id": "HuggingFaceTB/SmolLM-135M",
+      "change_count": 3
+    },
+    {
+      "target_id": "HuggingFaceTB/SmolLM2-135M",
+      "change_count": 3
+    },
+    {
+      "target_id": "Qwen/Qwen2-7B-Instruct",
+      "change_count": 3
+    },
+    {
+      "target_id": "answerdotai/ModernBERT-large",
+      "change_count": 3
+    },
+    {
+      "target_id": "facebook/opt-1.3b",
+      "change_count": 3
+    },
+    {
+      "target_id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "change_count": 3
+    }
+  ],
+  "recent_changes_7d": [],
+  "popularity_observations": {
+    "targets_with_download_data": 6691,
+    "gated_targets": 312,
+    "gated_pct": 4.0,
+    "top_by_downloads": [
+      {
+        "target_id": "sentence-transformers/all-MiniLM-L6-v2",
+        "tipo_target": "model",
+        "downloads": 253044030,
+        "training_section_presence": "PRESENT",
+        "declared_datasets_count": 21
+      },
+      {
+        "target_id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+        "tipo_target": "model",
+        "downloads": 74846984,
+        "training_section_presence": "ABSENT",
+        "declared_datasets_count": 1
+      },
+      {
+        "target_id": "google-bert/bert-base-uncased",
+        "tipo_target": "model",
+        "downloads": 64555258,
+        "training_section_presence": "PRESENT",
+        "declared_datasets_count": 2
+      },
+      {
+        "target_id": "BAAI/bge-small-en-v1.5",
+        "tipo_target": "model",
+        "downloads": 56950943,
+        "training_section_presence": "ABSENT",
+        "declared_datasets_count": 0
+      },
+      {
+        "target_id": "google/electra-base-discriminator",
+        "tipo_target": "model",
+        "downloads": 56736441,
+        "training_section_presence": "ABSENT",
+        "declared_datasets_count": 0
+      },
+      {
+        "target_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "tipo_target": "model",
+        "downloads": 50612915,
+        "training_section_presence": "ABSENT",
+        "declared_datasets_count": 0
+      },
+      {
+        "target_id": "sentence-transformers/all-mpnet-base-v2",
+        "tipo_target": "model",
+        "downloads": 35173402,
+        "training_section_presence": "PRESENT",
+        "declared_datasets_count": 21
+      },
+      {
+        "target_id": "BAAI/bge-m3",
+        "tipo_target": "model",
+        "downloads": 31803722,
+        "training_section_presence": "PRESENT",
+        "declared_datasets_count": 0
+      },
+      {
+        "target_id": "openai/clip-vit-base-patch32",
+        "tipo_target": "model",
+        "downloads": 23038193,
+        "training_section_presence": "ABSENT",
+        "declared_datasets_count": 0
+      },
+      {
+        "target_id": "Qwen/Qwen3-0.6B",
+        "tipo_target": "model",
+        "downloads": 22585283,
+        "training_section_presence": "ABSENT",
+        "declared_datasets_count": 0
+      },
+      {
+        "target_id": "FacebookAI/xlm-roberta-base",
+        "tipo_target": "model",
+        "downloads": 22248556,
+        "training_section_presence": "ABSENT",
+        "declared_datasets_count": 0
+      },
+      {
+        "target_id": "laion/clap-htsat-fused",
+        "tipo_target": "model",
+        "downloads": 20921440,
+        "training_section_presence": "ABSENT",
+        "declared_datasets_count": 0
+      },
+      {
+        "target_id": "openai/clip-vit-large-patch14",
+        "tipo_target": "model",
+        "downloads": 20063973,
+        "training_section_presence": "ABSENT",
+        "declared_datasets_count": 0
+      },
+      {
+        "target_id": "nomic-ai/nomic-embed-text-v1.5",
+        "tipo_target": "model",
+        "downloads": 18731799,
+        "training_section_presence": "PRESENT",
+        "declared_datasets_count": 0
+      },
+      {
+        "target_id": "colbert-ir/colbertv2.0",
+        "tipo_target": "model",
+        "downloads": 17998953,
+        "training_section_presence": "PRESENT",
+        "declared_datasets_count": 0
+      }
+    ],
+    "high_download_training_absent": [
+      {
+        "target_id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+        "tipo_target": "model",
+        "downloads": 74846984,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "BAAI/bge-small-en-v1.5",
+        "tipo_target": "model",
+        "downloads": 56950943,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "google/electra-base-discriminator",
+        "tipo_target": "model",
+        "downloads": 56736441,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "tipo_target": "model",
+        "downloads": 50612915,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "openai/clip-vit-base-patch32",
+        "tipo_target": "model",
+        "downloads": 23038193,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "Qwen/Qwen3-0.6B",
+        "tipo_target": "model",
+        "downloads": 22585283,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "FacebookAI/xlm-roberta-base",
+        "tipo_target": "model",
+        "downloads": 22248556,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "laion/clap-htsat-fused",
+        "tipo_target": "model",
+        "downloads": 20921440,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "openai/clip-vit-large-patch14",
+        "tipo_target": "model",
+        "downloads": 20063973,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "Qwen/Qwen3-4B",
+        "tipo_target": "model",
+        "downloads": 17430371,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "BAAI/bge-large-en-v1.5",
+        "tipo_target": "model",
+        "downloads": 15358506,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "BAAI/bge-reranker-v2-m3",
+        "tipo_target": "model",
+        "downloads": 14933215,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "Qwen/Qwen2.5-3B-Instruct",
+        "tipo_target": "model",
+        "downloads": 14335043,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "hexgrad/Kokoro-82M",
+        "tipo_target": "model",
+        "downloads": 14116876,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "Bingsu/adetailer",
+        "tipo_target": "model",
+        "downloads": 14036344,
+        "readme_access": "OK"
+      }
+    ],
+    "note": "Factual observation: intersection of download count and training section status. No inference about compliance or quality."
+  },
+  "by_organization": [
+    {
+      "organization": "mradermacher",
+      "targets_monitored": 235,
+      "training_section_present": 0,
+      "declared_datasets_present": 70,
+      "license_present": 194
+    },
+    {
+      "organization": "facebook",
+      "targets_monitored": 184,
+      "training_section_present": 25,
+      "declared_datasets_present": 74,
+      "license_present": 175
+    },
+    {
+      "organization": "google",
+      "targets_monitored": 144,
+      "training_section_present": 61,
+      "declared_datasets_present": 47,
+      "license_present": 135
+    },
+    {
+      "organization": "Qwen",
+      "targets_monitored": 142,
+      "training_section_present": 4,
+      "declared_datasets_present": 0,
+      "license_present": 140
+    },
+    {
+      "organization": "microsoft",
+      "targets_monitored": 140,
+      "training_section_present": 43,
+      "declared_datasets_present": 20,
+      "license_present": 114
+    },
+    {
+      "organization": "nvidia",
+      "targets_monitored": 127,
+      "training_section_present": 66,
+      "declared_datasets_present": 50,
+      "license_present": 119
+    },
+    {
+      "organization": "allenai",
+      "targets_monitored": 126,
+      "training_section_present": 6,
+      "declared_datasets_present": 76,
+      "license_present": 105
+    },
+    {
+      "organization": "tiiuae",
+      "targets_monitored": 112,
+      "training_section_present": 22,
+      "declared_datasets_present": 21,
+      "license_present": 104
+    },
+    {
+      "organization": "Salesforce",
+      "targets_monitored": 110,
+      "training_section_present": 32,
+      "declared_datasets_present": 20,
+      "license_present": 107
+    },
+    {
+      "organization": "EleutherAI",
+      "targets_monitored": 109,
+      "training_section_present": 84,
+      "declared_datasets_present": 100,
+      "license_present": 106
+    },
+    {
+      "organization": "openbmb",
+      "targets_monitored": 109,
+      "training_section_present": 0,
+      "declared_datasets_present": 38,
+      "license_present": 73
+    },
+    {
+      "organization": "BAAI",
+      "targets_monitored": 109,
+      "training_section_present": 11,
+      "declared_datasets_present": 19,
+      "license_present": 102
+    },
+    {
+      "organization": "apple",
+      "targets_monitored": 106,
+      "training_section_present": 20,
+      "declared_datasets_present": 15,
+      "license_present": 106
+    },
+    {
+      "organization": "internlm",
+      "targets_monitored": 106,
+      "training_section_present": 1,
+      "declared_datasets_present": 22,
+      "license_present": 102
+    },
+    {
+      "organization": "bigscience",
+      "targets_monitored": 103,
+      "training_section_present": 15,
+      "declared_datasets_present": 23,
+      "license_present": 40
+    },
+    {
+      "organization": "NousResearch",
+      "targets_monitored": 103,
+      "training_section_present": 23,
+      "declared_datasets_present": 35,
+      "license_present": 84
+    },
+    {
+      "organization": "stabilityai",
+      "targets_monitored": 100,
+      "training_section_present": 21,
+      "declared_datasets_present": 38,
+      "license_present": 93
+    },
+    {
+      "organization": "timm",
+      "targets_monitored": 90,
+      "training_section_present": 0,
+      "declared_datasets_present": 73,
+      "license_present": 90
+    },
+    {
+      "organization": "deepseek-ai",
+      "targets_monitored": 83,
+      "training_section_present": 0,
+      "declared_datasets_present": 0,
+      "license_present": 66
+    },
+    {
+      "organization": "Helsinki-NLP",
+      "targets_monitored": 80,
+      "training_section_present": 2,
+      "declared_datasets_present": 0,
+      "license_present": 80
+    },
+    {
+      "organization": "bigcode",
+      "targets_monitored": 70,
+      "training_section_present": 2,
+      "declared_datasets_present": 49,
+      "license_present": 50
+    },
+    {
+      "organization": "meta-llama",
+      "targets_monitored": 70,
+      "training_section_present": 0,
+      "declared_datasets_present": 0,
+      "license_present": 70
+    },
+    {
+      "organization": "OpenMed",
+      "targets_monitored": 69,
+      "training_section_present": 0,
+      "declared_datasets_present": 0,
+      "license_present": 69
+    },
+    {
+      "organization": "mistralai",
+      "targets_monitored": 66,
+      "training_section_present": 0,
+      "declared_datasets_present": 0,
+      "license_present": 66
+    },
+    {
+      "organization": "cerebras",
+      "targets_monitored": 50,
+      "training_section_present": 8,
+      "declared_datasets_present": 10,
+      "license_present": 45
+    }
+  ],
+  "index_fingerprint": "652262aa7398705665a15f1effb71989c5ea891e802ec21e33da1758da8e1165"
+}
