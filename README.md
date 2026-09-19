@@ -1,150 +1,85 @@
 # Crovia Evidence Lab
 
-**Public, reproducible evidence artifacts for AI training provenance.**
+[![Data: CC BY 4.0](https://img.shields.io/badge/Data-CC_BY_4.0-lightgrey.svg?style=flat-square)](LICENSE)
 
-Auto-synced hourly from the [Crovia Temporal Proof Registry](https://croviatrust.com).
+**Crovia records what AI providers disclose about training data, and the
+absence of it, as signed, Bitcoin-anchored facts.** This repository is the
+public data plane of the Crovia substrate: hourly exports of observations and
+reports, weekly leaderboard snapshots, and the frozen experiments (CEPT,
+CRC-1, DSSE, Spider) from which the current registry grew.
 
-[![Sync Status](https://img.shields.io/badge/sync-hourly-blue)]()
-[![License](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE)
+It does not accuse, infer intent or judge compliance. It records what can be
+observed and verified.
 
----
+## What updates, and when
 
-> It does not accuse. It does not infer intent. It does not judge compliance.
-> It records **what can be objectively observed and verified**.
+| Path | Cadence | Source |
+|---|---|---|
+| `open/` (drift, forensic, reports, canon, signal, temporal) | hourly | `sync_from_server.sh` on the production host |
+| `snapshots/` (registry state, Merkle root, recent observations) | hourly | same |
+| `badges/`, `cep-capsules/` | hourly when changed | same |
+| `SYNC_STATUS.json` | hourly | same; `last_sync` is the timestamp to check |
+| `leaderboard/<ISO week>/` | weekly (Monday 02:13 UTC) | `weekly_leaderboard.py`; also mirrored at [croviatrust.com/registry/data/leaderboard/](https://croviatrust.com/registry/data/leaderboard/) |
 
----
+If `last_sync` in `SYNC_STATUS.json` is older than a few hours the sync has
+stalled; the sync log on the host is `/var/log/crovia/evidence_lab_sync.log`.
+(The sync was stalled from 2026-05-17 to 2026-09-19 by an orphaned
+`.git/index.lock`; the backlog was pushed on 2026-09-19.)
 
-## Live Numbers
+## Frozen layers (historical, not updated)
 
-Check [`SYNC_STATUS.json`](SYNC_STATUS.json) for the latest counts, or visit the [live registry](https://registry.croviatrust.com/registry/).
+| Path | Last change | What it is |
+|---|---|---|
+| `cept/` | 2026-01 | Crovia Evidence Presence Test: repeatable observation runs with `reproduce.sh` |
+| `CRC-1/` | 2026-01 | Crovia Reproducible Contract v1: deterministic, offline-verifiable evidence contract and demo |
+| `dsse/` | 2026-02 | Dynamic Semantic Separation Evidence: datasets, tools and evidence files |
+| `spider/` | 2026-02 | Presence/absence observation layer (raw and normalised GitHub presence data) |
+| `proofs/` | 2026-01 | Mechanical evidence of state and change (drift proofs) |
+| `experiments/` | 2026-03 | `cds/`, `zk_gdna/`: exploratory work |
+| `zk_bridge_tests/` | 2026-01 | ZK bridge evidence tests (notes only) |
 
----
+These directories are kept for reproducibility of past publications. The
+live protocol work moved to [crovia-seal](https://github.com/croviatrust/crovia-seal)
+(the Seal standard) and [countersign](https://github.com/croviatrust/countersign)
+(witnessing and TACET).
 
-## Repository Structure
-
-```
-crovia-evidence-lab/
-├── open/                    # Live observation data (auto-synced hourly)
-│   ├── drift/               # DDF drift detection snapshots
-│   ├── forensic/            # Absence receipts and forensic analysis
-│   ├── reports/             # Disclosure reports and weekly indexes
-│   ├── canon/               # Target watchlist
-│   ├── signal/              # Signal detection artifacts
-│   └── temporal/            # Temporal proof chains
-├── snapshots/               # Latest registry state (auto-synced hourly)
-│   ├── registry_stats.json  # Current observation counts
-│   ├── merkle_proof.json    # Merkle root for integrity verification
-│   └── recent_observations.json
-├── badges/                  # SVG trust badges per model
-├── cep-capsules/            # Cryptographic Evidence Protocol packages
-├── SYNC_STATUS.json         # Last sync timestamp and observation counts
-└── sync_from_server.sh      # Sync script (runs hourly on production server)
-```
-
----
-
-## Evidence Layers
-
-### 1. `open/` — Live Observations (auto-updated)
-
-The `open/` directory contains the latest data from the Crovia autonomous observer. It is updated every hour from the Hetzner production server.
-
-- **`drift/`** — Drift Detection Framework snapshots. Tracks changes in model documentation over time.
-- **`forensic/`** — Absence receipts. Cryptographically timestamped records of missing training evidence.
-- **`reports/`** — Weekly disclosure reports and indexes.
-- **`signal/`** — Signal detection artifacts from multi-source analysis.
-- **`temporal/`** — Temporal proof chains (append-only, immutable).
-
-### 2. `snapshots/` — Registry State (auto-updated)
-
-Real-time snapshots of the registry's state, pulled directly from the API:
+## Verify what you download
 
 ```bash
-# Verify locally
-curl https://registry.croviatrust.com/api/registry/stats
-curl https://registry.croviatrust.com/api/registry/merkle
+# Current Merkle root of the AXIOM ledger, as published hourly
+curl -s https://croviatrust.com/registry/data/substrate/latest_seal.json
+
+# Registry counters behind snapshots/registry_stats.json
+curl -s https://croviatrust.com/api/registry/stats
+curl -s https://croviatrust.com/api/registry/merkle
 ```
 
-### 3. `badges/` — Trust Badges
+Headline figures (LACUNA records, days of documented silence, signed
+observations, Bitcoin anchors) are defined in
+[CANON.md §4](https://github.com/croviatrust/countersign/blob/main/CANON.md)
+and are recomputable from the public data files. Counts in this repository
+(`SYNC_STATUS.json`, `snapshots/registry_stats.json`) are raw registry
+counters, not the canonical headline figures.
 
-SVG badges showing the observation status of individual AI models. Generated from the NEC# (Necessary Evidence Criteria) framework.
+## Crovia surfaces
 
-### 4. `cep-capsules/` — Cryptographic Evidence Packages
+| Surface | URL |
+|---|---|
+| Ledger and registry | https://croviatrust.com/registry/ |
+| LACUNA (absence records) | https://croviatrust.com/registry/lacuna/ |
+| Crovia Seal: spec, verifier, log | https://croviatrust.com/registry/seal/ |
+| Machine-readable index | https://croviatrust.com/llms.txt |
+| Canon (source of truth for names, numbers, endpoints) | https://github.com/croviatrust/countersign/blob/main/CANON.md |
 
-Self-contained, verifiable evidence capsules. Each CEP contains:
-- Observation data
-- Merkle proof
-- Timestamp chain
-- Reproducibility manifest
+Repositories: [crovia-seal](https://github.com/croviatrust/crovia-seal) (the standard) ·
+[crovia-core-engine](https://github.com/croviatrust/crovia-core-engine) (the substrate) ·
+[countersign](https://github.com/croviatrust/countersign) (witnessing and TACET) ·
+[crovia-evidence-lab](https://github.com/croviatrust/crovia-evidence-lab) (this repository: public data) ·
+[causari](https://github.com/croviatrust/causari) (sibling product: code provenance).
 
-### 5. `SYNC_STATUS.json` — Live Counts
+## Licence
 
-Updated every hour with the current observation count and unique targets. Machine-readable.
+Data and documents in this repository: CC BY 4.0 (see `LICENSE`). Attribution:
+"Crovia Trust, https://croviatrust.com". Scripts: Apache 2.0.
 
----
-
-## How to use this data
-
-### For researchers
-```bash
-git clone https://github.com/croviatrust/crovia-evidence-lab.git
-# Browse open/forensic/ for absence receipts
-# Browse snapshots/ for current registry state
-```
-
-### For auditors
-```bash
-# Verify merkle integrity
-python3 -c "
-import json
-m = json.load(open('snapshots/merkle_proof.json'))
-print(f'Root: {m[\"merkle_root\"]}')
-print(f'Observations: {m[\"total_observations\"]}')
-"
-```
-
-### For regulators
-The `open/reports/` directory contains structured disclosure reports aligned with the EU AI Act transparency requirements. Each report references the NEC# framework — 10 standardized documentation criteria.
-
----
-
-## Sync mechanism
-
-This repository is automatically updated every hour by the Crovia production server:
-
-1. Autonomous observer records observations (presence/absence of training evidence)
-2. Data is exported to structured JSONL/JSON
-3. `sync_from_server.sh` pushes changes to this repository
-4. Each commit is tagged with observation count and timestamp
-
-The server-side observer runs independently, 24/7, without human intervention.
-
----
-
-## What is deliberately missing
-
-- Pricing or commercial features
-- Attribution rules or legal conclusions
-- Intent analysis or compliance judgments
-- Private or gated data
-
-Everything here is public, verifiable, and reproducible.
-
----
-
-## Related
-
-- [Live Registry](https://registry.croviatrust.com/registry/) — real-time observation stream
-- [CEP Terminal](https://registry.croviatrust.com/registry/cep/) — generate evidence capsules
-- [Crovia Home](https://croviatrust.com) — project overview
-- [Omission Ledger](https://registry.croviatrust.com/registry/omissions) — targets without evidence
-- [NEC# Framework](https://registry.croviatrust.com/registry/compliance/) — documentation criteria
-
----
-
-## License
-
-Apache 2.0 — see [LICENSE](LICENSE).
-
-Evidence is not accusation. Observation is not judgment.
-Crovia Evidence Lab exists to **make facts inspectable**, not to tell anyone what they mean.
+Contact: info@croviatrust.com
