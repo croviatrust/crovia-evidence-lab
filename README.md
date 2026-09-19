@@ -1,6 +1,6 @@
 # Crovia Evidence Lab
 
-[![Data: CC BY 4.0](https://img.shields.io/badge/Data-CC_BY_4.0-lightgrey.svg?style=flat-square)](LICENSE)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square)](LICENSE)
 
 **Crovia records what AI providers disclose about training data, and the
 absence of it, as signed, Bitcoin-anchored facts.** This repository is the
@@ -79,7 +79,9 @@ Repositories: [crovia-seal](https://github.com/croviatrust/crovia-seal) (the sta
 
 ## Licence
 
-Data and documents in this repository: CC BY 4.0 (see `LICENSE`). Attribution:
-"Crovia Trust, https://croviatrust.com". Scripts: Apache 2.0.
+This repository is licensed under Apache 2.0 (`LICENSE`). Exported data files
+that carry their own `license` field (for example `CC-BY-4.0` in
+`snapshots/global_ranking.json`) state their own terms; attribution is
+"Crovia Trust, https://croviatrust.com".
 
 Contact: info@croviatrust.com
