@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use these data files, please cite this repository and state the snapshot tag or the SYNC_STATUS.json last_sync you used."
+title: "Crovia Evidence Lab: public data plane of the 2026 archive"
+type: dataset
+authors:
+  - name: "Crovia Trust"
+    email: info@croviatrust.com
+    website: https://croviatrust.com
+repository-code: https://github.com/croviatrust/crovia-evidence-lab
+url: https://croviatrust.com/registry/api/
+license: Apache-2.0
+date-released: 2026-09-19
+keywords:
+  - AI transparency
+  - training data disclosure
+  - open data
+  - reproducible research
+  - signed observations
+abstract: >
+  Hourly exports of the Crovia 2026 archive ledger (observations of what AI providers publish
+  about training data, and the absence of it), registry snapshots with their Merkle roots,
+  weekly leaderboards tagged snapshot-YYYY-Www, and the frozen 2026-H1 experiments (CEPT,
+  CRC-1, DSSE, Spider) from which the registry grew. The repository is Apache-2.0; exported data files
+  that carry a license field state their own terms (CC-BY-4.0), attribution "Crovia Trust, https://croviatrust.com". Live proofs of absence are
+  published by TACET at croviatrust.com/registry/data/tacet/.
+references:
+  - type: software
+    title: "Crovia Core Engine: the Substrate"
+    url: https://github.com/croviatrust/crovia-core-engine
+    authors:
+      - name: "Crovia Trust"
+  - type: software
+    title: "TACET: Verifiable Silence for AI Training Disclosure"
+    url: https://github.com/croviatrust/countersign
+    authors:
+      - name: "Crovia Trust"

@@ -57,7 +57,8 @@ curl -s https://croviatrust.com/api/registry/merkle
 Headline figures (LACUNA records, days of documented silence, signed
 observations, Bitcoin anchors) are defined in
 [CANON.md §4](https://github.com/croviatrust/countersign/blob/main/CANON.md)
-and are recomputable from the public data files. Counts in this repository
+and are recomputable from the public data files. Live silence figures come from
+TACET (`/registry/data/tacet/latest.json`), not from this archive. Counts in this repository
 (`SYNC_STATUS.json`, `snapshots/registry_stats.json`) are raw registry
 counters, not the canonical headline figures.
 
@@ -65,6 +66,7 @@ counters, not the canonical headline figures.
 
 | Surface | URL |
 |---|---|
+| TACET (live proofs of absence) | https://croviatrust.com/registry/tacet/ |
 | Ledger and registry | https://croviatrust.com/registry/ |
 | LACUNA (absence records) | https://croviatrust.com/registry/lacuna/ |
 | Crovia Seal: spec, verifier, log | https://croviatrust.com/registry/seal/ |
