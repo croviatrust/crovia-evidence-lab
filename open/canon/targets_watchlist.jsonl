@@ -2013,3 +2013,10 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Scicom-intl/semantic-vad-eot", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:allenai/openbookqa", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:BodyMaps/CancerVerse", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:secemp9/arxiv-complete", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:yandex/WikiWebFacts", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:yandex/HardMultiQA", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:LocalLLaMA/typed-decisions", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:cua-ai/cua-s1-forms", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:EgoSteer/EgoSteer-RealWorld", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:happyhackingspace/dit", "note": "public dataset"}
