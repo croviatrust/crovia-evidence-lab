@@ -1,6 +1,6 @@
 {
   "schema": "crovia.open.disclosure_index.v1",
-  "generated_at": "2026-09-21T10:30:49.481844Z",
+  "generated_at": "2026-09-21T11:20:27.124881Z",
   "week_id": "2026-W39",
   "note": "This is observational data only. No inference, judgment, or accusation.",
   "coverage": {
@@ -11,32 +11,32 @@
   },
   "disclosure_observations": {
     "training_section": {
-      "present": 1607,
-      "absent": 7244,
+      "present": 1610,
+      "absent": 7241,
       "present_pct": 18.2
     },
     "declared_datasets": {
-      "with_declaration": 1969,
-      "without_declaration": 6882,
-      "with_declaration_pct": 22.2
+      "with_declaration": 1970,
+      "without_declaration": 6881,
+      "with_declaration_pct": 22.3
     },
     "license": {
-      "declared": 6266,
-      "not_declared": 2585,
+      "declared": 6270,
+      "not_declared": 2581,
       "declared_pct": 70.8
     },
     "readme_access": {
-      "ok": 7215,
-      "not_found": 918,
+      "ok": 7219,
+      "not_found": 917,
       "forbidden": 714,
-      "ok_pct": 81.5
+      "ok_pct": 81.6
     }
   },
   "drift_observations": {
-    "events_30d": 263,
-    "events_7d": 10,
-    "targets_with_change_30d": 212,
-    "avg_changes_per_changed_target": 1.24
+    "events_30d": 271,
+    "events_7d": 17,
+    "targets_with_change_30d": 217,
+    "avg_changes_per_changed_target": 1.25
   },
   "top_movers_30d": [
     {
@@ -44,16 +44,20 @@
       "change_count": 5
     },
     {
-      "target_id": "farbodtavakkoli/OTel-2.0-LLM-31B-IT",
-      "change_count": 4
+      "target_id": "ifmylove2011/girlslike-zimage",
+      "change_count": 5
     },
     {
-      "target_id": "ifmylove2011/girlslike-zimage",
+      "target_id": "farbodtavakkoli/OTel-2.0-LLM-31B-IT",
       "change_count": 4
     },
     {
       "target_id": "nphSi/Z-Image-Lora",
       "change_count": 4
+    },
+    {
+      "target_id": "NMontanaBrown/saramis_abdomen",
+      "change_count": 3
     },
     {
       "target_id": "adyen/DABstep",
@@ -68,58 +72,110 @@
       "change_count": 3
     },
     {
+      "target_id": "mcptester0606/MyAwesomeModel-TestRepo",
+      "change_count": 3
+    },
+    {
       "target_id": "EMERGE-lab/GPUDrive",
-      "change_count": 2
-    },
-    {
-      "target_id": "HuggingFaceCode/stack-v3-train",
-      "change_count": 2
-    },
-    {
-      "target_id": "NMontanaBrown/saramis_abdomen",
       "change_count": 2
     }
   ],
   "recent_changes_7d": [
     {
+      "target_id": "shashin/layoutlmv2-base-uncased_finetuned_docvqa",
+      "tipo_target": "model",
+      "observed_at": "2026-09-21T10:44:39.159038Z",
+      "prev_ddf_hash": "11e652fcc0f2614435be79ed25dbabcf25b8eea041e8129a17663f2d92c1e239",
+      "new_ddf_hash": "90e8dd4b9e8e8a77026ce24ecf85c5c10b92931fabbf0f65762770b52c481d1e"
+    },
+    {
+      "target_id": "shantipriya/odia-ocr-qwen-finetuned_v3",
+      "tipo_target": "model",
+      "observed_at": "2026-09-21T10:44:35.558635Z",
+      "prev_ddf_hash": "908748b5984100fe427c498d94ec881c2ca6ce324845209bd897720e80b0391f",
+      "new_ddf_hash": "a7577b0292570fd89d2ca406f67ab534b48d7af39e948f722c166afa0d3a9002"
+    },
+    {
+      "target_id": "mcptester0606/MyAwesomeModel-TestRepo",
+      "tipo_target": "model",
+      "observed_at": "2026-09-21T09:54:04.822433Z",
+      "prev_ddf_hash": "f6629e826663d5fa06eb74919311a34813f3b18e50fbc04107932c4456ae9faa",
+      "new_ddf_hash": "689eb0b1afe55aa440ff94e6bc60389884a75a2431dce6b93e157cf320e8cf90"
+    },
+    {
+      "target_id": "ifmylove2011/girlslike-zimage",
+      "tipo_target": "model",
+      "observed_at": "2026-09-21T09:33:25.946282Z",
+      "prev_ddf_hash": "22d88bc0aedb3595db9b819b17eb044d7238600b7c74205ffec6c8b4c3c45dde",
+      "new_ddf_hash": "5d0c5149f303818b5b3fbf32bab826e3280f1f7a060e85fadcfd53f3280f02c7"
+    },
+    {
+      "target_id": "fastino/gliner2-large-v1",
+      "tipo_target": "model",
+      "observed_at": "2026-09-21T09:19:54.073453Z",
+      "prev_ddf_hash": "e434371d9afe5af79e4b54c672eb8fd627bcea6df227388ec47e2c0f462f3505",
+      "new_ddf_hash": "1b1cf8539d32ef1294d901277c4f3e01c820a0d753ee577bdb80da3d3cc9f255"
+    },
+    {
       "target_id": "deepseek-ai/DeepSeek-V3.2",
       "tipo_target": "model",
-      "observed_at": "2026-09-21T08:15:22.568672Z",
+      "observed_at": "2026-09-21T09:05:55.237103Z",
       "prev_ddf_hash": "f7864d308a20b79e80e15ee8011e34cefc919a80a65c37ce78daca6207e1fb44",
       "new_ddf_hash": "fa7adbab84967439fec09ac3cdcca04b48c9a4ebb46a97cdf2a7bbd1a5536115"
     },
     {
       "target_id": "VINAY-UMRETHE/SigMamba-V1",
       "tipo_target": "model",
-      "observed_at": "2026-09-21T07:35:40.651364Z",
+      "observed_at": "2026-09-21T08:20:13.872294Z",
       "prev_ddf_hash": "7caf1077410efc9ec62b4b50e213d255b1890dcceeec0a20f1feb8a783b7f5c2",
       "new_ddf_hash": "dc77275d0da9699f39d56830170f9cb5c990be07a6ad302248555517396cd79a"
     },
     {
+      "target_id": "John6666/hassaku-xl-illustrious-v31-sdxl",
+      "tipo_target": "model",
+      "observed_at": "2026-09-21T07:36:17.788212Z",
+      "prev_ddf_hash": "0caed64acf516e92521fa44a1ae2749dbf8af9544b62e57472683b4e57248010",
+      "new_ddf_hash": "0561d2a15978036778d9f4d7ee656980e9e0ebafd7af22739223ecb52ac4e671"
+    },
+    {
       "target_id": "BSC-LT/salamandraTA-7B-instruct-GGUF",
       "tipo_target": "model",
-      "observed_at": "2026-09-21T06:37:23.048317Z",
+      "observed_at": "2026-09-21T07:12:30.626745Z",
       "prev_ddf_hash": "435078486262a72f22fe8b416fa337d86e8198f81f0f5eea2dd22b6e013a2e68",
       "new_ddf_hash": "91c11845d287d70d941617c4160a6316a9a5d96267a1b681f052ec331eef1d52"
     },
     {
       "target_id": "mteb/results",
       "tipo_target": "dataset",
-      "observed_at": "2026-09-21T06:22:15.662822Z",
+      "observed_at": "2026-09-21T06:55:26.495469Z",
       "prev_ddf_hash": "b960c4dc9b66f997939791f9bd39c36cb0e6cca85056f62b3d600146b5b3252b",
       "new_ddf_hash": "e2cbba2b7d3182959e47adefe87d0f81661b53dc5044344de860e25117cb7512"
     },
     {
+      "target_id": "defeatbeta/yahoo-finance-data",
+      "tipo_target": "dataset",
+      "observed_at": "2026-09-21T06:34:50.883956Z",
+      "prev_ddf_hash": "9606cd1b8af6a5addf4573f19971142b72296b602c684e87fec8ce71ecc71d1b",
+      "new_ddf_hash": "516dab13f0257723ce98b581fe96fe2196e86d1ed16ac461fba6f380f02c5341"
+    },
+    {
       "target_id": "RealSourceData/RealSource-World",
       "tipo_target": "dataset",
-      "observed_at": "2026-09-21T06:05:39.637455Z",
+      "observed_at": "2026-09-21T06:23:08.593545Z",
       "prev_ddf_hash": "1c575ec87b6c5066590a0e841172a576113e32b3d0863efb941c1275e8bdbaa9",
       "new_ddf_hash": "4030c6f22653ab61880071b142cbc75b759a425f98739eb9c4ce460c383e1043"
     },
     {
+      "target_id": "NMontanaBrown/saramis_abdomen",
+      "tipo_target": "dataset",
+      "observed_at": "2026-09-21T06:21:32.235012Z",
+      "prev_ddf_hash": "801200769352caf5e3d043576517227c64f6ada7d308e072c655dac0d03ffb7a",
+      "new_ddf_hash": "4d1f742e5b5d4f052f3cb4585549baae1500a9a812576da8be655bffd9ff59a4"
+    },
+    {
       "target_id": "EMERGE-lab/GPUDrive",
       "tipo_target": "dataset",
-      "observed_at": "2026-09-21T06:01:35.992420Z",
+      "observed_at": "2026-09-21T06:18:01.584489Z",
       "prev_ddf_hash": "0405d2fb5f9b8689377fb41efe3dd239be47ae3d837a615397da035f1410941d",
       "new_ddf_hash": "924c5f3d56b2db305f34751e0d11cb56972812c07703697936b603c1c0d2ffcb"
     },
@@ -143,17 +199,10 @@
       "observed_at": "2026-09-15T10:59:04.402633Z",
       "prev_ddf_hash": "b23d67c614af683e8ce50a66eff78f4ee5d775be04e8b688a8fda7a6c7bcdf1e",
       "new_ddf_hash": "ee360ccdc338265ef44431174eae9e36396f4999cc9c59ebf3cef01b6eb9ecc7"
-    },
-    {
-      "target_id": "zai-org/GLM-OCR",
-      "tipo_target": "model",
-      "observed_at": "2026-09-14T10:31:47.536824Z",
-      "prev_ddf_hash": "49d0bce2a5e97a8b368a1758710202c2045c2dddad0d419e1e8ee8842ef72e75",
-      "new_ddf_hash": "5a9c39c01cb0825cc81229f4f02d7e7d1007e7c4e82df632b0c8f0fb037a67b3"
     }
   ],
   "popularity_observations": {
-    "targets_with_download_data": 7770,
+    "targets_with_download_data": 7774,
     "gated_targets": 326,
     "gated_pct": 3.7,
     "top_by_downloads": [
@@ -244,7 +293,7 @@
       {
         "target_id": "FacebookAI/xlm-roberta-base",
         "tipo_target": "model",
-        "downloads": 21013884,
+        "downloads": 20917518,
         "training_section_presence": "ABSENT",
         "declared_datasets_count": 0
       },
@@ -303,7 +352,7 @@
       {
         "target_id": "FacebookAI/xlm-roberta-base",
         "tipo_target": "model",
-        "downloads": 21013884,
+        "downloads": 20917518,
         "readme_access": "OK"
       },
       {
@@ -534,5 +583,5 @@
       "license_present": 66
     }
   ],
-  "index_fingerprint": "ddee0db45850d8594ddac11482e2f5fd98c3245d1887b9f7aad661d6fd920da4"
+  "index_fingerprint": "ef2035b25793621946500f6ea4c21688701cd6dfd635330303f626b7c855b553"
 }

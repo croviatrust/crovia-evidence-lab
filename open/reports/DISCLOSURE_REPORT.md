@@ -1,6 +1,6 @@
 # 📊 Crovia Disclosure Transparency Report
 
-> **Week 2026-W39** | Generated 2026-09-21 10:30:49 UTC
+> **Week 2026-W39** | Generated 2026-09-21 11:20:27 UTC
 >
 > *This is observational data only. No inference, judgment, or accusation.*
 
@@ -20,16 +20,16 @@
 
 | Field | Present | Absent | % Present |
 |-------|---------|--------|-----------|
-| **Training Section** | 1607 | 7244 | **18.2%** |
-| **Declared Datasets** | 1969 | 6882 | **22.2%** |
-| **License** | 6266 | 2585 | **70.8%** |
-| **README Accessible** | 7215 | 1632 | **81.5%** |
+| **Training Section** | 1610 | 7241 | **18.2%** |
+| **Declared Datasets** | 1970 | 6881 | **22.3%** |
+| **License** | 6270 | 2581 | **70.8%** |
+| **README Accessible** | 7219 | 1631 | **81.6%** |
 
 ---
 
 ## 📥 Popularity Observations
 
-- **Targets with download data:** 7770
+- **Targets with download data:** 7774
 - **Gated targets:** 326 (3.7%)
 
 ### Top Targets by Downloads
@@ -59,7 +59,7 @@
 | `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` | **45.7M** | OK |
 | `Qwen/Qwen3-0.6B` | **23.7M** | OK |
 | `openai/clip-vit-base-patch32` | **21.9M** | OK |
-| `FacebookAI/xlm-roberta-base` | **21.0M** | OK |
+| `FacebookAI/xlm-roberta-base` | **20.9M** | OK |
 | `Comfy-Org/MiniMax-H3` | **20.7M** | OK |
 | `Qwen/Qwen3-VL-8B-Instruct` | **19.7M** | OK |
 | `timm/mobilenetv3_small_100.lamb_in1k` | **18.5M** | OK |
@@ -92,9 +92,9 @@
 
 | Metric | Value |
 |--------|-------|
-| **Changes (7 days)** | 10 |
-| **Changes (30 days)** | 263 |
-| **Targets with changes** | 212 |
+| **Changes (7 days)** | 17 |
+| **Changes (30 days)** | 271 |
+| **Targets with changes** | 217 |
 
 ---
 
@@ -115,6 +115,6 @@ This report aggregates publicly observable data from HuggingFace:
 
 ---
 
-*Report fingerprint: `ddee0db45850d859...`*
+*Report fingerprint: `ef2035b257936219...`*
 
 *Source: [Crovia Training Provenance Registry](https://registry.croviatrust.com)*
