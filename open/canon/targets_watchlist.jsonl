@@ -2032,3 +2032,13 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:freds0/TAGARELA", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:insilicomedicine/longebench", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:pythainlp/som_tts_dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:eidon-ai/tracker-pov", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ZefanCai/Open-Jev", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:LucasFang/FLUX-Reason-6M", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Qwen/RecreationBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:wxli318/Omni-R2V", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:eidon-ai/tracker-pov-imu", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MahmoodLab/UNI2-h-features", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:gbionics/cmu-fbx", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:lingshu-medical-mllm/lingshu_training_data_medical_domain", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:R-3-Bench/R-3-Bench", "note": "public dataset"}
