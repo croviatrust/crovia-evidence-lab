@@ -2042,3 +2042,11 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:gbionics/cmu-fbx", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:lingshu-medical-mllm/lingshu_training_data_medical_domain", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:R-3-Bench/R-3-Bench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/video_to_data_challenge", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Rapidata/10k-human-favorite-number", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Harland/OmniVChat", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Real-IAD/Real-IAD", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:TrustAIRLab/in-the-wild-jailbreak-prompts", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:DRDELATV/woman-sexy", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ekacare/eka-medical-asr-evaluation-dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Humanbased-AI/MM-Food-100K", "note": "public dataset"}
