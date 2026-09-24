@@ -2050,3 +2050,12 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:DRDELATV/woman-sexy", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ekacare/eka-medical-asr-evaluation-dataset", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Humanbased-AI/MM-Food-100K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:genrobot2025/Gen-HumanEgo", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SargeDev/jev-distill-corpus-v3", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/PhysicalAI-Event-Videos", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:jaredpalmer/kev-suites", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:aipracticecafe/curated-danbooru-2026", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:LocalLLaMA/deepswe-mini", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ZefanCai/Open-Jev-v1.1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:stablellama/erotic-image-prompts", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:google/boolq", "note": "public dataset"}
