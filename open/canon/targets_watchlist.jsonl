@@ -2059,3 +2059,15 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ZefanCai/Open-Jev-v1.1", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:stablellama/erotic-image-prompts", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:google/boolq", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MoreThought/Fable-5.1-Max-Reasoning-Filtered-10000x", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:microsoft/ProgramDistill", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:AxiomicLabs/Tiny_Theory_of_Mind", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:sarvamai/indic-ocr-bench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ShufanSun/harmony", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:NianticSpatial/real2sim-sample-usdz-scenes", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:kagakouko/LSI-108K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Krisp-AI/VoiceIsolation-Benchmark-Dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:FreedomIntelligence/OnePO-Medical-20K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tasksource/tasksource-jev-typed-decisions", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:livecodebench/code_generation_lite", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:stapesai/ssi-speech-emotion-recognition", "note": "public dataset"}
