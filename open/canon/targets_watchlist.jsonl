@@ -2071,3 +2071,10 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tasksource/tasksource-jev-typed-decisions", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:livecodebench/code_generation_lite", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:stapesai/ssi-speech-emotion-recognition", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:FineEnvs/SmolDataEnvs", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:XiaomiMiMo/MiMo-V2.6-RL-oss", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:avbiswas/bev-decision-150K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:fastino/fast-decisions", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Contrastive-LM/CLM-v0.1-Pretrain-Nemotron", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:gigant/romanian_speech_synthesis_0_8_1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:biglam/europeana_newspapers", "note": "public dataset"}
