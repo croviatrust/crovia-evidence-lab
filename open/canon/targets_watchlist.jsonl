@@ -2078,3 +2078,11 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Contrastive-LM/CLM-v0.1-Pretrain-Nemotron", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:gigant/romanian_speech_synthesis_0_8_1", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:biglam/europeana_newspapers", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nisten/opus5-5-doctor-patient-conversations-all-human-diseases", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:akshatbakshi/amazon-ml-challenge-2026", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Lego-X/LegoFlow-SWE", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:caiovicentino1/eikos-decisions", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:lighteternal/biodecision-sft-v2.2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ShapeNet/ShapeNetCore-archive", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Fanoni/medical-ehr-imaging", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:xTayyub/High-Quality-Synthetic-Python-Dataset-with-Reasoning-Traces-Chain-of-Thought-for-LLM-Fine-Tuning", "note": "public dataset"}
