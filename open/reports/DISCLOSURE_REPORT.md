@@ -1,6 +1,6 @@
 # 📊 Crovia Disclosure Transparency Report
 
-> **Week 2026-W40** | Generated 2026-09-28 10:28:38 UTC
+> **Week 2026-W40** | Generated 2026-09-28 12:19:40 UTC
 >
 > *This is observational data only. No inference, judgment, or accusation.*
 
@@ -22,8 +22,8 @@
 |-------|---------|--------|-----------|
 | **Training Section** | 1605 | 7239 | **18.1%** |
 | **Declared Datasets** | 1956 | 6888 | **22.1%** |
-| **License** | 6319 | 2525 | **71.4%** |
-| **README Accessible** | 7269 | 1574 | **82.2%** |
+| **License** | 6320 | 2524 | **71.5%** |
+| **README Accessible** | 7270 | 1574 | **82.2%** |
 
 ---
 
@@ -38,12 +38,12 @@
 |--------|------|-----------|------------------|-------------------|
 | `sentence-transformers/all-MiniLM-L6-v2` | model | **242.7M** | PRESENT | 21 |
 | `cross-encoder/ms-marco-MiniLM-L6-v2` | model | **86.5M** | ABSENT | 1 |
-| `BAAI/bge-small-en-v1.5` | model | **63.2M** | ABSENT | 0 |
+| `BAAI/bge-small-en-v1.5` | model | **63.3M** | ABSENT | 0 |
 | `google/electra-base-discriminator` | model | **46.3M** | ABSENT | 0 |
 | `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` | model | **45.5M** | ABSENT | 0 |
 | `google-bert/bert-base-uncased` | model | **41.7M** | PRESENT | 2 |
 | `BAAI/bge-m3` | model | **36.3M** | PRESENT | 0 |
-| `Qwen/Qwen3-0.6B` | model | **29.2M** | ABSENT | 0 |
+| `Qwen/Qwen3-0.6B` | model | **29.3M** | ABSENT | 0 |
 | `google-t5/t5-small` | model | **24.1M** | PRESENT | 1 |
 | `Comfy-Org/MiniMax-H3` | model | **21.9M** | ABSENT | 0 |
 
@@ -54,15 +54,15 @@
 | Target | Downloads | README |
 |--------|-----------|--------|
 | `cross-encoder/ms-marco-MiniLM-L6-v2` | **86.5M** | OK |
-| `BAAI/bge-small-en-v1.5` | **63.2M** | OK |
+| `BAAI/bge-small-en-v1.5` | **63.3M** | OK |
 | `google/electra-base-discriminator` | **46.3M** | OK |
 | `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` | **45.5M** | OK |
-| `Qwen/Qwen3-0.6B` | **29.2M** | OK |
+| `Qwen/Qwen3-0.6B` | **29.3M** | OK |
 | `Comfy-Org/MiniMax-H3` | **21.9M** | OK |
 | `openai/clip-vit-base-patch32` | **21.7M** | OK |
 | `timm/mobilenetv3_small_100.lamb_in1k` | **20.3M** | OK |
-| `FacebookAI/xlm-roberta-base` | **18.5M** | OK |
 | `Qwen/Qwen3-VL-8B-Instruct` | **18.0M** | OK |
+| `FacebookAI/xlm-roberta-base` | **17.9M** | OK |
 
 ---
 
@@ -92,9 +92,9 @@
 
 | Metric | Value |
 |--------|-------|
-| **Changes (7 days)** | 22 |
-| **Changes (30 days)** | 222 |
-| **Targets with changes** | 181 |
+| **Changes (7 days)** | 80 |
+| **Changes (30 days)** | 282 |
+| **Targets with changes** | 223 |
 
 ---
 
@@ -115,6 +115,6 @@ This report aggregates publicly observable data from HuggingFace:
 
 ---
 
-*Report fingerprint: `8ebc78cc9394d71e...`*
+*Report fingerprint: `2dd08ee53fe96f2f...`*
 
 *Source: [Crovia Training Provenance Registry](https://registry.croviatrust.com)*
