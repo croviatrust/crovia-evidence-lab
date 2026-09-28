@@ -1,0 +1,39 @@
+{
+  "schema": "crovia.leaderboard.v1",
+  "label": "2026-W40",
+  "generated_at": "2026-09-28T02:13:45.396242+00:00",
+  "iso_year": 2026,
+  "iso_week": 40,
+  "n_real_targets": 2192,
+  "total_silence_days": 168268,
+  "median_silence_days": 98,
+  "mean_silence_days": 76,
+  "top_silent": {
+    "target_id": "anthropic/claude-3-opus",
+    "first_seen": "2026-01-17T18:20:23Z",
+    "last_seen": "2026-06-01T05:01:11Z",
+    "observations": 63,
+    "silence_days": 134,
+    "observation_status": {
+      "state": "paused",
+      "last_observation_at": "2026-06-01T05:01:11Z",
+      "paused_since": "2026-06-01T05:01:11Z",
+      "paused_days": 118
+    }
+  },
+  "envelope_total": null,
+  "ledger_lines_at_snapshot": 524876,
+  "files": [
+    "top_silent.csv",
+    "vendors.csv",
+    "snapshot.json",
+    "README.md"
+  ],
+  "archive_url": "https://croviatrust.com/registry/data/leaderboard/2026-W40/",
+  "live_registry": "https://croviatrust.com/registry/",
+  "license": "CC-BY-4.0",
+  "sha256": {
+    "top_silent.csv": "5916f6104d656c55062cf230ed29e1876cc9f1d10603d9f66ea9e967b29d7b8a",
+    "vendors.csv": "47486a6df43fb5973fcad866b27f11fb28f61e4aacca711558aeb6edbe216eaa"
+  }
+}
