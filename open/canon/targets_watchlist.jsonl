@@ -2086,3 +2086,10 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ShapeNet/ShapeNetCore-archive", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Fanoni/medical-ehr-imaging", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:xTayyub/High-Quality-Synthetic-Python-Dataset-with-Reasoning-Traces-Chain-of-Thought-for-LLM-Fine-Tuning", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:avbiswas/bev-decision", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:espnet/yodas3", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:basis-ai/basis-conversations-1500", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:DataoceanAI/Chinese_Female_Speech_Synthesis_Corpus_Live_Streaming_for_Sales_with_Multi_Styles", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:sapien-sim/PartNetMobility", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:andersonbcdefg/reward-modeling-short-tokenized", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:mitulshah/transaction-categorization", "note": "public dataset"}
