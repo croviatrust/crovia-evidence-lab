@@ -2093,3 +2093,12 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:sapien-sim/PartNetMobility", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:andersonbcdefg/reward-modeling-short-tokenized", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:mitulshah/transaction-categorization", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Hcompany/trajectories", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Rapidata/camera-movement", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/preference-asr-bench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Praveenrajus/jev-bench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:respanai/behavior-benchmark", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Cirquar-Tech/wm_imagined", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:andersonbcdefg/reward-modeling-eval-tokenized", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Aoyinke/retrieval_dense_test-qrels", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:DataoceanAI/American_English_Male_Speech_Synthesis_Corpus_Gentle_and_Mature_Aged_30_40", "note": "public dataset"}
