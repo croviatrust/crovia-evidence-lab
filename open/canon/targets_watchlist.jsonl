@@ -2102,3 +2102,10 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:andersonbcdefg/reward-modeling-eval-tokenized", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Aoyinke/retrieval_dense_test-qrels", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:DataoceanAI/American_English_Male_Speech_Synthesis_Corpus_Gentle_and_Mature_Aged_30_40", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:shinben0327/hoi-retarget", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Wenyan0110/Multimodal-Dataset-Image_Text_Table_TimeSeries-for-Financial-Time-Series-Forecasting", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:QCRI/MMCQA-SemEval27", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:reazon-research/reazonspeech", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:DataoceanAI/Chinese_Female_Speech_Synthesis_Corpus_Live_Streaming_for_Sales", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:myyycroft/RiDiC_rivers_self_consistency_15_generations", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:monodox/cortex-agent-planning", "note": "public dataset"}
