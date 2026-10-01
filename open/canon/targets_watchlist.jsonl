@@ -2109,3 +2109,16 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:DataoceanAI/Chinese_Female_Speech_Synthesis_Corpus_Live_Streaming_for_Sales", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:myyycroft/RiDiC_rivers_self_consistency_15_generations", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:monodox/cortex-agent-planning", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:cloud0day3/alania-synthetic-speech-tr", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:leggedrobotics/hoi-retarget", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:cloud0day3/alania-domain-text-tr", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:naruto-soop/LiveChatBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MaziyarPanahi/AgentToolDecisions-180K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:typesafe/evalsafe-onet", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:open-source-metrics/visual-question-answering-checkpoint-downloads", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:andersonbcdefg/red_teaming_reward_modeling_pairwise_no_as_an_ai", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ngarneau/link_prediction_contrastive", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:OpenMOSS-Team/hh-rlhf-strength-cleaned", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:mlfoundations/MINT-1T-HTML", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SwayStar123/preprocessed_commoncatalog-cc-by", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:DataoceanAI/Chinese_Male_Speech_Synthesis_Corpus_Live_Streaming_for_Sales", "note": "public dataset"}
