@@ -2122,3 +2122,12 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:mlfoundations/MINT-1T-HTML", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SwayStar123/preprocessed_commoncatalog-cc-by", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:DataoceanAI/Chinese_Male_Speech_Synthesis_Corpus_Live_Streaming_for_Sales", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ankitjh4/bharat-government-documents", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Rapidata/camera-movement-human-preference-324k", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:biglam/europeana_newspapers_images", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Rapidata/text-to-image-human-preference-6M", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Wakals/OmniTaskonomy", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Rapidata/world-model-physics-human-preference-283k", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:AIMS-RAIL/RAIL", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:mxlin043/EmbRACE", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ccdv/govreport-summarization", "note": "public dataset"}
