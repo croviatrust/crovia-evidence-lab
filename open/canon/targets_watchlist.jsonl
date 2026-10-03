@@ -2131,3 +2131,14 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:AIMS-RAIL/RAIL", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:mxlin043/EmbRACE", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ccdv/govreport-summarization", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:witfoo/precinct6-cybersecurity", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:zineddine/MemoReason", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:cloud0day3/alania-speech-captions-tr", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:FBK-MT/RedVox", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:originlab/game-recordings-v4", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HelenPeng/PhysVista", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:DataoceanAI/Thai_Speech_Recognition_Corpus", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nisten/opus-doctor-patient-conversations-all-human-diseases", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Linzhan/UniML3D", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ELEM-Bio/ELEM-1200RS", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:al1219/OpenTumorBoard", "note": "public dataset"}
