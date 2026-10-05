@@ -2152,3 +2152,10 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ai4bharat/Svarah", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Embodied-AI-6/eval_act", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:fineset-io/vision-language-action-papers", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:allganize/RAG-Evaluation-Dataset-JA", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Nielzac/CoM_Audio_Image_LLM_Generation", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Zowel/medical_imaging_diagnostic_reports", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Mikivis/AgentPlanningbBenchmark", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/simready-assets", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Autonomous-Scientific-Agents/community-tasks", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:mmbu/mmbu-public", "note": "public dataset"}
