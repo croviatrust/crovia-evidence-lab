@@ -2159,3 +2159,12 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/simready-assets", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Autonomous-Scientific-Agents/community-tasks", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:mmbu/mmbu-public", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:docling-project/DeskForge-1M", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:datasocial/tiktok-5.6B-videos", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:imecai/chess-apo-bench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:VladS159/common_voice_16_1_romanian_speech_synthesis", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:psdn-ai/robotic-arm-manipulation-samples", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:vivek22/semanticSearch", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:allenai/Dolci-Instruct-SFT-Tool-Use", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Slighting3121/3D-Reconstruction-Benchmark-Asset-Inspection", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Linzhan/Mixamo-Animations-Characters", "note": "public dataset"}
