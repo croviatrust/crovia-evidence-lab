@@ -2168,3 +2168,13 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:allenai/Dolci-Instruct-SFT-Tool-Use", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Slighting3121/3D-Reconstruction-Benchmark-Asset-Inspection", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Linzhan/Mixamo-Animations-Characters", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SoccerNet/SoccerNet_raw_HQ", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Josephgflowers/OpenOrca-Step-by-step-reasoning", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:kunishou/hh-rlhf-49k-ja", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:open-llm-leaderboard-old/details_xformAI__facebook-opt-125m-qcqa-ub-6-best-for-KV-cache", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:open-llm-leaderboard-old/details_saarvajanik__facebook-opt-6.7b-gqa-ub-16-best-for-KV-cache", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:OpenCoder-LLM/opc-fineweb-code-corpus", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:yutengz/robotic-manipulation-dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:interstellarninja/hermes_interleaved_reasoning_tool_use", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:interstellarninja/tool-use-multiturn-reasoning", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HumynLabs/medical-imaging", "note": "public dataset"}
