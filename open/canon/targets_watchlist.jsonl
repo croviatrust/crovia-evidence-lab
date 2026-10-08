@@ -2178,3 +2178,10 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:interstellarninja/hermes_interleaved_reasoning_tool_use", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:interstellarninja/tool-use-multiturn-reasoning", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HumynLabs/medical-imaging", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:harvardMadsys/freeinference_agentic_trace", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:davidai-labs/DAI-ASR-I18N", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:open-llm-leaderboard-old/details_llm-agents__tora-code-7b-v1.0", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Lichess/standard-chess-games", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:LangAGI-Lab/magpie-reasoning-v1-20k-math-verifiable-step-by-step-rationale", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:flaitenberger/medical-imaging-combined", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:zabir1996/mimic-medical-imaging-qa", "note": "public dataset"}
