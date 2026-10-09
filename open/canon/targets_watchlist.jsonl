@@ -2185,3 +2185,12 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:LangAGI-Lab/magpie-reasoning-v1-20k-math-verifiable-step-by-step-rationale", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:flaitenberger/medical-imaging-combined", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:zabir1996/mimic-medical-imaging-qa", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MMMU/MMMU_Pro", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ScaleAI/HSS", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SO-101-robot-learning/so101_pick_place", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:akatz-ai/H3-Character-Swap-v1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Gustavosta/Stable-Diffusion-Prompts", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:raghavprabhakar/commonsense-embodied-ai", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:LegionIntel/named_entity_recognition", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tokyotech-llm/swallow-code", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:LEXam-Benchmark/LEXam", "note": "public dataset"}
