@@ -2209,3 +2209,10 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Hoshipu/ARCHIEVED-behavior-1k-embodiedAI-rollouts-hq-use", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:robot-learning-group47/eval_1_full_prompt_smolvla_blue_v2", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/cascade", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:EvgeniaKyriazi/ctr-prediction-dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:AdityaaXD/Multi-Agent_Reinforcement_Learning_Trading_System_Data", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nureasoning/nuReasoning", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:samatv256/jev-decisions-v1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:glaiveai/RAG-v1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:astune/text_info_trending_youtube_videos_2019-04-15_to_2020-04-15", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Cath1y/embodied-ai-literature-metadata", "note": "public dataset"}
