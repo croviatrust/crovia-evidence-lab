@@ -2216,3 +2216,11 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:glaiveai/RAG-v1", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:astune/text_info_trending_youtube_videos_2019-04-15_to_2020-04-15", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Cath1y/embodied-ai-literature-metadata", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:datalab-to/omni_parse_bench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Jerry999/SvalbardIdeaVault", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:jialinyyzz/humanizer-data", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Shiveswarran/llm_instruction_code_v7", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:robotlearning/cpgendata", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Tran1312/MachineTranslation_en_vi", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:robot-learning-group47/eval2_180_position_v1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Embodied-AI-6/blue_so101_color_blocks_10ep_v1_20260526_175604", "note": "public dataset"}
