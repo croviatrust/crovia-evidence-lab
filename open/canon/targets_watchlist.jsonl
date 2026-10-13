@@ -2224,3 +2224,12 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Tran1312/MachineTranslation_en_vi", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:robot-learning-group47/eval2_180_position_v1", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Embodied-AI-6/blue_so101_color_blocks_10ep_v1_20260526_175604", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:openbmb/UltraData-Stack-v3-L2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:transferable-samplers/many-peptides-md", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:epfml/FineWeb-HQ", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ksolovev/fine-news", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:banned-historical-archives/banned-historical-archives", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:pulmo/ncbi-genbank-complete", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HelenPeng/ExeWorldBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:iamtarun/python_code_instructions_18k_alpaca", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:TIGER-Lab/MathInstruct", "note": "public dataset"}
