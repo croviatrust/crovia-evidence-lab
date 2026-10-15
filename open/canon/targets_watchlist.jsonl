@@ -2246,3 +2246,5 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:allenai/winogrande", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:huggingface/badges", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:hssd/hssd-hab", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:yandex/yambda", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:2077AIDataFoundation/TouchScale", "note": "public dataset"}

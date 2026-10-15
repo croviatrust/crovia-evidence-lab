@@ -2431,3 +2431,5 @@
 {"schema": "crovia.open.presence.v1", "ts": "2026-10-14T03:30:02.694919+00:00", "project_key": "27471f141224c10f", "verdict": "RED", "artefacts": []}
 {"schema": "crovia.open.presence.v1", "ts": "2026-10-14T03:30:02.694919+00:00", "project_key": "b284ed66047ea303", "verdict": "RED", "artefacts": []}
 {"schema": "crovia.open.presence.v1", "ts": "2026-10-14T03:30:02.694919+00:00", "project_key": "d4e35230b14e1954", "verdict": "RED", "artefacts": []}
+{"schema": "crovia.open.presence.v1", "ts": "2026-10-15T03:30:02.727076+00:00", "project_key": "c7e732849cb773fc", "verdict": "RED", "artefacts": []}
+{"schema": "crovia.open.presence.v1", "ts": "2026-10-15T03:30:02.727076+00:00", "project_key": "db0eedfebb52bfe7", "verdict": "RED", "artefacts": []}
