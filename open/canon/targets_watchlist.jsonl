@@ -2248,3 +2248,8 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:hssd/hssd-hab", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:yandex/yambda", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:2077AIDataFoundation/TouchScale", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Qwen/BlenderWorld", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:k9cli/video-vec2wav2-tokenizer-3", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:snupilab/humanoidtoolbench-teleop", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:xlangai/spider", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nyanko7/danbooru2023", "note": "public dataset"}
