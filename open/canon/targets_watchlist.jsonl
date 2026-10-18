@@ -2281,3 +2281,8 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:flxclxc/en-no-semantic-search-set", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:jackhhao/jailbreak-classification", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Abzu/long-context-qa-df", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:AI-BRIDGES/wikidata-search-traces", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:latkes/self-consistency-correction-exp5-diagnostic", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ilabai/3dcodeverse", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SequentialLearning/DualTime-data", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Enderfga/SolarRenderer-Data", "note": "public dataset"}
