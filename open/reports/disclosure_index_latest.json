@@ -1,7 +1,7 @@
 {
   "schema": "crovia.open.disclosure_index.v1",
-  "generated_at": "2026-10-12T10:28:15.636823Z",
-  "week_id": "2026-W42",
+  "generated_at": "2026-10-19T06:00:01.749326Z",
+  "week_id": "2026-W43",
   "note": "This is observational data only. No inference, judgment, or accusation.",
   "coverage": {
     "targets_monitored": 8829,
@@ -604,5 +604,5 @@
       "license_present": 66
     }
   ],
-  "index_fingerprint": "22056f9d4bce9a093b4700577186f34079d511a12166bf3b91bfcd6751944d06"
+  "index_fingerprint": "f730671e41c38da853d30b79645c01a241b39e06dd59775871c071a31ce26fed"
 }
