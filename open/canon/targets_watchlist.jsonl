@@ -2286,3 +2286,8 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ilabai/3dcodeverse", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SequentialLearning/DualTime-data", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Enderfga/SolarRenderer-Data", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MaziyarPanahi/Jev-RAG-Claim-Verification-130K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Sharpa-Robotics/SharpaDex-v1.0", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-RL-litmus-bench-v0.2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:prometheus-eval/into-the-unknown", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:open-llm-leaderboard-old/details_llm-agents__tora-code-34b-v1.0", "note": "public dataset"}
