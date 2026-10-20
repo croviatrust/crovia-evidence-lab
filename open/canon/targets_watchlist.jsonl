@@ -2291,3 +2291,13 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-RL-litmus-bench-v0.2", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:prometheus-eval/into-the-unknown", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:open-llm-leaderboard-old/details_llm-agents__tora-code-34b-v1.0", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ant-intl/BizAgentBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:cscandkswon/OmniEgoDB", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ruchangyao/FlashVSR_Plus_Dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:TD-Labs/EvoWeb", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:InternRobotics/EgoExplorer", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:fox-srt/cobaltstrike-beacon-corpus", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:PaDaS-Lab/ecir2027-curse-dense-retrieval-run-files", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Data-Science-Nigeria/dsn-2026-lid-train", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:JetBrains-Research/lca-project-level-code-completion", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:noe-pl1/robot-learning-hw2", "note": "public dataset"}
