@@ -2301,3 +2301,14 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Data-Science-Nigeria/dsn-2026-lid-train", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:JetBrains-Research/lca-project-level-code-completion", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:noe-pl1/robot-learning-hw2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:hongzhuyi/VDEBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Anthropic/scorpion-toxin-binder-design", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-Personas-Germany", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-SFT-Agentic-Finance-v1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:XingChen-AGI/Xing4.0-29B-Intent-oss", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-Personas-UK", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:irlab-udc/erisk-depression-personas", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:somast/somali-nlp-corpus", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nlpllmeval/NLP-Course-LLM-Reasoning-Eval-May2025", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ninty-seven/MultiAgentFraudBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:RL-MIND/XHRBench", "note": "public dataset"}
