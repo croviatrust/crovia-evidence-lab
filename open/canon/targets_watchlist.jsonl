@@ -2312,3 +2312,11 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nlpllmeval/NLP-Course-LLM-Reasoning-Eval-May2025", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ninty-seven/MultiAgentFraudBench", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:RL-MIND/XHRBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Rapidata/text-to-3d-with-llm-code", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ropedia-ai/Xp-Teleop", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:latkes/self-consistency-correction-exp0-sanity-canary", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:srikanthmalipatel/semantic_search", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tom-gibbs/multi-turn_jailbreak_attack_datasets", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:omkarmayekar555/robot-learning-tutorial-data", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Limbicnation/Video-Diffusion-Prompt-Style", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MultiTalk/MultiTalkFT", "note": "public dataset"}
