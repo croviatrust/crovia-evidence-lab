@@ -2320,3 +2320,13 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:omkarmayekar555/robot-learning-tutorial-data", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Limbicnation/Video-Diffusion-Prompt-Style", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MultiTalk/MultiTalkFT", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:CohereLabsCommunity/CulturalRiddles", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:StreamEval/StreamEval", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:scenario-labs/3d-collection", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:mlx-community/hermes-reasoning-tool-use", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MaziyarPanahi/Jev-Safety-Refusal-Decisions-150K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/simready-central-library", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-SFT-Agentic-v4", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SeerRay-Lab/LensBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Weni/Semantic-Search-V1-14K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:jinnovation/generative-ai-red-teaming", "note": "public dataset"}
