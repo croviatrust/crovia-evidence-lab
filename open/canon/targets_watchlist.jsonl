@@ -2330,3 +2330,10 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SeerRay-Lab/LensBench", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Weni/Semantic-Search-V1-14K", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:jinnovation/generative-ai-red-teaming", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:genrobot2025/Gen-HumanWholeBody", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:NU-World-Model-Embodied-AI/phyground", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:AuroraAI-Research/NanoStories", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:InfoBayAI/MRI-Radiology-Reports-Without-Findings-Dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MultiTalk/MultiTalkPT", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:countvideobench/CountVideoBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:LGElectronics/simready-assets", "note": "public dataset"}
