@@ -2337,3 +2337,12 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MultiTalk/MultiTalkPT", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:countvideobench/CountVideoBench", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:LGElectronics/simready-assets", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:vimalnakrani/stillwarm-kv-cache-artifact", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:11-47/autonomous-ai-agents-multi-agent-swarms-2026", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SreeVinayR/CS546_HW2_Retrieval_Augmented_Generation", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tencent/Hy-Nomas-Bench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ruslanmv/ai-medical-chatbot", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Embodied-AI-6/dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:teeyouteeyou/medical-imaging-combined", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:beatsprom/autonomous-ai-agents-multi-agent-swarms-2026", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:harborframework/terminal-bench", "note": "public dataset"}
