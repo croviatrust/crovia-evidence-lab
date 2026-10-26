@@ -1,6 +1,6 @@
 # 📊 Crovia Disclosure Transparency Report
 
-> **Week 2026-W43** | Generated 2026-10-19 10:28:34 UTC
+> **Week 2026-W44** | Generated 2026-10-26 10:29:50 UTC
 >
 > *This is observational data only. No inference, judgment, or accusation.*
 
@@ -10,9 +10,9 @@
 
 | Metric | Value |
 |--------|-------|
-| **Targets Monitored** | 8840 |
-| Models | 7960 |
-| Datasets | 880 |
+| **Targets Monitored** | 8879 |
+| Models | 7997 |
+| Datasets | 882 |
 
 ---
 
@@ -20,32 +20,32 @@
 
 | Field | Present | Absent | % Present |
 |-------|---------|--------|-----------|
-| **Training Section** | 1594 | 7246 | **18.0%** |
-| **Declared Datasets** | 1942 | 6898 | **22.0%** |
-| **License** | 6360 | 2480 | **71.9%** |
-| **README Accessible** | 7297 | 1543 | **82.5%** |
+| **Training Section** | 1598 | 7281 | **18.0%** |
+| **Declared Datasets** | 1945 | 6934 | **21.9%** |
+| **License** | 6397 | 2482 | **72.0%** |
+| **README Accessible** | 7336 | 1543 | **82.6%** |
 
 ---
 
 ## 📥 Popularity Observations
 
-- **Targets with download data:** 7755
-- **Gated targets:** 327 (3.7%)
+- **Targets with download data:** 7796
+- **Gated targets:** 325 (3.7%)
 
 ### Top Targets by Downloads
 
 | Target | Type | Downloads | Training Section | Declared Datasets |
 |--------|------|-----------|------------------|-------------------|
-| `sentence-transformers/all-MiniLM-L6-v2` | model | **207.0M** | PRESENT | 21 |
-| `cross-encoder/ms-marco-MiniLM-L6-v2` | model | **76.1M** | ABSENT | 1 |
-| `BAAI/bge-small-en-v1.5` | model | **58.1M** | ABSENT | 0 |
-| `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` | model | **44.4M** | ABSENT | 0 |
-| `google/electra-base-discriminator` | model | **41.9M** | ABSENT | 0 |
-| `BAAI/bge-m3` | model | **31.7M** | PRESENT | 0 |
-| `google-bert/bert-base-uncased` | model | **30.2M** | PRESENT | 2 |
-| `Qwen/Qwen3-0.6B` | model | **30.0M** | ABSENT | 0 |
-| `Comfy-Org/MiniMax-H3` | model | **25.2M** | ABSENT | 0 |
-| `google-t5/t5-small` | model | **24.4M** | PRESENT | 1 |
+| `sentence-transformers/all-MiniLM-L6-v2` | model | **190.2M** | PRESENT | 21 |
+| `cross-encoder/ms-marco-MiniLM-L6-v2` | model | **70.6M** | ABSENT | 1 |
+| `BAAI/bge-small-en-v1.5` | model | **53.6M** | ABSENT | 0 |
+| `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` | model | **39.2M** | ABSENT | 0 |
+| `google/electra-base-discriminator` | model | **31.3M** | ABSENT | 0 |
+| `BAAI/bge-m3` | model | **29.7M** | PRESENT | 0 |
+| `google-bert/bert-base-uncased` | model | **29.0M** | PRESENT | 2 |
+| `Comfy-Org/MiniMax-H3` | model | **26.5M** | ABSENT | 0 |
+| `google-t5/t5-small` | model | **24.9M** | PRESENT | 1 |
+| `Qwen/Qwen3-0.6B` | model | **23.8M** | ABSENT | 0 |
 
 ### High-Download Targets Without Training Section
 
@@ -53,16 +53,16 @@
 
 | Target | Downloads | README |
 |--------|-----------|--------|
-| `cross-encoder/ms-marco-MiniLM-L6-v2` | **76.1M** | OK |
-| `BAAI/bge-small-en-v1.5` | **58.1M** | OK |
-| `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` | **44.4M** | OK |
-| `google/electra-base-discriminator` | **41.9M** | OK |
-| `Qwen/Qwen3-0.6B` | **30.0M** | OK |
-| `Comfy-Org/MiniMax-H3` | **25.2M** | OK |
-| `timm/mobilenetv3_small_100.lamb_in1k` | **19.6M** | OK |
-| `openai/clip-vit-base-patch32` | **17.7M** | OK |
-| `jonatasgrosman/wav2vec2-large-xlsr-53-japanese` | **15.9M** | OK |
-| `BAAI/bge-reranker-v2-m3` | **15.7M** | OK |
+| `cross-encoder/ms-marco-MiniLM-L6-v2` | **70.6M** | OK |
+| `BAAI/bge-small-en-v1.5` | **53.6M** | OK |
+| `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` | **39.2M** | OK |
+| `google/electra-base-discriminator` | **31.3M** | OK |
+| `Comfy-Org/MiniMax-H3` | **26.5M** | OK |
+| `Qwen/Qwen3-0.6B` | **23.8M** | OK |
+| `openai/clip-vit-base-patch32` | **16.8M** | OK |
+| `timm/mobilenetv3_small_100.lamb_in1k` | **16.4M** | OK |
+| `jonatasgrosman/wav2vec2-large-xlsr-53-japanese` | **16.0M** | OK |
+| `BAAI/bge-reranker-v2-m3` | **14.6M** | OK |
 
 ---
 
@@ -70,14 +70,14 @@
 
 | Organization | Targets | Training Section | Declared Datasets | License |
 |--------------|---------|------------------|-------------------|---------|
-| **mradermacher** | 238 | 0 (0%) | 71 (30%) | 197 (83%) |
-| **facebook** | 186 | 25 (13%) | 74 (40%) | 176 (95%) |
-| **Qwen** | 180 | 4 (2%) | 0 (0%) | 177 (98%) |
-| **google** | 169 | 61 (36%) | 47 (28%) | 160 (95%) |
-| **nvidia** | 161 | 88 (55%) | 58 (36%) | 152 (94%) |
+| **mradermacher** | 244 | 0 (0%) | 74 (30%) | 204 (84%) |
+| **facebook** | 187 | 26 (14%) | 74 (40%) | 177 (95%) |
+| **Qwen** | 181 | 4 (2%) | 0 (0%) | 178 (98%) |
+| **google** | 167 | 61 (37%) | 47 (28%) | 158 (95%) |
+| **nvidia** | 157 | 85 (54%) | 57 (36%) | 148 (94%) |
 | **microsoft** | 143 | 44 (31%) | 20 (14%) | 119 (83%) |
 | **allenai** | 130 | 6 (5%) | 76 (58%) | 108 (83%) |
-| **openbmb** | 115 | 4 (3%) | 42 (37%) | 79 (69%) |
+| **openbmb** | 117 | 5 (4%) | 43 (37%) | 81 (69%) |
 | **tiiuae** | 112 | 22 (20%) | 21 (19%) | 104 (93%) |
 | **Salesforce** | 111 | 32 (29%) | 20 (18%) | 108 (97%) |
 | **EleutherAI** | 109 | 84 (77%) | 100 (92%) | 106 (97%) |
@@ -92,9 +92,9 @@
 
 | Metric | Value |
 |--------|-------|
-| **Changes (7 days)** | 87 |
-| **Changes (30 days)** | 309 |
-| **Targets with changes** | 255 |
+| **Changes (7 days)** | 108 |
+| **Changes (30 days)** | 403 |
+| **Targets with changes** | 322 |
 
 ---
 
@@ -115,6 +115,6 @@ This report aggregates publicly observable data from HuggingFace:
 
 ---
 
-*Report fingerprint: `7b6fccb096a63aeb...`*
+*Report fingerprint: `97ffba152c9e1737...`*
 
 *Source: [Crovia Training Provenance Registry](https://registry.croviatrust.com)*
