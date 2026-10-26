@@ -2346,3 +2346,6 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:teeyouteeyou/medical-imaging-combined", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:beatsprom/autonomous-ai-agents-multi-agent-swarms-2026", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:harborframework/terminal-bench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/PhysicalAI-Autonomous-Vehicles-Foundation4D", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Embodied-AI-6/eval_smolvla", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Kalyansundar-eros/Music_Generation_Project", "note": "public dataset"}
