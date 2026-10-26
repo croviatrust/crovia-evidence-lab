@@ -1,0 +1,608 @@
+{
+  "schema": "crovia.open.disclosure_index.v1",
+  "generated_at": "2026-10-26T06:00:00.429904Z",
+  "week_id": "2026-W44",
+  "note": "This is observational data only. No inference, judgment, or accusation.",
+  "coverage": {
+    "targets_monitored": 8840,
+    "models": 7960,
+    "datasets": 880,
+    "period_days": 30
+  },
+  "disclosure_observations": {
+    "training_section": {
+      "present": 1594,
+      "absent": 7246,
+      "present_pct": 18.0
+    },
+    "declared_datasets": {
+      "with_declaration": 1942,
+      "without_declaration": 6898,
+      "with_declaration_pct": 22.0
+    },
+    "license": {
+      "declared": 6360,
+      "not_declared": 2480,
+      "declared_pct": 71.9
+    },
+    "readme_access": {
+      "ok": 7297,
+      "not_found": 817,
+      "forbidden": 726,
+      "ok_pct": 82.5
+    }
+  },
+  "drift_observations": {
+    "events_30d": 309,
+    "events_7d": 87,
+    "targets_with_change_30d": 255,
+    "avg_changes_per_changed_target": 1.21
+  },
+  "top_movers_30d": [
+    {
+      "target_id": "mteb/results",
+      "change_count": 5
+    },
+    {
+      "target_id": "ifmylove2011/girlslike-zimage",
+      "change_count": 4
+    },
+    {
+      "target_id": "nphSi/Z-Image-Lora",
+      "change_count": 4
+    },
+    {
+      "target_id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+      "change_count": 3
+    },
+    {
+      "target_id": "evaleval/EEE_datastore",
+      "change_count": 3
+    },
+    {
+      "target_id": "Comfy-Org/Qwen-Image-2.1",
+      "change_count": 3
+    },
+    {
+      "target_id": "fastino/gliner2-large-v1",
+      "change_count": 2
+    },
+    {
+      "target_id": "mcptester0606/MyAwesomeModel-TestRepo",
+      "change_count": 2
+    },
+    {
+      "target_id": "CMSManhattan/JiRackUltra_14b",
+      "change_count": 2
+    },
+    {
+      "target_id": "Comfy-Org/MiniMax-H3",
+      "change_count": 2
+    }
+  ],
+  "recent_changes_7d": [
+    {
+      "target_id": "voyageai/voyage-4-nano",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T10:22:49.884002Z",
+      "prev_ddf_hash": "16b981a8f155b18da1b2c1e7264ede2ddf3027c55b457f0b3379f257ab370a7a",
+      "new_ddf_hash": "99072313d46bbc91c34efd240ed4ca10c35b1771408d005e24c3f6b52020593e"
+    },
+    {
+      "target_id": "unsloth/Z-Image-GGUF",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T10:18:21.657808Z",
+      "prev_ddf_hash": "c6d5ed613753d7e9fc854f934706d9b7a57f923cc336c99b4d38d1ba4d4c43b9",
+      "new_ddf_hash": "c9b254fc49d770a05042086cd0ab641e45dedf4400a5d278ca85a1a636192946"
+    },
+    {
+      "target_id": "tttoola/MyAwesomeModel-TestRepo",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T10:14:54.617785Z",
+      "prev_ddf_hash": "8c06ca4820a268ce1c84c21d3cfe3dc2a3ec3dd0443562f14c6e85ff21f28049",
+      "new_ddf_hash": "5504c9fa29b7712b6f1493ccbaf6a47235f6b011cda9b0c87d1ae564d8f11a2d"
+    },
+    {
+      "target_id": "theainerd/Wav2Vec2-large-xlsr-hindi",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T10:03:09.683141Z",
+      "prev_ddf_hash": "7b4fa5e787633ef34107cd3431f983cc7404b346db354ce30c2f5428af2b3417",
+      "new_ddf_hash": "b399c2d7a7dcde7f3722ea5b94ea91f037d8e14f2d21a904d89efa523db07268"
+    },
+    {
+      "target_id": "swiss-ai/Apertus-v1.5-8B",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T10:00:13.261880Z",
+      "prev_ddf_hash": "7b9e4bd4933b8041d52691f000b8579f4d08f72feeac9474933d85863870337d",
+      "new_ddf_hash": "607cea54d0b3524c63d259c84a9d2de62f2f0a1ddaf54af03ede5f1d10734c66"
+    },
+    {
+      "target_id": "remsky/kokoro-inno-clone-tuner",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T09:46:19.809714Z",
+      "prev_ddf_hash": "d15eef1f32619a5fe2b434cf76fa1e9e1de1c5df805aa721349bd6e60154add3",
+      "new_ddf_hash": "ddffa8bb2089bbe68c7abb133c4c5d796a72d981c6d66332fefa6f54d5f63205"
+    },
+    {
+      "target_id": "openbmb/MiniCPM5-2B",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T09:35:51.559599Z",
+      "prev_ddf_hash": "957571026acfc853b32a5238736e01866b045f78dd44a5d5aec9903ea9476798",
+      "new_ddf_hash": "58cab6daf0aae97a95b1e3c0d4900fbeac0f6d02e227216ba14bdcc455e211c4"
+    },
+    {
+      "target_id": "openbmb/MiniCPM-o-4_5",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T09:35:06.567427Z",
+      "prev_ddf_hash": "81c17d23112f284c61230a331fbc4bad2a989121b33e31021e7c2437af2aa1f0",
+      "new_ddf_hash": "30f34f2c1d9dbe3c93ba1c7c1e898a854324bb2c0364227775a1dfa07e2a0718"
+    },
+    {
+      "target_id": "nphSi/Z-Image-Lora",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T09:26:11.938720Z",
+      "prev_ddf_hash": "487057975072ed1e34220eb06778aa4bd0709ac29ac46ddce295a381fd40ee1a",
+      "new_ddf_hash": "93650f95112e785a32077cb6735cbf2d2cd2fba437ea9b86a3b71b7b06e75a33"
+    },
+    {
+      "target_id": "mradermacher/zen-vl-30b-instruct-GGUF",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T09:20:55.084888Z",
+      "prev_ddf_hash": "840f9fbdb4496ce9a0bcd7eab8b72282c45f4b0c1ef11ff9eb5f8ec109be9b20",
+      "new_ddf_hash": "2b20f392a6cbf671652762bcb7c6e3f987be794fa456bf94165c398d082a854f"
+    },
+    {
+      "target_id": "mradermacher/businessgpt-qwen3vl-2b-v2-GGUF",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T09:19:46.703023Z",
+      "prev_ddf_hash": "91fa7453d2fcd30cae246867616953dde82b8ad00582ae4d91996c460b948b00",
+      "new_ddf_hash": "dc1f46e26094bdf164a9f084ff288b9242cefdf07889d5f4176420d884e150de"
+    },
+    {
+      "target_id": "mradermacher/ZwZ-8B-heretic-GGUF",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T09:19:32.289882Z",
+      "prev_ddf_hash": "0ebd51477bb52849a642b0c68505cc62ad729d0a50ebc283edb5c44ba631423b",
+      "new_ddf_hash": "3405485238895fb5ca25dc72f78df512de6b9c2d3fe269ef8f2cb6843e548ac6"
+    },
+    {
+      "target_id": "mradermacher/Tifa-Deepsex-14b-CoT-GGUF",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T09:19:12.484950Z",
+      "prev_ddf_hash": "3b3d12d52dd99bdd09e953f65b17b0e15b949463c30ad2e7130473e89e095a71",
+      "new_ddf_hash": "6230ff62193ba809da2fe551d4be7acad36cf525efdb34f27feb34b7a0834a7e"
+    },
+    {
+      "target_id": "mradermacher/RynnBrain-CoP-8B-GGUF",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T09:18:29.283607Z",
+      "prev_ddf_hash": "33ae6bd7315a8bdc5b41429b60ee407bfec6ad8597d79b611cbfa9d88ad6cf43",
+      "new_ddf_hash": "8cc55e5ef4f86cf34340d9e8e3a838a773c403c14698c5332f60aaccb52879c7"
+    },
+    {
+      "target_id": "mradermacher/Qwen3.5-35B-A3B-heretic-GGUF",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T09:18:13.082518Z",
+      "prev_ddf_hash": "5fdb9aab9508a8b2b80089ca2bfec36b02b7dd7548c95d9f54bfd781523ec2a5",
+      "new_ddf_hash": "c904d2dd37540c5fd50c945f536488d4a2e6e5f00b30d5ec6eaaafb29a703c4f"
+    },
+    {
+      "target_id": "mradermacher/Qwen2.5-VL-7B-Abliterated-Caption-it-GGUF",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T09:17:47.893307Z",
+      "prev_ddf_hash": "f1270ed34003b586bef72998c0797be06940c9fe029299f0c1a4e5e4fba9610a",
+      "new_ddf_hash": "140d3ea1ac25bfbd6a071e28cf40f31264cbb02f10a80d979f9270f67d5c3857"
+    },
+    {
+      "target_id": "mradermacher/P1-30B-A3B-GGUF",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T09:17:38.916784Z",
+      "prev_ddf_hash": "568fe52f1d9d1cbae5c40317a4fe33546f765a8a2c568f7165090e1ba5528e3e",
+      "new_ddf_hash": "6c51a1b7cb386bf9a5e07092f54c6a8faec9dbe5ec8525d7914ea131215d1137"
+    },
+    {
+      "target_id": "mradermacher/OmniCare-Qwen3-VL-30B-A3B-GGUF",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T09:17:24.492668Z",
+      "prev_ddf_hash": "fcb8f86316b9fe738897883a5425f6b236048ffda12fc9a050ae9aed96462b31",
+      "new_ddf_hash": "371e404293bcafd8b697ec43a11eed16e08b627e8a407d18f73a6e4e3149bf56"
+    },
+    {
+      "target_id": "mradermacher/Luna_12B_V.3-GGUF",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T09:16:25.099829Z",
+      "prev_ddf_hash": "0e1c82df6d7b7f8b1e3cc7533ef50c0c5a7854d8c5fadfe2e3015c64ec40773c",
+      "new_ddf_hash": "b16e2490cfe59222723fa301b696f497a0a5a6a498053bba8cc9955da625e5df"
+    },
+    {
+      "target_id": "mradermacher/GLM-OCR-GGUF",
+      "tipo_target": "model",
+      "observed_at": "2026-10-19T09:15:20.275176Z",
+      "prev_ddf_hash": "8ad2812efeebc5425e15981f6558021773b77ad3a010246c3d1a7652501f8f4b",
+      "new_ddf_hash": "44f1f2c51ce80e3e484d55ec8bb0effc9cb844189196955a217bcb959f877c56"
+    }
+  ],
+  "popularity_observations": {
+    "targets_with_download_data": 7755,
+    "gated_targets": 327,
+    "gated_pct": 3.7,
+    "top_by_downloads": [
+      {
+        "target_id": "sentence-transformers/all-MiniLM-L6-v2",
+        "tipo_target": "model",
+        "downloads": 207019154,
+        "training_section_presence": "PRESENT",
+        "declared_datasets_count": 21
+      },
+      {
+        "target_id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+        "tipo_target": "model",
+        "downloads": 76053700,
+        "training_section_presence": "ABSENT",
+        "declared_datasets_count": 1
+      },
+      {
+        "target_id": "BAAI/bge-small-en-v1.5",
+        "tipo_target": "model",
+        "downloads": 58081952,
+        "training_section_presence": "ABSENT",
+        "declared_datasets_count": 0
+      },
+      {
+        "target_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "tipo_target": "model",
+        "downloads": 44406763,
+        "training_section_presence": "ABSENT",
+        "declared_datasets_count": 0
+      },
+      {
+        "target_id": "google/electra-base-discriminator",
+        "tipo_target": "model",
+        "downloads": 41852016,
+        "training_section_presence": "ABSENT",
+        "declared_datasets_count": 0
+      },
+      {
+        "target_id": "BAAI/bge-m3",
+        "tipo_target": "model",
+        "downloads": 31687693,
+        "training_section_presence": "PRESENT",
+        "declared_datasets_count": 0
+      },
+      {
+        "target_id": "google-bert/bert-base-uncased",
+        "tipo_target": "model",
+        "downloads": 30160565,
+        "training_section_presence": "PRESENT",
+        "declared_datasets_count": 2
+      },
+      {
+        "target_id": "Qwen/Qwen3-0.6B",
+        "tipo_target": "model",
+        "downloads": 29966068,
+        "training_section_presence": "ABSENT",
+        "declared_datasets_count": 0
+      },
+      {
+        "target_id": "Comfy-Org/MiniMax-H3",
+        "tipo_target": "model",
+        "downloads": 25242296,
+        "training_section_presence": "ABSENT",
+        "declared_datasets_count": 0
+      },
+      {
+        "target_id": "google-t5/t5-small",
+        "tipo_target": "model",
+        "downloads": 24390832,
+        "training_section_presence": "PRESENT",
+        "declared_datasets_count": 1
+      },
+      {
+        "target_id": "timm/mobilenetv3_small_100.lamb_in1k",
+        "tipo_target": "model",
+        "downloads": 19630318,
+        "training_section_presence": "ABSENT",
+        "declared_datasets_count": 1
+      },
+      {
+        "target_id": "sentence-transformers/all-mpnet-base-v2",
+        "tipo_target": "model",
+        "downloads": 18134879,
+        "training_section_presence": "PRESENT",
+        "declared_datasets_count": 21
+      },
+      {
+        "target_id": "openai/clip-vit-base-patch32",
+        "tipo_target": "model",
+        "downloads": 17686148,
+        "training_section_presence": "ABSENT",
+        "declared_datasets_count": 0
+      },
+      {
+        "target_id": "openai-community/gpt2",
+        "tipo_target": "model",
+        "downloads": 17217426,
+        "training_section_presence": "PRESENT",
+        "declared_datasets_count": 0
+      },
+      {
+        "target_id": "amazon/chronos-2",
+        "tipo_target": "model",
+        "downloads": 16564577,
+        "training_section_presence": "PRESENT",
+        "declared_datasets_count": 2
+      }
+    ],
+    "high_download_training_absent": [
+      {
+        "target_id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+        "tipo_target": "model",
+        "downloads": 76053700,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "BAAI/bge-small-en-v1.5",
+        "tipo_target": "model",
+        "downloads": 58081952,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "tipo_target": "model",
+        "downloads": 44406763,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "google/electra-base-discriminator",
+        "tipo_target": "model",
+        "downloads": 41852016,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "Qwen/Qwen3-0.6B",
+        "tipo_target": "model",
+        "downloads": 29966068,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "Comfy-Org/MiniMax-H3",
+        "tipo_target": "model",
+        "downloads": 25242296,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "timm/mobilenetv3_small_100.lamb_in1k",
+        "tipo_target": "model",
+        "downloads": 19630318,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "openai/clip-vit-base-patch32",
+        "tipo_target": "model",
+        "downloads": 17686148,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
+        "tipo_target": "model",
+        "downloads": 15853265,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "BAAI/bge-reranker-v2-m3",
+        "tipo_target": "model",
+        "downloads": 15652222,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "argmaxinc/whisperkit-coreml",
+        "tipo_target": "model",
+        "downloads": 11924373,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "Qwen/Qwen3-4B",
+        "tipo_target": "model",
+        "downloads": 11791470,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "Comfy-Org/Qwen-Image-2.1",
+        "tipo_target": "model",
+        "downloads": 11386917,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "hexgrad/Kokoro-82M",
+        "tipo_target": "model",
+        "downloads": 10533404,
+        "readme_access": "OK"
+      },
+      {
+        "target_id": "google/gemma-4-26B-A4B-it",
+        "tipo_target": "model",
+        "downloads": 10516807,
+        "readme_access": "OK"
+      }
+    ],
+    "note": "Factual observation: intersection of download count and training section status. No inference about compliance or quality."
+  },
+  "by_organization": [
+    {
+      "organization": "mradermacher",
+      "targets_monitored": 238,
+      "training_section_present": 0,
+      "declared_datasets_present": 71,
+      "license_present": 197
+    },
+    {
+      "organization": "facebook",
+      "targets_monitored": 186,
+      "training_section_present": 25,
+      "declared_datasets_present": 74,
+      "license_present": 176
+    },
+    {
+      "organization": "Qwen",
+      "targets_monitored": 180,
+      "training_section_present": 4,
+      "declared_datasets_present": 0,
+      "license_present": 177
+    },
+    {
+      "organization": "google",
+      "targets_monitored": 169,
+      "training_section_present": 61,
+      "declared_datasets_present": 47,
+      "license_present": 160
+    },
+    {
+      "organization": "nvidia",
+      "targets_monitored": 161,
+      "training_section_present": 88,
+      "declared_datasets_present": 58,
+      "license_present": 152
+    },
+    {
+      "organization": "microsoft",
+      "targets_monitored": 143,
+      "training_section_present": 44,
+      "declared_datasets_present": 20,
+      "license_present": 119
+    },
+    {
+      "organization": "allenai",
+      "targets_monitored": 130,
+      "training_section_present": 6,
+      "declared_datasets_present": 76,
+      "license_present": 108
+    },
+    {
+      "organization": "openbmb",
+      "targets_monitored": 115,
+      "training_section_present": 4,
+      "declared_datasets_present": 42,
+      "license_present": 79
+    },
+    {
+      "organization": "tiiuae",
+      "targets_monitored": 112,
+      "training_section_present": 22,
+      "declared_datasets_present": 21,
+      "license_present": 104
+    },
+    {
+      "organization": "Salesforce",
+      "targets_monitored": 111,
+      "training_section_present": 32,
+      "declared_datasets_present": 20,
+      "license_present": 108
+    },
+    {
+      "organization": "EleutherAI",
+      "targets_monitored": 109,
+      "training_section_present": 84,
+      "declared_datasets_present": 100,
+      "license_present": 106
+    },
+    {
+      "organization": "BAAI",
+      "targets_monitored": 109,
+      "training_section_present": 11,
+      "declared_datasets_present": 19,
+      "license_present": 102
+    },
+    {
+      "organization": "apple",
+      "targets_monitored": 106,
+      "training_section_present": 20,
+      "declared_datasets_present": 15,
+      "license_present": 106
+    },
+    {
+      "organization": "internlm",
+      "targets_monitored": 106,
+      "training_section_present": 1,
+      "declared_datasets_present": 22,
+      "license_present": 102
+    },
+    {
+      "organization": "bigscience",
+      "targets_monitored": 105,
+      "training_section_present": 15,
+      "declared_datasets_present": 23,
+      "license_present": 41
+    },
+    {
+      "organization": "NousResearch",
+      "targets_monitored": 104,
+      "training_section_present": 23,
+      "declared_datasets_present": 35,
+      "license_present": 85
+    },
+    {
+      "organization": "stabilityai",
+      "targets_monitored": 100,
+      "training_section_present": 21,
+      "declared_datasets_present": 38,
+      "license_present": 93
+    },
+    {
+      "organization": "timm",
+      "targets_monitored": 99,
+      "training_section_present": 0,
+      "declared_datasets_present": 80,
+      "license_present": 99
+    },
+    {
+      "organization": "unsloth",
+      "targets_monitored": 98,
+      "training_section_present": 3,
+      "declared_datasets_present": 2,
+      "license_present": 95
+    },
+    {
+      "organization": "deepseek-ai",
+      "targets_monitored": 88,
+      "training_section_present": 0,
+      "declared_datasets_present": 0,
+      "license_present": 71
+    },
+    {
+      "organization": "Helsinki-NLP",
+      "targets_monitored": 81,
+      "training_section_present": 2,
+      "declared_datasets_present": 0,
+      "license_present": 81
+    },
+    {
+      "organization": "bigcode",
+      "targets_monitored": 71,
+      "training_section_present": 2,
+      "declared_datasets_present": 49,
+      "license_present": 51
+    },
+    {
+      "organization": "meta-llama",
+      "targets_monitored": 70,
+      "training_section_present": 0,
+      "declared_datasets_present": 0,
+      "license_present": 70
+    },
+    {
+      "organization": "OpenMed",
+      "targets_monitored": 69,
+      "training_section_present": 0,
+      "declared_datasets_present": 0,
+      "license_present": 69
+    },
+    {
+      "organization": "mistralai",
+      "targets_monitored": 66,
+      "training_section_present": 0,
+      "declared_datasets_present": 0,
+      "license_present": 66
+    }
+  ],
+  "index_fingerprint": "fb9ef20897cea388b7b21750f6f814e15ab33462e84b95746fc237983eb3ef5d"
+}
