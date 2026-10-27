@@ -2349,3 +2349,15 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/PhysicalAI-Autonomous-Vehicles-Foundation4D", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Embodied-AI-6/eval_smolvla", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Kalyansundar-eros/Music_Generation_Project", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:CohereLabs/10-2026-qwen-investigation-traces", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:baidu/MarathonDocBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:neigezhu/china-a-share-1min-ohlcv", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:facebook/hackbench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:CreitinGameplays/magpie-reasoning-v1-10k-step-by-step-rationale-alpaca-format-changedtoken-mistral", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:robailleo/medical-imaging-alpaca", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:huggingGonzalo/Spatio-temporal_and_traditional_landslide_dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Vertiv/simready-assets", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:hazyresearch/ncm-datasets", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:allenai/fairstress", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/RFD4-Proteina", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:leaf0932/CausalMedBench", "note": "public dataset"}
