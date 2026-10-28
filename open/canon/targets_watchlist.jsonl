@@ -2361,3 +2361,11 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:allenai/fairstress", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/RFD4-Proteina", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:leaf0932/CausalMedBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Qwen/BabelArena", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:open-llm-leaderboard-old/details_saarvajanik__facebook-opt-6.7b-qcqa-ub-16-best-for-KV-cache", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ylacombe/cml-tts", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:disco-eth/EuroSpeech", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:microsoft/rStar-Coder", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HumynLabs/medical-opinion-english-audio", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:OpenMed/Medical-Reasoning-SFT-GPT-OSS-120B", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:persona-cartography/monorepo", "note": "public dataset"}
