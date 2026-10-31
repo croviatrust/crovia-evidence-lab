@@ -2396,3 +2396,9 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:jinaai/longcontext-cmrc2018-zh", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Undi95/Filtered_Tree_Of_Thoughts_BASE_24k", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:DeepNLP/embodied-ai-ai-agent", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Reizxn/HolyCyber", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:KeepaceAI/MoveBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:google/physical-engineerings-last-exam", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:allenai/wildjailbreak", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:DynamicSuperb/NamedEntityRecognition_SLUE-VoxPopuli", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:myyycroft/RiDiC_bad_weather_zh_self_consistency_15_generations", "note": "public dataset"}
