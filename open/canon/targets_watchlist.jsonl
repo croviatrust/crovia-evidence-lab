@@ -2419,3 +2419,12 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SalutefaceAAC/chain-of-thought-reasoning-traces", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:microsoft/SynthDocQA", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:newsdata01/ai-agents-autonomous-systems-news-dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HuggingFaceBio/FineDNA", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ticoAg/llm-complex-reasoning-train-qwen2-72b-instruct-correct", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Crocody/mymuse", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:mrfg/turkish-court-decisions", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:InternRobotics/RoboAtom", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Rshnn/CoFiBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:koutch/falcon_code", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:andersonbcdefg/red_teaming_reward_modeling_pairwise", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:argilla/end2end_textclassification_with_suggestions_and_responses", "note": "public dataset"}
