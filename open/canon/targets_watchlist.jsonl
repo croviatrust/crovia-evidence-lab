@@ -2428,3 +2428,11 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:koutch/falcon_code", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:andersonbcdefg/red_teaming_reward_modeling_pairwise", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:argilla/end2end_textclassification_with_suggestions_and_responses", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:bitmanagerai-speech-lab/darbuka_arabic_tts_dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:NdotLight/SimReady_Assets", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:bumbuboon/llm-course-final-2026", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:prompthero-diffusion-models/Lighting-For-ControlNet", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:TTA01/redteaming-attack-target", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:OriginFlow-AI/origindata-preview-sample", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:UniParser/RxnMiner-Benchmark", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Muse-research/Ifparse-v2.0", "note": "public dataset"}
