@@ -2464,3 +2464,11 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Rapidata/physics-iq-verified", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Davlan/sib200", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Exorde/exorde-social-media-one-month-2024", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tencent/TailorRig", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Sandflow/sand3d-objaverse", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:codepawl/ct-anatomy-glb", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:LingYu-Robotics/lingyu-realworld-robotics-dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:allenai/Dolci-Think-SFT-Clean-v2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:trl-lab/SQaLe-2-text-to-SQL-Queries", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HABSteam/multimodal-eeg-emotion", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-Pretraining-Indic-CC-v1", "note": "public dataset"}
