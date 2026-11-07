@@ -2472,3 +2472,16 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:trl-lab/SQaLe-2-text-to-SQL-Queries", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HABSteam/multimodal-eeg-emotion", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-Pretraining-Indic-CC-v1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Angais/pixel-art-atlas-1.4m", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ccore/ThreeJS-3D-GLB-Assets", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MaziyarPanahi/Jev-Policy-Verification-180K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:NousResearch/Propaganda_Eval", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:NousResearch/arete-data-pairs", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Sandflow/sand3d-cad", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Sandflow/sand3d-simready", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MineAITechnology/mine-20B-Tokens", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MineAITechnology/mine-embed-v1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Gen-Verse/Science-Last-Exam", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Lruca/VidUEU100k", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SII-GAIR-NLP/801-30B-A3B-tiny-sft-dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:deep-principle/science_biology", "note": "public dataset"}
