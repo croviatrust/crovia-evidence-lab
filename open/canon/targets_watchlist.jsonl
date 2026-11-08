@@ -2485,3 +2485,9 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Lruca/VidUEU100k", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SII-GAIR-NLP/801-30B-A3B-tiny-sft-dataset", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:deep-principle/science_biology", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:codepawl/plateau-city-glb", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:codepawl/asset-index", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:zkniu/VoxCanvas", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:AxiomicLabs/FactBase-DCLM", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:jiangxuhao/ExamOCRBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:antins-labs/VisSearch-Bench-v1", "note": "public dataset"}
