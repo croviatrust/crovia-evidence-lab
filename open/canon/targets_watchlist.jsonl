@@ -2491,3 +2491,12 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:AxiomicLabs/FactBase-DCLM", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:jiangxuhao/ExamOCRBench", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:antins-labs/VisSearch-Bench-v1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:israellaguan/codex-tool-use-trajectories", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:codepawl/objaverse-clean-glb", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:DAGroup-PKU/Open-HumanWAM-50K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:codepawl/google-poly-glb", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:VIL-Group/MMCD", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Voidreaper2026/cybersec-master-dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GGUF-metrics", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/USDCraft-10K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:walledai/XSTest", "note": "public dataset"}
