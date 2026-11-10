@@ -2500,3 +2500,11 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GGUF-metrics", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/USDCraft-10K", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:walledai/XSTest", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/PhysicalAI-Human-1M-100K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:codepawl/pixel-atlas-glb", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:BitRobot/robomocap", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:idllresearch/UncensoredLLMList", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:codepawl/menagerie-glb", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Sandflow/sand3d-articraft", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Sandflow/sand3d-automate", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:arc4g/arc-art", "note": "public dataset"}
