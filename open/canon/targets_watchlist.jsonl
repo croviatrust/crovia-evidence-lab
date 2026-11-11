@@ -2508,3 +2508,7 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Sandflow/sand3d-articraft", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Sandflow/sand3d-automate", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:arc4g/arc-art", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-Personas-Finance-Japan", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:google/multimodal-knowledge-agent", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:figma-ai/motion-graphics-bench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:codepawl/world-fish-glb", "note": "public dataset"}
