@@ -2512,3 +2512,6 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:google/multimodal-knowledge-agent", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:figma-ai/motion-graphics-bench", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:codepawl/world-fish-glb", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:laion/laion-audio-xl", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-PII-Japan", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:idllresearch/UncensoredBench", "note": "public dataset"}
