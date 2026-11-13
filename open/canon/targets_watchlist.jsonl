@@ -2515,3 +2515,9 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:laion/laion-audio-xl", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-PII-Japan", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:idllresearch/UncensoredBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:llamaindex/ParseBench-2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Liyun1009/MSAD", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ComplexDataLab/OpenFake", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MegaScience/TextbookReasoning", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tascib/turkish-llm-dataset", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:proxima-fusion/coilstellaration", "note": "public dataset"}
