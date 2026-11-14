@@ -2521,3 +2521,11 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:MegaScience/TextbookReasoning", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tascib/turkish-llm-dataset", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:proxima-fusion/coilstellaration", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ropedia-ai/Ropedia-Xperience-2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:LiquidAI/structured-extraction", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:TeraTTS/webinars", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Angais/krea-2-pixelart-16x16-synthetic", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:microsoft/BiomedParseData", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:histai/HISTAI-colorectal-b1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Pradip24042020/Uncensored-SFT-v2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Goku-OpenLab/nano-banana-pro-prompts-datasets", "note": "public dataset"}
