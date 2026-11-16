@@ -2534,3 +2534,8 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ai4bharat/Kathbath", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nebius/Longtail-SWE", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:pangram/editlens_iclr", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:n4ze3m/tiny-voca", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:codepawl/rocketbox-avatars-glb", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:azyg0s/pixelart-172k", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tencent/GroupAssistBench", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:derekurban2001/jarvis-voice-samples", "note": "public dataset"}
