@@ -2539,3 +2539,11 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:azyg0s/pixelart-172k", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tencent/GroupAssistBench", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:derekurban2001/jarvis-voice-samples", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:HubLabs/HubEgo-100K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:AJ-Gonzalez/qwen4-max-reasoning-250x", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SWE-at-Scale/SWE-at-Scale", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:parisaslanidis/eleni", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:codepawl/rocketbox-motions-glb", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:AmazonScience/massive", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:latam-gpt/LatamGPT-Corpus-1.0", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:KORMo-VL/EVIDENT", "note": "public dataset"}
