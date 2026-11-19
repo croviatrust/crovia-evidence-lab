@@ -2563,3 +2563,15 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:allenai/peS2o", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:yiwen-song/PaperWritingBench", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:auren-research/cve-sft-v5", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Trelis/duplex-pre-training-yodas3-mimi", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ccore/ThreeJS-3D-Scenes-v2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Digitaluz/uzbek-language-corpus", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:AgentCyberRange/WebExploitBench-v1.2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:morfagen/Morfagen_TBMM_Tutanak", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:PeacefulData/RMS-AQA", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:anamnesis-data/clinical_trials_history", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/AeroZoo", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:betterup/candor-tabular", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:leoshen/RealICU", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:AxiomicLabs/tess-spoc-2min-lossless", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:SO-Arena/SO-Arena", "note": "public dataset"}
