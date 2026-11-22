@@ -2617,3 +2617,8 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:drewThomasson/sound-monitor-data", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:KETI-AI/human3r-dataset", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:xxparthparekhxx/indian-stock-market-minute-data", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:morfagen/ResmiGazete_PDF", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:gustavecortal/PhiloText", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:FINAL-Bench/weil-positivity-gauge", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:JJMack/pokemon-classification-gen1-9", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Nemotron-Science-v1", "note": "public dataset"}
