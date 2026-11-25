@@ -1,1 +1,1 @@
-{"merkle_root":"e3c956b8bc9bc1495dfb513a555b74ce901ff800d1032274a4b1c6773c38237f","total_observations":646650,"algorithm":"sha256(sorted observation_id:receipt_hash)","computed_at":"2026-11-25T10:15:09.862738Z"}
+{"merkle_root":"74937b9509f436ba127351098ed2a1716da963b096b2c013d105447d2f3c2ec9","total_observations":646770,"algorithm":"sha256(sorted observation_id:receipt_hash)","computed_at":"2026-11-25T11:15:09.089253Z"}
