@@ -2727,3 +2727,16 @@
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:schneewolflabs/Inkling2-compact-thinking-SFT", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:decagon-ai/AudioDecisionBench-v0", "note": "public dataset"}
 {"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:reactive-labs/odoo-back-office", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/OCR-Synthetic-Multilingual-v2", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Rapidata/multi-step-image-edit-identity-drift-human-feedback-benchmark", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ProCreations/Ultra-FineWeb-EDU", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:FOMO-MRI/FOMO300K", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:tiagozip/bilibili", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Kingdrone-Junjue/DORA", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Synthetic-Charts-V1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:nvidia/Synthetic-Tables-V1", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Bathys/Bathys-SFT", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Bathys/Bathys-KTO", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:ortexvortex/Qwen4Max-Hy4Flash-Distill", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:showlab/RUIBench-Rollouts", "note": "public dataset"}
+{"source": "hf", "ref": "datasets/list", "project_hint": "hf:dataset:Ahmed-Alethary/arabic-sign-language-sigml", "note": "public dataset"}
